@@ -2,7 +2,7 @@
 This directory contains some simple tools for analyzing and transforming
 the HN data dump data.
 
-## Format
+## Format of the HN Data Dump
 A brief look into the format of the HN data dump.
 
 Each line is one JSON object. Each object has an ID, by which the lines are sorted.
@@ -26,9 +26,9 @@ This is the first line, representing a story, pretty-printed with `head -n1 14m_
     "type": "story",
     "id": 1
   },
-    "source": "firebase",
-    "id": 1,
-    "retrieved_at_ts": 1435938464
+  "source": "firebase",
+  "id": 1,
+  "retrieved_at_ts": 1435938464
 }
 ```
 
@@ -51,3 +51,8 @@ This is a comment:
   "retrieved_at_ts": 1435974128
 }
 ```
+
+## Tools
+### `extract.py`
+Extract only the top-level comments from the HN data dump.
+We ignore comments that are replies for now, since they would require additional modelling.
