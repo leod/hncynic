@@ -15,10 +15,34 @@ Statistics are written on STDERR.
 import argparse
 import sys
 import json
-import html
+import html2text
+
+h2t = html2text.HTML2Text()
+h2t.body_width = 0
 
 def normalize_text(text):
-  return html.escape(text).replace('\r', '').replace('\n', ' <n> ').replace('\t', ' <t> ')
+  # The data dump seems to contain carriage return frequently
+  text = text.replace('\r', '')
+
+  # In some examples, it seems that double newline is used for paragraphs,
+  # other examples use <p>. For html2text, we need the latter.
+  text = text.replace('\n\n', '<p>')
+
+  # We should be fine with ignoring the remaining single newlines
+  text = text.replace('\n', '')
+
+  # HTML -> Markdown
+  text = h2t.handle(text)
+
+  # There are some trailing newlines in the markdown
+  text = text.strip()
+
+  # Finally, convert whitespace so that we can give line-by-line tab separated output
+  text = text.replace('\t', '')
+  text = text.replace('<__NL>', '') # these are texts written by programmers, but let's not bother with this special case
+  text = text.replace('\n', ' <__NL> ')
+
+  return text
 
 class Converter(object):
   def __init__(self):
@@ -39,6 +63,12 @@ class Converter(object):
     object_type = body['type']
 
     if object_type == 'story':
+      title = body['title'].strip()
+
+      if len(title) == 0:
+        self.n_ignored += 1
+        return
+
       self.story_titles[body['id']] = body['title']
     elif object_type == 'comment':
       self.n_comments += 1 
@@ -48,6 +78,11 @@ class Converter(object):
       if story_title is not None:
         # Yay, got one!
         self.n_top_level_comments += 1
+
+        text = normalize_text(body['text'])
+        if len(text) == 0:
+          self.n_ignored += 1
+          return
 
         f_out.write(str(body['id']))
         f_out.write('\t')
@@ -72,9 +107,11 @@ class Converter(object):
     f_out.write('stories:\t{}\n'.format(len(self.story_titles)))
     if len(self.story_titles) > 0:
       f_out.write('comments/story:\t{:.2f}\n'.format(self.n_comments / float(len(self.story_titles))))
+
     f_out.write('comments:\t{}\n'.format(self.n_comments))
     if self.n_comments > 0:
       f_out.write('top-level:\t{} ({:.4f}%)\n'.format(self.n_top_level_comments, self.n_top_level_comments / float(self.n_comments) * 100.0))
+
     f_out.write('ignored:\t{:.4f}%\n'.format(self.n_ignored / float(self.n_total) * 100.0))
     f_out.write('invalid:\t{:.4f}%\n'.format(self.n_unexpected_format / float(self.n_total) * 100.0))
 
