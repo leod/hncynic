@@ -39,8 +39,8 @@ def normalize_text(text):
 
   # Finally, convert whitespace so that we can give line-by-line tab separated output
   text = text.replace('\t', '')
-  text = text.replace('<__NL>', '') # these are texts written by programmers, but let's not bother with this special case
-  text = text.replace('\n', ' <__NL> ')
+  text = text.replace('<NL>', '') # these are texts written by programmers, but let's not bother with this special case
+  text = text.replace('\n', ' <NL> ')
 
   return text
 
@@ -58,8 +58,8 @@ class Converter(object):
     self.n_unexpected_format = 0
     self.n_ignored = 0
  
-  def _process_object(self, obj, f_out):
-    body = obj['body']
+  def _process_object(self, body, f_out):
+    #body = obj['body']
     object_type = body['type']
 
     if object_type == 'story':
@@ -98,7 +98,14 @@ class Converter(object):
   def process_object(self, obj, f_out):
     try:
       self.n_total += 1
-      self._process_object(obj, f_out)
+
+      body = obj['body']
+      if 'site' in obj:
+        body = body['site']
+      if 'algolia' in obj:
+        body = body['algolia']
+
+      self._process_object(body, f_out)
     except KeyError as e:
       # Not sure why this happens, but some lines in the input seem to be missing fields
       self.n_unexpected_format += 1
