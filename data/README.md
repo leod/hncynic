@@ -1,9 +1,37 @@
 # Data
 This directory contains some simple tools for analyzing and transforming
-the HN data dump data.
+the HN dump data.
+
+## Steps
+### Extract
+Extract only the top-level comments from the raw HN data dump.
+We ignore comments that are replies for now, since they would require additional modelling.
+```
+$ data/extract.py < 14m_hn_comments_sorted.json > top_level_hn_comments.tsv
+```
+I get 3330140 total comments. This script can probably be improved, since there are some comments
+that it misses due to what it seems are inconsistent data layouts.
+
+### Split
+Split the data into train, test and dev.
+```
+$ data/split_train_dev_test.sh data < top_level_hn_comments.tsv
+$ wc -l data.{train,dev,test}.tsv
+   3326140 data.train.tsv
+      2000 data.dev.tsv
+      2000 data.test.tsv
+   3330140 total
+```
+
+### Tokenize
+(and split into separate files for aligned titles/comments)
+
+### Learn BPE
+
+### Apply BPE
 
 ## Format of the HN Data Dump
-A brief look into the format of the HN data dump.
+A brief look into the format of the raw HN data dump.
 
 Each line is one JSON object. Each object has an ID, by which the lines are sorted.
 This is the first line, representing a story, pretty-printed with `head -n1 14m_hn_comments_sorted.json | jq`:
@@ -52,7 +80,3 @@ This is a comment:
 }
 ```
 
-## Tools
-### `extract.py`
-Extract only the top-level comments from the HN data dump.
-We ignore comments that are replies for now, since they would require additional modelling.
