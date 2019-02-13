@@ -63,7 +63,9 @@ $ data/tokenize_tsv.sh data.test
 ### Learn BPE
 Take some subset of the training data for learning BPE:
 ```
-$ cat <(shuf data.train.tok.comments | head -n 500000) <(shuf data.train.tok.titles | head -n 500000) > bpetrain
+$ cat <(shuf data.train.tok.comments | head -n 500000) \
+      <(shuf data.train.tok.titles | head -n 500000) \
+      > bpetrain
 ```
 
 Use [subword-nmt](https://github.com/rsennrich/subword-nmt.git) to learn BPE segmentation:

@@ -73,13 +73,10 @@ class Converter(object):
 
       self.story_titles[body['id']] = title
     elif object_type == 'comment':
-      self.n_comments += 1 
-
       story_title = self.story_titles.get(body['parent'])
 
       if story_title is not None:
-        # Yay, got one!
-        self.n_top_level_comments += 1
+        # Yay, got a top-level comment!
 
         text = normalize_text(body['text'])
         if len(text) == 0:
@@ -94,6 +91,11 @@ class Converter(object):
         f_out.write('\t')
         f_out.write(normalize_text(body['text']))
         f_out.write('\n')
+
+        self.n_top_level_comments += 1
+
+      self.n_comments += 1 
+
     else:
       # Probably object_type == 'job'
       self.n_ignored += 1
@@ -132,15 +134,13 @@ class Converter(object):
   def write_stats(self, f_out):
     f_out.write('stories:\t{}\n'.format(len(self.story_titles)))
     if len(self.story_titles) > 0:
-      f_out.write('comments/story:\t{:.2f}\n'.format(self.n_comments / float(len(self.story_titles))))
-
-    f_out.write('comments:\t{}\n'.format(self.n_comments))
+      f_out.write('comments:\t{} ({:.2f} per title)\n'.format(self.n_comments, self.n_comments / float(len(self.story_titles))))
     if self.n_comments > 0:
       f_out.write('top-level:\t{} ({:.4f}%)\n'.format(self.n_top_level_comments, self.n_top_level_comments / float(self.n_comments) * 100.0))
 
-    f_out.write('ignored:\t{:.4f}%\n'.format(self.n_ignored / float(self.n_total) * 100.0))
-    f_out.write('invalid:\t{:.4f}%\n'.format(self.n_unexpected_format / float(self.n_total) * 100.0))
-    f_out.write('deleted:\t{:.4f}%\n'.format(self.n_deleted / float(self.n_total) * 100.0))
+    f_out.write('ignored rows:\t{:.4f}%\n'.format(self.n_ignored / float(self.n_total) * 100.0))
+    f_out.write('invalid rows:\t{:.4f}%\n'.format(self.n_unexpected_format / float(self.n_total) * 100.0))
+    f_out.write('deleted rows:\t{:.4f}%\n'.format(self.n_deleted / float(self.n_total) * 100.0))
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description=__doc__)
