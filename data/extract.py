@@ -58,6 +58,7 @@ class Converter(object):
     self.n_top_level_comments = 0
     self.n_unexpected_format = 0
     self.n_ignored = 0
+    self.n_deleted = 0
  
   def _process_object(self, body, f_out):
     #body = obj['body']
@@ -74,7 +75,7 @@ class Converter(object):
     elif object_type == 'comment':
       self.n_comments += 1 
 
-      story_title = self.story_titles[body['parent']]
+      story_title = self.story_titles.get(body['parent'])
 
       if story_title is not None:
         # Yay, got one!
@@ -94,21 +95,38 @@ class Converter(object):
         f_out.write(normalize_text(body['text']))
         f_out.write('\n')
     else:
+      # Probably object_type == 'job'
       self.n_ignored += 1
+      pass
 
   def process_object(self, obj, f_out):
     try:
       self.n_total += 1
 
       body = obj['body']
-      if 'site' in obj:
-        body = body['site']
-      if 'algolia' in obj:
-        body = body['algolia']
+
+      if body.get('deleted') == True:
+        self.n_deleted += 1
+        return
+
+      # Some of the titles contain "algolia" as well as "site" fields,
+      # in which the actual "body" is stored
+      algolia = body.get('algolia')
+      if algolia is not None:
+        body = algolia
+
+      site = body.get('site')
+      if site is not None:
+        body = site
+
+      # Those titles that have their body in "site" don't always have the
+      # "id", let's copy it over if possible
+      if 'id' not in body and 'id' in obj:
+        body['id'] = obj['id']
 
       self._process_object(body, f_out)
     except KeyError as e:
-      # Not sure why this happens, but some lines in the input seem to be missing fields
+      # Not sure why this happens, but a few lines in the input seem to be missing fields
       self.n_unexpected_format += 1
 
   def write_stats(self, f_out):
@@ -122,6 +140,7 @@ class Converter(object):
 
     f_out.write('ignored:\t{:.4f}%\n'.format(self.n_ignored / float(self.n_total) * 100.0))
     f_out.write('invalid:\t{:.4f}%\n'.format(self.n_unexpected_format / float(self.n_total) * 100.0))
+    f_out.write('deleted:\t{:.4f}%\n'.format(self.n_deleted / float(self.n_total) * 100.0))
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description=__doc__)
