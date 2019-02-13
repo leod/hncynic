@@ -61,7 +61,6 @@ class Converter(object):
     self.n_deleted = 0
  
   def _process_object(self, body, f_out):
-    #body = obj['body']
     object_type = body['type']
 
     if object_type == 'story':
@@ -71,7 +70,7 @@ class Converter(object):
         self.n_ignored += 1
         return
 
-      self.story_titles[body['id']] = body['title']
+      self.story_titles[body['id']] = title
     elif object_type == 'comment':
       self.n_comments += 1 
 
