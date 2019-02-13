@@ -29,7 +29,7 @@ def normalize_text(text):
   text = text.replace('\n\n', '<p>')
 
   # We should be fine with ignoring the remaining single newlines
-  text = text.replace('\n', '')
+  text = text.replace('\n', ' ')
 
   # HTML -> Markdown
   text = h2t.handle(text)
@@ -38,9 +38,9 @@ def normalize_text(text):
   text = text.strip()
 
   # Finally, convert whitespace so that we can give line-by-line tab separated output
-  text = text.replace('\t', '')
-  text = text.replace('<NL>', '') # these are texts written by programmers,
-                                  # but let's not bother with this special case
+  text = text.replace('\t', ' ')
+  text = text.replace('<NL>', ' ') # these are texts written by programmers,
+                                   # but let's not bother with this special case
   text = text.replace('\n', ' <NL> ')
 
   return text
