@@ -5,12 +5,15 @@ the HN dump data.
 ## Steps
 ### Extract
 Extract only the top-level comments from the raw HN data dump.
-We ignore comments that are replies for now, since they would require additional modelling.
+For now, we ignore comments that are replies, since they would require additional modelling.
 ```
 $ data/extract.py < 14m_hn_comments_sorted.json > top_level_hn_comments.tsv
 ```
-I get 3330140 total comments. This script can probably be improved, since there are some comments
-that it misses due to what it seems are inconsistent data layouts.
+This script also converts from HTML to Markdown using [html2text](https://pypi.org/project/html2text/).
+
+I get 3330140 extracted title-comment pairs. 
+The extraction script can probably be improved, since there are some comments that it misses due to
+what it seems are inconsistent data layouts.
 
 ### Split
 Split the data into train, test and dev.
@@ -24,9 +27,23 @@ $ wc -l data.{train,dev,test}.tsv
 ```
 
 ### Tokenize
-(and split into separate files for aligned titles/comments)
+Tokenize and split from TSV into separate files for aligned titles/comments.
+```
+$ data/tokenize_tsv.sh data.train
+$ data/tokenize_tsv.sh data.dev
+$ data/tokenize_tsv.sh data.test
+```
 
 ### Learn BPE
+Take some subset of the training data for learning BPE:
+```
+$ cat <(shuf data.train.tok.comments | head -n 500000) <(shuf data.train.tok.titles | head -n 500000) > bpetrain
+```
+
+Use [subword-nmt](https://github.com/rsennrich/subword-nmt.git) to learn BPE segmentation:
+```
+$ subword-nmt learn-bpe -s 24000 < bpetrain > bpecodes
+```
 
 ### Apply BPE
 
