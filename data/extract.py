@@ -18,7 +18,7 @@ import json
 import html2text
 
 h2t = html2text.HTML2Text()
-h2t.body_width = 0
+h2t.body_width = 0 # don't automatically wrap when converting to Markdown
 
 def normalize_text(text):
   # The data dump seems to contain carriage return frequently
@@ -39,7 +39,8 @@ def normalize_text(text):
 
   # Finally, convert whitespace so that we can give line-by-line tab separated output
   text = text.replace('\t', '')
-  text = text.replace('<NL>', '') # these are texts written by programmers, but let's not bother with this special case
+  text = text.replace('<NL>', '') # these are texts written by programmers,
+                                  # but let's not bother with this special case
   text = text.replace('\n', ' <NL> ')
 
   return text
