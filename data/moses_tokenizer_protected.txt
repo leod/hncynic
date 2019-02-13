@@ -1,0 +1,4 @@
+<NL>
+http://\S+
+https://\S+
+ftp://\S+
