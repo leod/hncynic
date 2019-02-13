@@ -5,9 +5,9 @@ Extract only the top-level comments from a HN data dump.
 The dump is read from STDIN in the JSON format (see README.md).
 Extracted comments are written to STDOUT in TSV, with the following columns:
 1. ID
-3. Time
-4. Story Title
-5. Text
+2. Time
+3. Story Title
+4. Text
 
 Statistics are written on STDERR.
 """
