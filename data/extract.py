@@ -66,6 +66,9 @@ class Converter(object):
 
     if object_type == 'story':
       title = body['title'].strip()
+      title = title.replace('\r', '')
+      title = title.replace('\n', ' ')
+      title = title.replace('\t', ' ')
 
       if len(title) == 0:
         self.n_ignored += 1
