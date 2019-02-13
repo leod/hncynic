@@ -36,6 +36,7 @@ def normalize_text(text):
 
   # There are some trailing newlines in the markdown
   text = text.strip()
+  text = text.replace('\r', '')
 
   # Finally, convert whitespace so that we can give line-by-line tab separated output
   text = text.replace('\t', ' ')

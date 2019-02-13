@@ -1,6 +1,5 @@
 # Data
-This directory contains some simple tools for analyzing and transforming
-the HN dump data.
+This directory contains some simple tools for analyzing and transforming the HN dump data.
 
 ## Steps
 ### Extract
@@ -27,27 +26,34 @@ invalid:        0.2189%
 deleted:        2.8940%
 ```
 
-### Split
-Split the data into train, test and dev, removing duplicate title-comment pairs if existing:
+Some of the title-comment pairs may be contained multiple times, let's deduplicate:
 ```
-$ sort -u -t$'\t' -k 3,3 -k 4,4 top_level_hn_comments.tsv | data/split_train_dev_test.sh data
-$ wc -l data.{train,dev,test}.tsv
-   3326140 data.train.tsv
-      2000 data.dev.tsv
-      2000 data.test.tsv
-   3330140 total
+$ sort -u -t$'\t' -k 3,3 -k 4,4 top_level_hn_comments.tsv > top_level_hn_comments.dedupe.tsv
+$ wc -l top_level_hn_comments.tsv top_level_hn_comments.dedupe.tsv
+  3331158 top_level_hn_comments.tsv
+  3322178 top_level_hn_comments.dedupe.tsv
 ```
-This is just so that we can see how the model performs on unseen data
-during (dev) and after (test) training.
+Indeed, it looks like a few (8980) title-comment pairs are duplicates in my case.
 
-There may still be some overlap between train and dev/test in the sense that there may be titles
-that occur both in train and dev/test.
+### Split
+Split the data into train, test and dev. This is just so that we can see how the model performs
+on unseen data during training (dev) and after training (test).
+
+We have to be a bit careful here so that we don't get the same title in both train and dev/test.
+The TSV format isn't very well suited for this, so I've written a stupid script for sampling.
+Sort by title, then sample into train/dev/test, allocating 0.1% for dev and test data each:
+```
+$ sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv \
+      | data/sample_train_dev_test.py --train data.train.tsv \
+                                      --dev data.dev.tsv 0.1 \
+                                      --test data.test.tsv 0.1
+```
 
 ### Tokenize
 Next, we normalize the data further. First, we note that a large number of comments contains links.
 As a result of the conversion to Markdown, there are different ways of specifying links,
 which `normalize_links.sh` tries to reduce just to plain-text URLs. Then, the we tokenize the
-data and split from TSV into separate files for parallel titles/comments.
+titles and comments and split from TSV into separate files for parallel line-aligned titles/comments.
 ```
 $ data/tokenize_tsv.sh data.train
 $ data/tokenize_tsv.sh data.dev
@@ -117,4 +123,4 @@ This is a comment:
 }
 ```
 
-As explained somewhat in `extract.py`, there are some deviations from this layout.
+As explained somewhat in `extract.py`, there will be some deviations from this layout.
