@@ -10,7 +10,7 @@ Here, we extract only the top-level comments from the raw HN data dump and conve
 simple TSV for the processing steps that will follow.
 For now, we ignore comments that are replies, since they would require additional modelling.
 ```
-$ data/extract.py < 14m_hn_comments_sorted.json > top_level_hn_comments.tsv
+data/extract.py < 14m_hn_comments_sorted.json > top_level_hn_comments.tsv
 ```
 The script also converts from HTML to Markdown using [html2text](https://pypi.org/project/html2text/).
 Note that the entries in the JSON seem to come from different sources, with multiple formats.
@@ -30,12 +30,14 @@ deleted rows: 2.8940%
 
 Some of the title-comment pairs may be contained multiple times, let's deduplicate:
 ```
-$ sort -u -t$'\t' -k 3,3 -k 4,4 top_level_hn_comments.tsv > top_level_hn_comments.dedupe.tsv
+sort -u -t$'\t' -k 3,3 -k 4,4 top_level_hn_comments.tsv > top_level_hn_comments.dedupe.tsv
+```
+Indeed, it looks like a few (8999) title-comment pairs are duplicates in my case:
+```
 $ wc -l top_level_hn_comments.tsv top_level_hn_comments.dedupe.tsv
    3331156 top_level_hn_comments.tsv
    3322157 top_level_hn_comments.dedupe.tsv
 ```
-Indeed, it looks like a few (8999) title-comment pairs are duplicates in my case.
 
 ### Split
 Split the data into train, test and dev. This is just so that we can see how the model performs
@@ -45,11 +47,11 @@ We have to be a bit careful here so that we don't get the same title in both tra
 The TSV format isn't very well suited for this, so I've written a stupid script for sampling.
 Sort by title, then sample into train/dev/test, allocating 0.1% for dev and test data each:
 ```
-$ sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv > top_level_hn_comments.dedupe.sorted-by-title.tsv 
-$ data/sample_train_dev_test.py --train data.train.tsv \
-                                --dev data.dev.tsv 0.1 \
-                                --test data.test.tsv 0.1
-      < top_level_hn_comments.dedupe.sorted-by-title.tsv 
+sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv > top_level_hn_comments.dedupe.sorted-by-title.tsv 
+data/sample_train_dev_test.py --train data.train.tsv \
+                              --dev data.dev.tsv 0.1 \
+                              --test data.test.tsv 0.1
+    < top_level_hn_comments.dedupe.sorted-by-title.tsv 
 ```
 Just to be sure, let's double check that we have no title overlap:
 ```
@@ -81,9 +83,9 @@ titles and comments and split from TSV into separate files for parallel line-ali
 We also lowercase titles here, since they are only seen as an input and we think there is not much to
 be gained from this signal for this task.
 ```
-$ data/preprocess_tsv.sh data.train
-$ data/preprocess_tsv.sh data.dev
-$ data/preprocess_tsv.sh data.test
+data/preprocess_tsv.sh data.train
+data/preprocess_tsv.sh data.dev
+data/preprocess_tsv.sh data.test
 ```
 Sanity check that everything is still aligned:
 ```
@@ -102,24 +104,24 @@ $ for i in {train,dev,test}; do wc -l data.$i.tsv data.$i.pp.comments data.$i.pp
 ### Learn BPE
 Take some subset of the training data for learning BPE (for segmenting the text into subword units):
 ```
-$ cat <(shuf data.train.pp.comments | head -n 500000) \
-      <(shuf data.train.pp.titles | head -n 500000) \
-      > bpetrain
+cat <(shuf data.train.pp.comments | head -n 500000) \
+    <(shuf data.train.pp.titles | head -n 500000) \
+    > bpetrain
 ```
 
 Use [subword-nmt](https://github.com/rsennrich/subword-nmt.git) to learn BPE segmentation:
 ```
-$ subword-nmt learn-bpe -s 24000 < bpetrain > bpecodes
+subword-nmt learn-bpe -s 24000 < bpetrain > bpecodes
 ```
 
 ### Apply BPE
 Take the codes we just learned to segment train, dev and test data:
 ```
-$ for i in {train,test,dev}; do
-    for j in {comments,titles}; do
-      subword-nmt apply-bpe --codes bpecodes < data.$i.pp.$j > data.$i.bpe.$j
-    done
+for i in {train,test,dev}; do
+  for j in {comments,titles}; do
+    subword-nmt apply-bpe --codes bpecodes < data.$i.pp.$j > data.$i.bpe.$j
   done
+done
 ```
 
 ### Training the model
