@@ -100,8 +100,8 @@ $ for i in {train,dev,test}; do wc -l data.$i.tsv data.$i.pp.comments data.$i.pp
 ### Learn BPE
 Take some subset of the training data for learning BPE:
 ```
-$ cat <(shuf data.train.tok.comments | head -n 500000) \
-      <(shuf data.train.tok.titles | head -n 500000) \
+$ cat <(shuf data.train.pp.comments | head -n 500000) \
+      <(shuf data.train.pp.titles | head -n 500000) \
       > bpetrain
 ```
 
