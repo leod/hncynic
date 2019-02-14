@@ -133,8 +133,8 @@ long comments into multiple training examples (for example at the paragraph leve
 so much about structuring their comments nicely).
 
 Let's first see what we have in terms of words per comment...
-[!comment length distribution](length-distr.data.train.pp.comments.svg)
-[!cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+![comment length distribution](length-distr.data.train.pp.comments.svg)
+![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
 
 ### Training the model
 See [../train](../train).
