@@ -125,6 +125,37 @@ for i in {train,test,dev}; do
 done
 ```
 
+### (Optional) Comment Lengths
+Unfortunately, HN comments will often go on and on. Assumably, the model will not be able to generate
+coherent comments of such length, especially with the relatively small amount of training data we have.
+A question then becomes if we should filter long comments from the training data, or even split up
+long comments into multiple training examples (for example at the paragraph level, since HN users care
+so much about structuring their comments nicely).
+
+Let's first see what we have in terms of words per comment...
+```
+./length-distr.awk \
+  < data.train.pp.comments \
+  | gnuplot length-distr.plot -e "set ylabel 'p(length)'; plot '-' t 'length distribution' w l ls 1" \
+  > length-distr.data.train.pp.comments.svg
+
+./length-distr.awk \
+  < data.train.pp.comments \
+  | gnuplot length-distr.plot -e "set ylabel 'p(<= length)'; plot '-' u 1:(cumsum(\$2)) t 'cumulative length distribution' w l ls 2" \
+  > length-distr-cumulative.data.train.pp.comments.svg
+```
+![comment length distribution](length-distr.data.train.pp.comments.svg) ![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+
+What's the average number of paragraphs per comment? (This is starting to feel more and more like
+some kind of Jupyter notebook)
+```
+./paragraph-distr.awk \
+  < data.train.pp.comments \
+  | gnuplot length-distr.plot -e "set ylabel 'avg. numbers of paragraphs'; plot '-' t 'paragraphs' w l ls 1" \
+  > paragraph-distr.data.train.pp.comments.svg
+```
+![avg. numbers of paragraphs](paragraph-distr.data.train.pp.comments.svg)
+
 ### Training the model
 See [../train](../train).
 
