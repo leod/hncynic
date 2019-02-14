@@ -144,8 +144,7 @@ Let's first see what we have in terms of words per comment...
   | gnuplot length-distr.plot -e "set ylabel 'p(<= length)'; plot '-' u 1:(cumsum(\$2)) t 'cumulative length distribution' w l ls 2" \
   > length-distr-cumulative.data.train.pp.comments.svg
 ```
-![comment length distribution](length-distr.data.train.pp.comments.svg)
-![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+![comment length distribution](length-distr.data.train.pp.comments.svg) ![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
 
 What's the average number of paragraphs per comment? (This is starting to feel more and more like
 some kind of Jupyter notebook)
