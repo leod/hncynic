@@ -72,14 +72,16 @@ about 600K unique titles in the training data, with more than 5 comments each. L
 be enough data!
 
 ### Tokenize
-Next, we normalize the data further. First, we note that a large number of comments contains links.
+Next, we normalize the data further. First, we note that a large number of comments contain links.
 As a result of the conversion to Markdown, there are different ways of specifying links,
 which `normalize_links.sh` tries to reduce just to plain-text URLs. Then, the we tokenize the
 titles and comments and split from TSV into separate files for parallel line-aligned titles/comments.
+We also lowercase titles here, since they are only seen as an input and we think there is not much to
+be gained from this signal for this task.
 ```
-$ data/tokenize_tsv.sh data.train
-$ data/tokenize_tsv.sh data.dev
-$ data/tokenize_tsv.sh data.test
+$ data/preprocess_tsv.sh data.train
+$ data/preprocess_tsv.sh data.dev
+$ data/preprocess_tsv.sh data.test
 ```
 
 ### Learn BPE

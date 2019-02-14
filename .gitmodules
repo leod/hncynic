@@ -1,3 +1,3 @@
-[submodule "mosesdecoder"]
-	path = mosesdecoder
+[submodule "data/mosesdecoder"]
+	path = data/mosesdecoder
 	url = https://github.com/moses-smt/mosesdecoder.git
