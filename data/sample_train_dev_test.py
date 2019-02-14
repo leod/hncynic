@@ -61,13 +61,13 @@ with open(args.train, 'w') as f_train, \
     cols = line.split('\t')
     new_title = cols[2]
 
-    current_lines.append(line)
-
     if current_title is None:
       current_title = new_title
     elif new_title != current_title:
       flush()
       current_title = None
       current_lines.clear()
+
+    current_lines.append(line)
 
   flush()

@@ -2,6 +2,9 @@
 This directory contains some simple tools for analyzing and transforming the HN dump data.
 
 ## Steps
+### Raw Data
+Starting point is this awesome Hacker News data dump: https://archive.org/details/14566367HackerNewsCommentsAndStoriesArchivedByGreyPanthersHacker
+
 ### Extract
 Here, we extract only the top-level comments from the raw HN data dump and convert to
 simple TSV for the processing steps that will follow.
@@ -15,25 +18,24 @@ For example, some entries use double newlines to represent paragraphs, while oth
 `extract.py` tries to normalize the data a bit, but it is likely that there will be some remaining
 inconsistencies.
 
-I get 3330140 extracted title-comment pairs, with the following statistics printed by `extract.py`:
+I get 3331156 extracted title-comment pairs, with the following statistics printed by `extract.py`:
 ```
-stories:        2461338
-comments/story: 4.73
-comments:       11633297
-top-level:      3331502 (28.6376%)
-ignored:        0.1507%
-invalid:        0.2189%
-deleted:        2.8940%
+stories:	    2461338
+comments:	    11629633 (4.72 per title)
+top-level:	  3331156 (28.6437%)
+ignored rows: 0.1507%
+invalid rows: 0.2189%
+deleted rows: 2.8940%
 ```
 
 Some of the title-comment pairs may be contained multiple times, let's deduplicate:
 ```
 $ sort -u -t$'\t' -k 3,3 -k 4,4 top_level_hn_comments.tsv > top_level_hn_comments.dedupe.tsv
 $ wc -l top_level_hn_comments.tsv top_level_hn_comments.dedupe.tsv
-  3331158 top_level_hn_comments.tsv
-  3322178 top_level_hn_comments.dedupe.tsv
+   3331156 top_level_hn_comments.tsv
+   3322157 top_level_hn_comments.dedupe.tsv
 ```
-Indeed, it looks like a few (8980) title-comment pairs are duplicates in my case.
+Indeed, it looks like a few (8999) title-comment pairs are duplicates in my case.
 
 ### Split
 Split the data into train, test and dev. This is just so that we can see how the model performs
@@ -43,11 +45,31 @@ We have to be a bit careful here so that we don't get the same title in both tra
 The TSV format isn't very well suited for this, so I've written a stupid script for sampling.
 Sort by title, then sample into train/dev/test, allocating 0.1% for dev and test data each:
 ```
-$ sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv \
-      | data/sample_train_dev_test.py --train data.train.tsv \
-                                      --dev data.dev.tsv 0.1 \
-                                      --test data.test.tsv 0.1
+$ sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv > top_level_hn_comments.dedupe.sorted-by-title.tsv 
+$ data/sample_train_dev_test.py --train data.train.tsv \
+                                --dev data.dev.tsv 0.1 \
+                                --test data.test.tsv 0.1
+      < top_level_hn_comments.dedupe.sorted-by-title.tsv 
 ```
+Just to be sure, let's double check that we have no title overlap:
+```
+$ wc -l data.{train,test,dev}.tsv
+   3315263 data.train.tsv
+      3436 data.test.tsv
+      3458 data.dev.tsv
+   3322157 total
+$ cut -f3 top_level_hn_comments.dedupe.sorted-by-title.tsv | sort -u | wc -l
+595625
+$ for i in {train,test,dev}; do cut -f3 data.$i.tsv | sort -u | wc -l; done
+594479
+559
+587
+$ expr 594479 + 559 + 587
+595625
+```
+Phew, looks like the titles have been distributed without overlap. We can also see that we have
+about 600K unique titles in the training data, with more than 5 comments each. Let's hope it will
+be enough data!
 
 ### Tokenize
 Next, we normalize the data further. First, we note that a large number of comments contains links.
@@ -75,7 +97,7 @@ $ subword-nmt learn-bpe -s 24000 < bpetrain > bpecodes
 
 ### Apply BPE
 
-## Format of the HN Data Dump
+## Format of the Raw HN Data Dump
 A brief look into the format of the raw HN data dump.
 
 Each line is one JSON object. Each object has an ID, by which the lines are sorted.
