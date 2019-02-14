@@ -140,11 +140,22 @@ Let's first see what we have in terms of words per comment...
   > length-distr.data.train.pp.comments.svg
 
 ./length-distr.awk \
-  < data/data.train.pp.comments \
+  < data.train.pp.comments \
   | gnuplot length-distr.plot -e "set ylabel 'p(<= length)'; plot '-' u 1:(cumsum(\$2)) t 'cumulative length distribution' w l ls 2" \
   > length-distr-cumulative.data.train.pp.comments.svg
 ```
-![comment length distribution](length-distr.data.train.pp.comments.svg)![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+![comment length distribution](length-distr.data.train.pp.comments.svg)
+![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+
+What's the average number of paragraphs per comment? (This is starting to feel more and more like
+some kind of Jupyter notebook)
+```
+./paragraph-distr.awk \
+  < data.train.pp.comments \
+  | gnuplot length-distr.plot -e "set ylabel 'avg. numbers of paragraphs'; plot '-' t 'paragraphs' w l ls 1" \
+  > paragraph-distr.data.train.pp.comments.svg
+```
+![avg. numbers of paragraphs](paragraph-distr.data.train.pp.comments.svg)
 
 ### Training the model
 See [../train](../train).
