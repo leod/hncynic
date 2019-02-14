@@ -20,9 +20,9 @@ inconsistencies.
 
 I get 3331156 extracted title-comment pairs, with the following statistics printed by `extract.py`:
 ```
-stories:	    2461338
-comments:	    11629633 (4.72 per title)
-top-level:	  3331156 (28.6437%)
+stories:      2461338
+comments:     11629633 (4.72 per title)
+top-level:    3331156 (28.6437%)
 ignored rows: 0.1507%
 invalid rows: 0.2189%
 deleted rows: 2.8940%
@@ -98,7 +98,7 @@ $ for i in {train,dev,test}; do wc -l data.$i.tsv data.$i.pp.comments data.$i.pp
 ```
 
 ### Learn BPE
-Take some subset of the training data for learning BPE:
+Take some subset of the training data for learning BPE (for segmenting the text into subword units):
 ```
 $ cat <(shuf data.train.pp.comments | head -n 500000) \
       <(shuf data.train.pp.titles | head -n 500000) \
@@ -111,6 +111,14 @@ $ subword-nmt learn-bpe -s 24000 < bpetrain > bpecodes
 ```
 
 ### Apply BPE
+Take the codes we just learned to segment train, dev and test data:
+```
+$ for i in {train,test,dev}; do
+    for j in {comments,titles}; do
+      subword-nmt apply-bpe --codes bpecodes < data.$i.pp.$j > data.$i.bpe.$j
+    done
+  done
+```
 
 ## Format of the Raw HN Data Dump
 A brief look into the format of the raw HN data dump.
