@@ -58,8 +58,10 @@ $ wc -l data.{train,dev,test}.tsv
       3312 data.dev.tsv
       2959 data.test.tsv
    3322157 total
+
 $ cut -f3 top_level_hn_comments.dedupe.sorted-by-title.tsv | sort -u | wc -l
 595625
+
 $ for i in {train,test,dev}; do cut -f3 data.$i.tsv | sort -u | wc -l; done
 594479
 559
@@ -68,7 +70,7 @@ $ expr 594479 + 559 + 587
 595625
 ```
 Phew, looks like the titles have been distributed without overlap. We can also see that we have
-about 600K unique titles in the training data, with more than 5 comments each. Let's hope it will
+about 600K unique titles in training, with more than 5 comments each. Let's hope that will
 be enough data!
 
 ### Tokenize
@@ -119,6 +121,9 @@ $ for i in {train,test,dev}; do
     done
   done
 ```
+
+### Training the model
+See [../train](../train).
 
 ## Format of the Raw HN Data Dump
 A brief look into the format of the raw HN data dump.
