@@ -1,3 +1,6 @@
+# Experiment directory
+exps/
+
 # Vim
 .*.swp
 

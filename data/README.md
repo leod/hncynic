@@ -125,6 +125,17 @@ for i in {train,test,dev}; do
 done
 ```
 
+### (Optional) Comment Lengths
+Unfortunately, HN comments will often go on and on. Assumably, the model will not be able to generate
+coherent comments of such length, especially with the relatively small amount of training data we have.
+A question then becomes if we should filter long comments from the training data, or even split up
+long comments into multiple training examples (for example at the paragraph level, since HN users care
+so much about structuring their comments nicely).
+
+Let's first see what we have in terms of words per comment...
+[!comment length distribution](length-distr.data.train.pp.comments.svg)
+[!cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+
 ### Training the model
 See [../train](../train).
 
