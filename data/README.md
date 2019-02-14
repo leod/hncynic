@@ -53,10 +53,10 @@ $ data/sample_train_dev_test.py --train data.train.tsv \
 ```
 Just to be sure, let's double check that we have no title overlap:
 ```
-$ wc -l data.{train,test,dev}.tsv
-   3315263 data.train.tsv
-      3436 data.test.tsv
-      3458 data.dev.tsv
+$ wc -l data.{train,dev,test}.tsv
+   3315886 data.train.tsv
+      3312 data.dev.tsv
+      2959 data.test.tsv
    3322157 total
 $ cut -f3 top_level_hn_comments.dedupe.sorted-by-title.tsv | sort -u | wc -l
 595625
@@ -82,6 +82,19 @@ be gained from this signal for this task.
 $ data/preprocess_tsv.sh data.train
 $ data/preprocess_tsv.sh data.dev
 $ data/preprocess_tsv.sh data.test
+```
+Sanity check that everything is still aligned:
+```
+$ for i in {train,dev,test}; do wc -l data.$i.tsv data.$i.pp.comments data.$i.pp.titles | grep -v total; done
+   3315886 data.train.tsv
+   3315886 data.train.pp.comments
+   3315886 data.train.pp.titles
+   3312 data.dev.tsv
+   3312 data.dev.pp.comments
+   3312 data.dev.pp.titles
+   2959 data.test.tsv
+   2959 data.test.pp.comments
+   2959 data.test.pp.titles
 ```
 
 ### Learn BPE
