@@ -68,6 +68,7 @@ $ for i in {train,test,dev}; do cut -f3 data.$i.tsv | sort -u | wc -l; done
 594479
 559
 587
+
 $ expr 594479 + 559 + 587
 595625
 ```
@@ -78,7 +79,7 @@ be enough data!
 ### Tokenize
 Next, we normalize the data further. First, we note that a large number of comments contain links.
 As a result of the conversion to Markdown, there are different ways of specifying links,
-which `normalize_links.sh` tries to reduce just to plain-text URLs. Then, the we tokenize the
+which `normalize_links.sh` tries to reduce just to plain-text URLs. Then, we tokenize the
 titles and comments and split from TSV into separate files for parallel line-aligned titles/comments.
 We also lowercase titles here, since they are only seen as an input and we think there is not much to
 be gained from this signal for this task.
