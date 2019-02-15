@@ -9,7 +9,6 @@ set grid back ls 12
 
 set terminal svg size 480,320 fname 'Verdana' fsize 10
 
-set xrange [1:500]
 set xlabel 'loss'
 set ylabel 'step'
 
