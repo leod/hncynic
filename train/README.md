@@ -28,4 +28,6 @@ the power plug.
 onmt-main train --config opennmt_config.yml --model_type Transformer --num_gpus 1
 ```
 
+![train or dev loss, wish I knew](train.svg)
+
 ## Evaluate
