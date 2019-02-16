@@ -59,4 +59,4 @@ To address these issues, it would be nice to see what would happen by including 
 training data from other domains, such as Reddit comments or Wikipedia articles.
 
 Another idea would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git)
-and continue training them on the comment prediction task.
+and continue training from there on the comment prediction task.
