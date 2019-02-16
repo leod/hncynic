@@ -33,7 +33,7 @@
 
       </div>
       <h2>Code</h2>
-      <p>Code and instructions for training on GitHub: <a href="https://github.com/leod/hncynic">hncynic</a>.</p>
+      <p>Code and instructions for training can be found on <a href="https://github.com/leod/hncynic">GitHub</a>.</p>
     </div>
 
     <script>
@@ -91,8 +91,14 @@
 
       function commentToHtml(comment) {
         comment = escapeHtml(comment); 
-        comment = comment.replace('\n\n', '<br/><br/>');
-        return comment;
+
+        paragraphs = comment.split("<NL>")
+
+        html = "";
+        for (i in paragraphs)
+          html += "<p> " + paragraphs[i] + " </p>";
+
+        return html;
       }
     </script>
 

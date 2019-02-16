@@ -67,7 +67,7 @@ class Generator:
 
       comment = ' '.join([token.decode('utf-8') for token in prediction])
       comment = comment.replace('@@ ', '')
-      comment = comment.replace('<NL>', '\n')
+      #comment = comment.replace('<NL>', '\n')
 
       # FIXME: Tried to reuse the process, but something seems to be buffering
       postprocessor = subprocess.Popen([self.postprocessor],
