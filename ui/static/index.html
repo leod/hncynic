@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>hncynic - generate hacker news comments from titles</title>
+    <title>hncynic - Generate Hacker News Comments from Titles</title>
   </head>
   <body>
     <div class="container">
@@ -63,6 +63,8 @@
           return;
         }
 
+        document.title = "hncynic - Generate Hacker News Comments from Titles - " + title;
+
         $("#prompt").hide();
         $("#comments").empty();
         $("#title").text(title);
@@ -104,7 +106,7 @@
           paragraph = paragraphs[i].trim();
           if (paragraph !== "") {
             html += "<p> " + escapeHtml(paragraph) + " </p>";
-					}
+          }
         }
 
         return html;
