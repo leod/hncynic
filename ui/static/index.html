@@ -25,8 +25,10 @@
         <button type="submit" class="btn btn-primary">Generate</button>
       </form> 
       <div id="comments-container" class="my-4 p-3 border border-primary">
-        <h2 id="title">Let's generate some comments!</h2>
-        <p id="loading" class="text-info" style="display:none">Generating comments...</p>
+        <h2 id="title"></h2>
+
+        <p id="prompt">Let's generate some comments!</p>
+        <p id="loading" style="display:none">Generating comments...</p>
 
         <div id="comments">
         </div>
@@ -61,7 +63,7 @@
           return;
         }
 
-        $("#comments-container").show();
+        $("#prompt").hide();
         $("#comments").empty();
         $("#title").text(title);
         $("#loading").show();
@@ -90,7 +92,7 @@
       }      
 
       function commentToHtml(comment) {
-        comment = comment.replace("<NL> <NL>", "\n");
+        comment = comment.replace(/<NL> <NL>/g, "\n");
         paragraphs = comment.split('\n');
 
         html = "";
