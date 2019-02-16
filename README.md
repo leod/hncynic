@@ -51,7 +51,7 @@ Here's a few examples generated from the current front-page titles:
 ## Future Work
 The generated comments are fun to look at, but definitely still quite derpy. For example,
 many comments contradict themselves within just a few words. It is my understanding that
-there is enough training data to generain cohesive comments of this length. The model does
+there is not enough training data to generate cohesive comments of this length. The model does
 learn to produce long comments, but it does not know what to fill them with, so it often
 resorts to e.g. making multiple (contradicting) trivial statements about some subject.
 
