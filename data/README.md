@@ -145,6 +145,7 @@ Let's first see what we have in terms of words per comment...
   > length-distr-cumulative.data.train.pp.comments.svg
 ```
 ![comment length distribution](length-distr.data.train.pp.comments.svg) ![cumulative comment length distribution](length-distr-cumulative.data.train.pp.comments.svg)
+
 There are many long comments, but it's not as bad as I thought: more than 50% of all top-level
 comments have fewer than 50 tokens.
 
@@ -157,6 +158,7 @@ some kind of Jupyter notebook)
   > paragraph-distr.data.train.pp.comments.svg
 ```
 ![avg. numbers of paragraphs](paragraph-distr.data.train.pp.comments.svg)
+
 How neat.
 
 ### Training the model
