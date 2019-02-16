@@ -1,6 +1,6 @@
 # Train
 
-We train a [Transformer](http://jalammar.github.io/illustrated-transformer/) translation model 
+We train a [Transformer](http://jalammar.github.io/illustrated-transformer/) encoder-decoder model 
 on the extracted title-comment pairs, considering the prediction of comments
 as a translation problem by modelling `p(comment|title)`. This can also be interpreted as a
 language model conditioned on the submission title.
