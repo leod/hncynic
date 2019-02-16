@@ -1,9 +1,9 @@
 # Train
 
 We train a [Transformer](http://jalammar.github.io/illustrated-transformer/) translation model 
-on the extracted title-comment pairs. In other words, we consider the prediction of comments
-as a translation problem by modelling `p(comment|title)`, which could also be interpreted as a
-language model conditioned on the title.
+on the extracted title-comment pairs, considering the prediction of comments
+as a translation problem by modelling `p(comment|title)`. This can also be interpreted as a
+language model conditioned on the submission title.
 
 It is not obvious to me if this should work at all, since I'd think that the `p(comment|title)` distribution
 has a significantly larger entropy than the usual translation models. Let's just see what'll happen...
