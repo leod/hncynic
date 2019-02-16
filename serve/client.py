@@ -76,9 +76,9 @@ class Generator:
                                        stderr=subprocess.DEVNULL)
       prediction_ready = postprocessor.communicate((comment + '\n').encode())[0].decode('utf-8')
 
-      hyps.append((prediction_ready.strip(), scores[0]))
+      hyps.append((prediction_ready.strip(), float(scores[0])))
 
-    hyps.sort(key=lambda hyp: hyp[1] / len(hyp), reverse=True)
+    #hyps.sort(key=lambda hyp: hyp[1] / len(hyp), reverse=True)
 
     return hyps
 
