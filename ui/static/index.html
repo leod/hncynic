@@ -13,22 +13,27 @@
   <body>
     <div class="container">
       <h1>hncynic</h1>
+
       <p>Welcome.</p>
       <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model.</p> 
+
       <form class="my-4" action="javascript:request()">
         <div class="form-group">
           <!--<label for="title">Title:</label>-->
           <input type="text" class="form-control" id="form-title" placeholder="Enter Title">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Generate</button>
       </form> 
-      <div id="comments-container" class="my-4">
-        <h2 id="title"></h2>
+      <div id="comments-container" class="my-4 p-3 border border-primary">
+        <h2 id="title">Let's generate some comments!</h2>
         <p id="loading" class="text-info" style="display:none">Generating comments...</p>
 
-        <ul id="comments">
-        </ul>
+        <div id="comments">
+        </div>
+
       </div>
+      <h2>Code</h2>
+      <p>Code and instructions for training on GitHub: <a href="https://github.com/leod/hncynic">hncynic</a>.</p>
     </div>
 
     <script>
@@ -50,9 +55,9 @@
       }
 
       function request() {
-        title = $("#form-title").val();
+        title = $("#form-title").val().trim();
 
-        if (title.trim() === "") {
+        if (title === "") {
           return;
         }
 
@@ -75,14 +80,20 @@
           $("#loading").hide();
 
           for (i in comments) {
-            div = "<div class=\"m-2 p-2 bg-light border border-secondary\">";
-            $("#comments").append(div + escapeHtml(comments[i][0]) + "</div>");
+            div = "<div class=\"my-2 p-2 bg-light border border-secondary\">";
+            $("#comments").append(div + commentToHtml(comments[i][0]) + "</div>");
           }
         })
         .fail(function(_xhr, _status, _errorThrown) {
 
         });
       }      
+
+      function commentToHtml(comment) {
+        comment = escapeHtml(comment); 
+        comment = comment.replace('\n\n', '<br/><br/>');
+        return comment;
+      }
     </script>
 
     <!-- Optional JavaScript -->
