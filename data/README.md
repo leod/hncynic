@@ -125,6 +125,9 @@ for i in {train,test,dev}; do
 done
 ```
 
+### Training the model
+See [../train](../train).
+
 ### (Optional) Comment Lengths
 Unfortunately, HN comments will often go on and on. Assumably, the model will not be able to generate
 coherent comments of such length, especially with the relatively small amount of training data we have.
@@ -160,9 +163,6 @@ some kind of Jupyter notebook)
 ![avg. numbers of paragraphs](paragraph-distr.data.train.pp.comments.svg)
 
 How neat.
-
-### Training the model
-See [../train](../train).
 
 ## Format of the Raw HN Data Dump
 A brief look into the format of the raw HN data dump.
