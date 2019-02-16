@@ -8,14 +8,86 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>hncynic: generate comments from titles</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <h1>hncynic</h1>
+      <p>Welcome.</p>
+      <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model.</p> 
+      <form class="my-4" action="javascript:request()">
+        <div class="form-group">
+          <!--<label for="title">Title:</label>-->
+          <input type="text" class="form-control" id="form-title" placeholder="Enter Title">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form> 
+      <div id="comments-container" class="my-4">
+        <h2 id="title"></h2>
+        <p id="loading" class="text-info" style="display:none">Generating comments...</p>
+
+        <ul id="comments">
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var entityMap = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;',
+        '/': '&#x2F;',
+        '`': '&#x60;',
+        '=': '&#x3D;'
+      };
+
+      function escapeHtml(string) {
+        return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+          return entityMap[s];
+        });
+      }
+
+      function request() {
+        title = $("#form-title").val();
+
+        if (title.trim() === "") {
+          return;
+        }
+
+        $("#comments-container").show();
+        $("#comments").empty();
+        $("#title").text(title);
+        $("#loading").show();
+
+        $.ajax({
+          url: "/gen",
+          data: {
+            title: title,
+          },
+          type: "GET",
+          dataType: "json",
+        })
+        .done(function(comments) {
+          $("#comments").empty();
+          $("#title").text(title);
+          $("#loading").hide();
+
+          for (i in comments) {
+            div = "<div class=\"m-2 p-2 bg-light border border-secondary\">";
+            $("#comments").append(div + escapeHtml(comments[i][0]) + "</div>");
+          }
+        })
+        .fail(function(_xhr, _status, _errorThrown) {
+
+        });
+      }      
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
