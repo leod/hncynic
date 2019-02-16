@@ -4,8 +4,8 @@ The best Hacker News are written with a complete disregard for the linked articl
 Hacker News comments just from the submission title.
 
 To do this, we throw title-comment pairs extracted from a Hacker News
-[data dump](https://archive.org/details/14566367HackerNewsCommentsAndStoriesArchivedByGreyPanthersHacker)at a [Transformer](http://jalammar.github.io/illustrated-transformer/)
-translation model.
+[data dump](https://archive.org/details/14566367HackerNewsCommentsAndStoriesArchivedByGreyPanthersHacker)
+at a [Transformer](http://jalammar.github.io/illustrated-transformer/) translation model.
 Once the model is trained, we can then sample comments from the learned distribution.
 
 ## Examples
