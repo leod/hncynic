@@ -56,7 +56,9 @@ learn to produce long comments, but it does not know what to fill them with, so 
 resorts to e.g. making multiple (contradicting) trivial statements about some subject.
 
 To address these issues, it would be nice to see what would happen by including additional 
-training data from other domains, such as Reddit comments or Wikipedia articles.
+training data from other domains, such as Reddit comments or Wikipedia articles. Another idea would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git) and continue training from there on the comment prediction task.
 
-Another idea would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git)
-and continue training from there on the comment prediction task.
+Other than that, it could be interesting to include comments that are replies in the training
+data as well. This could for example be done by giving the parent comment to the encoder.
+Not only would we be able to generate full comment pages, but we would also be using a larger
+portion of the data.
