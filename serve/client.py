@@ -20,16 +20,24 @@ import subword_nmt.apply_bpe as apply_bpe
 from tensorflow_serving.apis import predict_pb2, prediction_service_pb2_grpc
 
 class Generator:
-  def __init__(self, preprocessor, bpe_codes, stub, model_name, postprocessor):
+  def __init__(self,
+               host,
+               port,
+               model_name,
+               preprocessor,
+               postprocessor,
+               bpe_codes):
+    channel = grpc.insecure_channel("%s:%d" % (host, port))
+    self.stub = prediction_service_pb2_grpc.PredictionServiceStub(channel)
+    self.model_name = model_name
+
     self.preprocessor = preprocessor
+    self.postprocessor = postprocessor
     with open(bpe_codes) as f:
       self.bpe = apply_bpe.BPE(f)
-    self.stub = stub
-    self.model_name = model_name
-    self.postprocessor = postprocessor
 
   def __call__(self, title, n=8, timeout=50.0):
-    # TODO: Tried to reuse the process, but something seems to be buffering
+    # FIXME: Tried to reuse the process, but something seems to be buffering
     preprocessor = subprocess.Popen([self.preprocessor],
                                     stdout=subprocess.PIPE,
                                     stdin=subprocess.PIPE,
@@ -37,8 +45,6 @@ class Generator:
 
     title_pp = preprocessor.communicate((title.strip() + '\n').encode())[0].decode('utf-8')
     title_bpe = self.bpe.segment_tokens(title_pp.strip().lower().split(' '))
-
-    sys.stdout.write(str(title_bpe) + '\n')
 
     request = predict_pb2.PredictRequest()
     request.model_spec.name = self.model_name
@@ -60,8 +66,10 @@ class Generator:
       prediction = predictions[0][:lengths[0]-1]
 
       comment = ' '.join([token.decode('utf-8') for token in prediction])
+      comment = comment.replace('@@ ', '')
+      comment = comment.replace('<NL>', '\n')
 
-      # TODO: Tried to reuse the process, but something seems to be buffering
+      # FIXME: Tried to reuse the process, but something seems to be buffering
       postprocessor = subprocess.Popen([self.postprocessor],
                                        stdout=subprocess.PIPE,
                                        stdin=subprocess.PIPE,
@@ -76,23 +84,21 @@ class Generator:
 
 def main():
   parser = argparse.ArgumentParser(description=__doc__)
-  parser.add_argument('--model_name', required=True, help='model name')
-  parser.add_argument('--preprocessor', required=True, help='tokenization script')
-  parser.add_argument('--bpe_codes', required=True, help='BPE codes')
   parser.add_argument('--host', default='localhost', help='model server host')
   parser.add_argument('--port', type=int, default=9000, help='model server port')
+  parser.add_argument('--model_name', required=True, help='model name')
+  parser.add_argument('--preprocessor', required=True, help='tokenization script')
   parser.add_argument('--postprocessor', required=True, help='postprocessing script')
+  parser.add_argument('--bpe_codes', required=True, help='BPE codes')
 
   args = parser.parse_args()
-
-  channel = grpc.insecure_channel("%s:%d" % (args.host, args.port))
-  stub = prediction_service_pb2_grpc.PredictionServiceStub(channel)
-  
-  generator = Generator(preprocessor=args.preprocessor,
-                        bpe_codes=args.bpe_codes,
-                        stub=stub,
+ 
+  generator = Generator(host=args.host,
+                        port=args.port,
                         model_name=args.model_name,
-                        postprocessor=args.postprocessor)
+                        preprocessor=args.preprocessor,
+                        postprocessor=args.postprocessor,
+                        bpe_codes=args.bpe_codes)
 
   for title in sys.stdin:
     hyps = generator(title)
