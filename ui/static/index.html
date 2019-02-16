@@ -90,13 +90,15 @@
       }      
 
       function commentToHtml(comment) {
-        comment = escapeHtml(comment); 
-
-        paragraphs = comment.split("<NL>")
+        comment = comment.replace("<NL> <NL>", "\n");
+        paragraphs = comment.split('\n');
 
         html = "";
-        for (i in paragraphs)
-          html += "<p> " + paragraphs[i] + " </p>";
+        for (i in paragraphs) {
+          paragraph = paragraphs[i].trim();
+          if (paragraph !== "")
+            html += "<p> " + escapeHtml(paragraph) + " </p>";
+        }
 
         return html;
       }
