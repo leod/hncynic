@@ -102,8 +102,9 @@
         html = "";
         for (i in paragraphs) {
           paragraph = paragraphs[i].trim();
-          if (paragraph !== "")
+          if (paragraph !== "") {
             html += "<p> " + escapeHtml(paragraph) + " </p>";
+					}
         }
 
         return html;

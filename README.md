@@ -1,2 +1,2 @@
 # hncynic
-Generate Hacker News Comments from Titles
+Generate Hacker News Comments from Titles.
