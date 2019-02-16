@@ -1,5 +1,5 @@
 # hncynic
-The best Hacker News are written with a complete disregard for the linked article.
+The best Hacker News comments are written with a complete disregard for the linked article.
 `hncynic` is an attempt at capturing this phenomenon by training a model to predict
 Hacker News comments just from the submission title.
 
