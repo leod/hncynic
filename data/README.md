@@ -50,8 +50,8 @@ Sort by title, then sample into train/dev/test, allocating 0.1% for dev and test
 sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv > top_level_hn_comments.dedupe.sorted-by-title.tsv 
 data/sample_train_dev_test.py --train data.train.tsv \
                               --dev data.dev.tsv 0.1 \
-                              --test data.test.tsv 0.1
-    < top_level_hn_comments.dedupe.sorted-by-title.tsv 
+                              --test data.test.tsv 0.1 \
+    < top_level_hn_comments.dedupe.sorted-by-title.tsv
 ```
 Just to be sure, let's double check that we have no title overlap:
 ```
