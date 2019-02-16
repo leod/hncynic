@@ -47,3 +47,16 @@ Here's a few examples generated from the current front-page titles:
    [TensorFlow](https://www.tensorflow.org/) and [OpenNMT-tf](https://github.com/OpenNMT/OpenNMT-tf).
 3. [serve](serve/): Serve the model with TensorFlow serving.
 4. [ui](ui/): Host a web interface for querying the model.
+
+## Future Work
+The generated comments are fun to look at, but definitely still quite derpy. For example,
+many comments contradict themselves within just a few words. It is my understanding that
+there is enough training data to generain cohesive comments of this length. The model does
+learn to produce long comments, but it does not know what to fill them with, so it often
+resorts to e.g. making multiple (contradicting) trivial statements about some subject.
+
+To address these issues, it would be nice to see what would happen by including additional 
+training data from other domains, such as Reddit comments or Wikipedia articles.
+
+Another idea would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git)
+and continue training them on the comment prediction task.
