@@ -1,5 +1,13 @@
 # Train
 
+We train a [Transformer](http://jalammar.github.io/illustrated-transformer/) translation model 
+on the extracted title-comment pairs. In other words, we consider the prediction of comments
+as a translation problem, by modelling `p(comment|title)`. This can also be interpreted as a
+language model conditioned on the title.
+
+It is not obvious to me if this should work at all, since I assume that the `p(comment|title)`
+in what a comment could be talking about. I guess let's just see what happens.
+
 ## Data Preparation
 See [../data](../data).
 
