@@ -1,8 +1,8 @@
-from flask import Flask, jsonify, request, abort
+from flask import Flask, jsonify, request, abort, send_from_directory
 
 from serve.client import Generator
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 HOST='localhost'
 PORT=9000
@@ -27,6 +27,10 @@ def gen():
   hyps = generator(title, n=4)
 
   return jsonify(hyps)
+
+@app.route('/')
+def index():
+	return app.send_static_file('index.html')
 
 if __name__ == '__main__':
   app.run(debug=True)
