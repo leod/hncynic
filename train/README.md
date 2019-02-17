@@ -8,10 +8,11 @@ language model conditioned on the submission title.
 It is not obvious to me if this should work at all, since I'd think that the `p(comment|title)` distribution
 has a significantly larger entropy than the usual translation models. Let's just see what'll happen...
 
-## Data Preparation
+## Steps
+### Data Preparation
 See [../data](../data).
 
-## Shuffle
+### Shuffle
 Now that we're done with data preparation, let's prepare the data some more.
 ```
 paste ../data/data.train.bpe.{titles,comments} | shuf > data.train.bpe.shuf.titles-comments
@@ -19,7 +20,7 @@ cut -f1 < data.train.bpe.shuf.titles-comments > data.train.bpe.shuf.titles
 cut -f2 < data.train.bpe.shuf.titles-comments > data.train.bpe.shuf.comments
 ```
 
-## Vocabularies
+### Vocabularies
 Since titles are lowercased and comments are not, and comments contain other additional symbols,
 such as Markdown or links, we build two vocabularies:
 ```
@@ -27,7 +28,7 @@ onmt-build-vocab --save_vocab vocab.titles data.train.bpe.shuf.titles
 onmt-build-vocab --save_vocab vocab.comments data.train.bpe.shuf.comments
 ```
 
-## Train
+### Train
 Adjust settings and paths in `opennmt_config.yml` if necessary. Let's hope TensorFlow is ready
 to go, and start training. OpenNMT-tf will save checkpoints periodically (as configured),
 so training can be continued from there in case something crashes or if your mother rips out
@@ -38,14 +39,14 @@ onmt-main train --config opennmt_config.yml --model_type Transformer --num_gpus 
 
 ![training loss](train.svg)
 
-## Evaluate
+### Evaluate
 
-## Export
+### Export
 Once the model has finished training, we can export it for serving as follows:
 ```
 CUDA_VISIBLE_DEVICES= onmt-main export --export export1 --config opennmt_config_larger_batch.yml sample.yml --num_gpus 0
 ```
 Here, we save the exported model in the directory `export1/`.
 
-## Serve
+### Serve
 See [../serve](../serve).
