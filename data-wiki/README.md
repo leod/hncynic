@@ -19,3 +19,12 @@ Documents will be saved in some kind of hash tree in the `docs/` directory.
 For example, there will be the file `docs/2f/7c/Abraham_Lincoln.txt`.
 
 ### Convert to Markdown
+We convert from the MediaWiki markup to Markdown using [pandoc](https://pandoc.org/),
+together with a custom filter written with [panflute](http://scorreia.com/software/panflute/)
+that removes content that is not useful for us.
+
+Here's how to convert and filter one document:
+```
+pandoc --wrap=none -f mediawiki -t markdown < test/out/7a/77/Astronomer.txt \
+  | pandoc --filter filter_test.py -t markdown
+```
