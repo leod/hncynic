@@ -10,7 +10,7 @@ What we are interested in is a file like `enwiki-lates-pages-articles.xml.bz2`,
 which currently has a size of about 15GB.
 
 ### Split
-I use [https://github.com/adamwulf/wikipedia2text/blob/master/xmldump2files.py](xmldump2files.py) 
+I use [xmldump2files.py](https://github.com/adamwulf/wikipedia2text/blob/master/xmldump2files.py) 
 to split the XML dump into individual files, one per document:
 ```
 bzcat enwiki-lates-pages-articles.xml.bz2 | ./xmldump2files.py /dev/stdin docs
