@@ -26,5 +26,5 @@ that removes content that is not useful for us.
 Here's how to convert and filter one document:
 ```
 pandoc --wrap=none -f mediawiki -t markdown < test/out/7a/77/Astronomer.txt \
-  | pandoc --filter filter_test.py -t markdown
+  | pandoc --filter filter_markdown.py -t markdown
 ```
