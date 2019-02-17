@@ -39,3 +39,13 @@ onmt-main train --config opennmt_config.yml --model_type Transformer --num_gpus 
 ![train or dev loss, wish I knew](train.svg)
 
 ## Evaluate
+
+## Export
+Once the model has finished training, we can export it for serving as follows:
+```
+CUDA_VISIBLE_DEVICES= onmt-main export --export export1 --config opennmt_config_larger_batch.yml sample.yml --num_gpus 0
+```
+Here, we save the exported model in the directory `export1/`.
+
+## Serve
+See [../serve](../serve).
