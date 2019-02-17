@@ -14,8 +14,7 @@
     <div class="container">
       <h1>hncynic</h1>
 
-      <p>Welcome.</p>
-      <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model.</p> 
+      <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model:</p> 
 
       <form class="my-4" action="javascript:request()">
         <div class="form-group">
@@ -94,10 +93,13 @@
       }      
 
       function commentToHtml(comment) {
-        comment = comment.replace(/<NL> <NL>/g, "\n");
+        // Reverse Markdown escaping (coming from html2text and reproduced by the model)
         comment = comment.replace(/\\ -/g, "-");
         comment = comment.replace(/\\./g, ".");
+
+        // Double newline is a paragraph.
         comment = comment.replace(/<NL> <NL>/g, "\n");
+        comment = comment.replace(/<NL>/g, "");
 
         paragraphs = comment.split('\n');
 
@@ -105,11 +107,36 @@
         for (i in paragraphs) {
           paragraph = paragraphs[i].trim();
           if (paragraph !== "") {
-            html += "<p> " + escapeHtml(paragraph) + " </p>";
+            paragraph = quickFixes(paragraph);
+            paragraph = escapeHtml(paragraph);
+            //paragraph = paragraph.replace(/&lt;NL&gt;/g, "<br />\n");
+            paragraph = formatItalics(paragraph);
+            paragraph = paragraph.split(' ').join(' ');
+
+            html += "<p> " + paragraph + " </p>";
           }
         }
 
         return html;
+      }
+
+      function quickFixes(comment) {
+        comment = comment.replace("x86 _ 64", "x86_64");
+        comment = comment.replace(": (", " :(");
+        comment = comment.replace(": )", " :)");
+        comment = comment.replace(":(", " :(");
+        comment = comment.replace(":)", " :)");
+        return comment;
+      }
+
+      function formatItalics(comment) {
+        // In the preprocessed training data, due to moses tokenization, underscores are
+        // standalone tokens. This function converts matching underscores into HTML <i></i>.
+        comment = comment.replace(/ _ (.*[" ])_$/g, " <i>$1</i> ");
+        comment = comment.replace(/^_ (.*[" ])_$/g, " <i>$1</i> ");
+        comment = comment.replace(/ _ (.*[" ])_ /g, " <i>$1</i> ");
+        comment = comment.replace(/^_ (.*[" ])_ /g, " <i>$1</i> ");
+        return comment;
       }
     </script>
 

@@ -54,6 +54,9 @@ many comments contradict themselves within just a few words. It is my understand
 there is not enough training data to generate cohesive comments of this length. The model does
 learn to produce long comments, but it does not know what to fill them with, so it often
 resorts to e.g. making multiple (contradicting) trivial statements about some subject.
+Also, when a title deviates from the usual Hacker News discussion topics, the generated comments
+may ramble about some general topic that is completely irrelevant to the title. For example,
+the first model I trained really likes to talk about ways of getting a job.
 
 To address these issues, it would be nice to see what would happen by including additional 
 training data from other domains, such as Reddit comments or Wikipedia articles. Another idea would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git) and continue training from there on the comment prediction task.
