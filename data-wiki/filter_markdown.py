@@ -12,8 +12,12 @@ SECTION_IGNORE = [
   'See also',
   'Notes',
   'References',
-  'External links'
+  'External links',
+  'Gallery',
 ]
+
+# Some more candidates for ignoring:
+# - Partial filmography as director
 
 # Elements that we ignore
 ELEMENT_IGNORE = [
@@ -28,9 +32,6 @@ ELEMENT_IGNORE = [
   Superscript,
 ]
 
-# Some more candidates for ignoring:
-# - Partial filmography as director
-
 def prepare(doc):
   doc.my_current_section = None
 
@@ -44,6 +45,7 @@ def action(elem, doc):
     return []
 
   if isinstance(elem, Link):
+    sys.stderr.write(stringify(elem) + ': ' + str(elem) +  '\n')
     # For links, only keep the description text
     descr = elem.content.list
 
@@ -58,10 +60,14 @@ def action(elem, doc):
     #  Emph(Str([The) Space Str(Astronomer](The_Astronomer_(Vermeer)) Space Str("wikilink"))),
     #  Space, Str(by), Space, Str([Johannes), Space, Str(Vermeer](Johannes_Vermeer), Space,
     #  Str("wikilink"))]
-    if isinstance(descr[0], Str) and 'thumb|' in descr[0].text:
+    if (isinstance(descr[0], Str) and 'thumb|' in descr[0].text) or 'thumb|' in stringify(elem):
       return []
 
-    return elem.content.list
+    # Also ignore links to Wikipedia media
+    if stringify(elem).startswith('File:'):
+      return []
+
+    return descr
   elif any([isinstance(elem, t) for t in ELEMENT_IGNORE]):
     return []
   elif isinstance(elem, Header):
