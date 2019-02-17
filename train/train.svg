@@ -166,7 +166,7 @@
 </g>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g transform="translate(562.4,32.8)" style="stroke:none; fill:black; font-family:Verdana; font-size:10.00pt; text-anchor:end">
-		<text>Some loss</text>
+		<text>Training loss</text>
 	</g>
 	<path stroke='rgb( 94, 156,  54)'  d='M569.4,29.1 L604.9,29.1 M53.5,49.2 L54.3,81.3 L55.1,134.7 L55.9,192.5 L56.7,209.3 L57.5,226.3 
 		L58.3,243.5 L59.2,256.7 L60.0,263.8 L60.8,276.3 L61.6,279.4 L62.4,275.5 L63.2,290.9 L64.0,288.0 
@@ -245,7 +245,7 @@
 		L532.0,385.4 L532.8,383.3 L533.6,391.5 L534.5,383.2 L535.3,389.8 L536.1,384.6 L536.9,380.2 L537.7,383.3 
 		L538.5,389.0 L539.3,390.8 L540.1,384.6 L540.9,381.6 L541.7,382.4 L542.5,389.9 L543.3,392.1 L544.1,391.0 
 		L545.0,384.0 L545.8,388.2 L546.6,390.1 L547.4,392.3 L548.2,388.2 L549.0,386.7 L549.8,390.2 L550.6,404.7 
-		L551.4,384.8 L552.2,384.9 L553.0,389.6  '/></g>
+		L551.4,384.8 L552.2,384.9 L553.0,389.6 L553.8,382.6  '/></g>
 	</g>
 <g style="fill:none; color:white; stroke:rgb( 94, 156,  54); stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 </g>
