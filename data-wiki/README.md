@@ -19,16 +19,6 @@ bzcat enwiki-lates-pages-articles.xml.bz2 | ./xmldump2files.py /dev/stdin docs
 Documents will be saved in some kind of hash tree in the `docs/` directory.
 For example, there will be the file `docs/2f/7c/Abraham_Lincoln.txt`.
 
-TODO: Ignore articles that are redirects or disambiguations.
-Redirects look like this:
-```
-$ cat docs/02/35/Albert_Gore.txt
-#redirect [[Al Gore]]
-
-{{Redirect category shell|1=
-{{R from full name}}
-```
-
 ## Filter Documents
 I get about 10M extracted documents, as `xmldump2files.log` shows:
 ```
