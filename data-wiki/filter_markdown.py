@@ -16,10 +16,10 @@ SECTION_IGNORE = [
   'Gallery',
   'Works cited',
   'External links and suggested reading',
+  'Editions',
+  'Discography',
+  'Filmography',
 ]
-
-# Some more candidates for ignoring:
-# - Partial filmography as director
 
 # Elements that we ignore
 ELEMENT_IGNORE = [
