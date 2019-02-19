@@ -46,7 +46,8 @@ I'm left with 5.78M of 10.2M documents.
 
 ### Convert to Markdown
 We convert from the MediaWiki markup to Markdown using [pandoc](https://pandoc.org/),
-together with a custom filter written with [panflute](http://scorreia.com/software/panflute/)
+together with a custom filter [filter_markdown.py](filter_markdown.py) written with
+[panflute](http://scorreia.com/software/panflute/)
 that removes content that is not useful for us.
 
 Here's how to convert and filter one document:
