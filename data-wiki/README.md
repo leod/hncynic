@@ -38,9 +38,9 @@ find docs/ -name '*.txt' \
   | sort -k1,1 -n \
   | tail -n20
 ```
-I've collected them in in `doc-filter.grep` to filter the document list:
+I've collected them in `doc-list-filter.grep` to filter the document list:
 ```
-find docs -name '*.txt' | grep -vF -f doc-filter.grep > docs.txt
+find docs -name '*.txt' | grep -vF -f doc-list-filter.grep > docs.txt
 ```
 I'm left with 5.78M of 10.2M documents.
 
