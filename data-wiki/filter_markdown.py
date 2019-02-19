@@ -14,6 +14,8 @@ SECTION_IGNORE = [
   'References',
   'External links',
   'Gallery',
+  'Works cited',
+  'External links and suggested reading',
 ]
 
 # Some more candidates for ignoring:

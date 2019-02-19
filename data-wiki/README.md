@@ -1,5 +1,6 @@
 # Wiki Data 
 Here, we prepare training data from an English Wikipedia data dump.
+Nothing too interesting, just a series of tedious steps because I don't know any better tools for this.
 
 ## Steps
 ### Download
@@ -27,6 +28,31 @@ $ cat docs/02/35/Albert_Gore.txt
 {{Redirect category shell|1=
 {{R from full name}}
 ```
+
+## Filter Documents
+I get about 10M extracted documents, as `xmldump2files.log` shows:
+```
+Redirects 8465477  Deleted 0  Disambigs 271019  Lists 231905  Skipped 0  Wrote 10200000 50.01GiB  Total 10200000 50.01GiB  (185%)
+```
+The official
+[Wikipedia statistics](https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia#Annual_growth_rate_for_the_English_Wikipedia)
+say that there are currently about 5.8M articles.
+The dump that I downloaded contains a lot of non-articles.
+The most serious offenders can be found like this:
+```
+find docs/ -name '*.txt' \
+  | grep -o '/[^/%]*%3' \
+  | sort \
+  | uniq -c \
+  | awk '{print $1,$2}' \
+  | sort -k1,1 -n \
+  | tail -n20
+```
+I've collected them in in `doc-filter.grep` to filter the document list:
+```
+find docs -name '*.txt' | grep -vF -f doc-filter.grep > docs.txt
+```
+I'm left with 5.78M of 10.2M documents.
 
 ### Convert to Markdown
 We convert from the MediaWiki markup to Markdown using [pandoc](https://pandoc.org/),
