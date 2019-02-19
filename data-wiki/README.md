@@ -28,7 +28,7 @@ The official
 [Wikipedia statistics](https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia#Annual_growth_rate_for_the_English_Wikipedia)
 say that there are currently about 5.8M articles.
 The dump that I downloaded contains a lot of non-articles.
-Note that [xmldump2files.py](our version of xmldump2files.py) already filters out redirects and disambiguations.
+Note that [our version of xmldump2files.py](xmldump2files.py) already filters out redirects and disambiguations.
 The most serious remaining offenders can be found like this:
 ```
 find docs/ -name '*.txt' \
