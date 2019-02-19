@@ -38,6 +38,8 @@ def prepare(doc):
   doc.my_current_section = None
 
 def action(elem, doc):
+  #sys.stderr.write(repr(elem) + '\n')
+
   # We must not filter out Doc, that leads to errors
   if isinstance(elem, Doc):
     return elem
@@ -47,7 +49,6 @@ def action(elem, doc):
     return []
 
   if isinstance(elem, Link):
-    sys.stderr.write(stringify(elem) + ': ' + str(elem) +  '\n')
     # For links, only keep the description text
     descr = elem.content.list
 

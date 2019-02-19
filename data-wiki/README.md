@@ -58,3 +58,13 @@ Here's how to convert and filter one document:
 pandoc --wrap=none -f mediawiki -t markdown < test/out/7a/77/Astronomer.txt \
   | pandoc --filter filter_markdown.py -t markdown
 ```
+The script `convert-docs.sh` applies this conversion to all files in a list,
+writing the output to the filename suffixed by `.md`:
+```
+./convert-docs.sh < docs.txt 2>&1 | tee convert.log
+```
+
+There are some downsides to using Pandoc here, since it does not handle Wikipedia template
+references, and instead seems to remove them in the output. This leads to a few sentences
+missing words in the middle. This is a relatively rare occasion, so it should not be much
+of a problem.
