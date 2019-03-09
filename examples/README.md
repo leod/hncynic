@@ -60,11 +60,11 @@
    
    If you're looking for a good source of data that you should take a look at the following page from: 
    
-   _ A new data structure for the first three days and then the first year of the final quarter of the year will be available to the public. _ 
+   _A new data structure for the first three days and then the first year of the final quarter of the year will be available to the public._ 
    
    It's a little strange to have to think about this sort of thing in the first sentence. It's not like you have to worry that the data structure will change. 
    
-   _ A second, the data is available, in a new format, to the public, to be accessible to people in the same way, for any kind of information. _
+   _A second, the data is available, in a new format, to the public, to be accessible to people in the same way, for any kind of information._
 
 
 - This guy is the one who is actually in the business of selling his own product.
@@ -222,9 +222,9 @@
    
    I have a few notes: 
    
-  \ - There have been times when I'd rather have a single line of code in a file than a single line of code. This is a great idea but the fact that it's just a little less work to make it a single line of code, and I'd have to think about whether it will be possible to use the full stack in such a way that the compiler is able to understand it properly. 
+   - There have been times when I'd rather have a single line of code in a file than a single line of code. This is a great idea but the fact that it's just a little less work to make it a single line of code, and I'd have to think about whether it will be possible to use the full stack in such a way that the compiler is able to understand it properly. 
    
-  \ - I've seen many projects in the past few years that are not just as fast (or as fast, as many of the projects I've used) but also as a way to have a simple, fast, easy way to get a few of the most popular things working in a language like Python is pretty awesome.
+   - I've seen many projects in the past few years that are not just as fast (or as fast, as many of the projects I've used) but also as a way to have a simple, fast, easy way to get a few of the most popular things working in a language like Python is pretty awesome.
 
 
 - I've been wanting a similar system for a long time. I've had good results with MathML. I'm very curious to see how they'll be able to handle a complex math problem in an intuitive way. 
@@ -390,19 +390,19 @@
 
 - Looks like it has a great landing page. You've made a few things really nice. 
    
-  \ - I can't seem to find any links anywhere where to use the site. It's a very small font for a small font that makes me feel like a real programmer. 
+   - I can't seem to find any links anywhere where to use the site. It's a very small font for a small font that makes me feel like a real programmer. 
    
-  \ - The text is small. You should make the font more prominent (I'd say on the main page you should make it more prominent) 
+   - The text is small. You should make the font more prominent (I'd say on the main page you should make it more prominent) 
    
-  \ - The text needs to be more prominent. It's hard to read a sentence without a lot of text. 
+   - The text needs to be more prominent. It's hard to read a sentence without a lot of text. 
    
-  \ - You should add some more whitespace. I'd suggest adding a link to the text instead. Maybe a "Contact Us" button, or something? 
+   - You should add some more whitespace. I'd suggest adding a link to the text instead. Maybe a "Contact Us" button, or something? 
    
-  \ - The "Show HN" button is not a good idea, I don't care. I'm just not sure how that works. I think there could be an option to add a "Contact Us" button, or "Contact Us" button to indicate a form. 
+   - The "Show HN" button is not a good idea, I don't care. I'm just not sure how that works. I think there could be an option to add a "Contact Us" button, or "Contact Us" button to indicate a form. 
    
-  \ - Your site looks good but I don't think you should use a font like that. 
+   - Your site looks good but I don't think you should use a font like that. 
    
-  \ - Your "About Us" button would be a bit confusing, I think.
+   - Your "About Us" button would be a bit confusing, I think.
 
 
 - You can do the same thing here: http://www.scribd.com/
@@ -466,7 +466,7 @@
    In any case I'm looking forward to the next one!
 
 
-- I've always felt that there would be no "no" way to write a resume. If I had been a programmer for the past 10 years, I would've written a blog post about the process, or a post about the process, as opposed to "what would happen if the process didn't work out"\ - the "we are going to get a better fit" is the same thing as "the next step to doing this." 
+- I've always felt that there would be no "no" way to write a resume. If I had been a programmer for the past 10 years, I would've written a blog post about the process, or a post about the process, as opposed to "what would happen if the process didn't work out" - the "we are going to get a better fit" is the same thing as "the next step to doing this." 
    
    What's the problem with "the next step"? 
    
@@ -512,7 +512,7 @@
    I'd argue that this is a case of the fact that a lot of people (including myself) are in the process of trying to find a way to "fix" a "problem. If there were a way for this type of thing to work, it probably would be better to just have a" fix "for the problem and then have a fix to it. The article doesn't say the same thing about the current system. If you do, you're likely to be able to fix it. If there is a solution, you're just doing something wrong.
 
 
-- This reminds me of the movie _ The Mythical Man Month _ by Steven Sinofsky, which came out in a few years. The whole film was about a guy that was just a little more "normal" than the original, but he was still in his early 80s, and his work was so good, that you could make an entire documentary, and then watch it again in a few weeks after the movie was over the course of the year.
+- This reminds me of the movie _The Mythical Man Month_ by Steven Sinofsky, which came out in a few years. The whole film was about a guy that was just a little more "normal" than the original, but he was still in his early 80s, and his work was so good, that you could make an entire documentary, and then watch it again in a few weeks after the movie was over the course of the year.
 
 
 - This is a very good idea.
@@ -524,7 +524,7 @@
    [0] http://www.slate.com/blogs/future_tense/2016/07/28/what-the-scientists-about-the-death-of-the-world-is-almost-everyone-who-needs-about-the-death-of-the-world/
 
 
-- The most depressing part: _ "I was so happy to work, I couldn't afford it!" _
+- The most depressing part: _"I was so happy to work, I couldn't afford it!"_
 
 
 - I'm not sure this is really a problem for everyone. If you can't find a school where all you care about is getting a job, you can find a job. I can only imagine a couple of things happening. It's like a family member, who is still a good teacher. You can't just be the best, but you can still get out. You can always have a good job, and the money won't be enough.
@@ -808,11 +808,11 @@
    There are a few reasons: 
    
    
-  \ - the US is a very large, very small country and a lot of very large and very very diverse countries. There were some big issues with the US but most were not in the USA, and many other countries had very small populations and there were a few countries that would be very diverse to the country. 
+   - the US is a very large, very small country and a lot of very large and very very diverse countries. There were some big issues with the US but most were not in the USA, and many other countries had very small populations and there were a few countries that would be very diverse to the country. 
    
-  \ - The US is more than a few countries in the USA. If you're an American, you're probably not going to get to Europe, but that's not what you'll get from an American. 
+   - The US is more than a few countries in the USA. If you're an American, you're probably not going to get to Europe, but that's not what you'll get from an American. 
    
-  \ - The rest of Europe is not even that large. It just is a very small country. The only thing that I think people are missing is the big problem of the US, not the people who are being told how to do it right.
+   - The rest of Europe is not even that large. It just is a very small country. The only thing that I think people are missing is the big problem of the US, not the people who are being told how to do it right.
 
 
 - The problem is this: the US is so much better off as a system than in Europe (except for, say, Australia). 
@@ -843,7 +843,7 @@
 - This seems to have to be the most obvious example of why a driver can have such an accident. I don't think it would be possible to get an accident if there were no other car in there.
 
 
-- "The problem with this kind of attack is that if you don't know what your car is, then you're probably not going to be able to recover it."\ -- The article makes it sound like the security researchers had already done a study on this.
+- "The problem with this kind of attack is that if you don't know what your car is, then you're probably not going to be able to recover it." -- The article makes it sound like the security researchers had already done a study on this.
 
 
 - This is why I'm always fascinated by the idea of cars and cars. I always thought it was a good idea to get rid of some of the most stupid drivers who don't know how to do the same thing.
@@ -949,7 +949,7 @@
    I'm excited to be involved in the next batch in our game!
 
 
-- > _ In my opinion, it should also become clear that the author is wrong. JavaScript is the most powerful tool of the modern world and that the web and mobile apps are the best of the best. _ 
+- > _In my opinion, it should also become clear that the author is wrong. JavaScript is the most powerful tool of the modern world and that the web and mobile apps are the best of the best._ 
    
    That's pretty true! 
    
@@ -1000,7 +1000,7 @@
 - The fact that the government is a "party," is an issue, not a bug.
 
 
-- _ The idea was that the NSA would have to be responsible for the attacks against the FBI to ensure that they were not in control of any of the communications that they were sending. _ 
+- _The idea was that the NSA would have to be responsible for the attacks against the FBI to ensure that they were not in control of any of the communications that they were sending._ 
    
    What? I'm a big believer in the term "secret." I don't believe that the government can be responsible. 
    
@@ -1008,7 +1008,7 @@
    
    This isn't a problem, but rather a problem. If the government is going to have to protect the programs, then it should be able to be responsible. 
    
-   So it's not a problem. We're talking about the _ people _ who do it (or are not). It's not a problem.
+   So it's not a problem. We're talking about the _people_ who do it (or are not). It's not a problem.
 
 
 - I think it could be that if this is actually a problem, we could actually have some form of law that allows for this kind of thing.
@@ -1176,7 +1176,7 @@
 
 - > A pointer to memory is a pointer to another pointer to another pointer; it has a pointer to a pointer to another pointer; the pointer's pointer is not an object, but an object. 
    
-   That's the real danger. This is why we're talking about memory safety. There's no need to have a pointer that's a pointer to an object (like a pointer), just to avoid pointers that are _ not _ the reference.
+   That's the real danger. This is why we're talking about memory safety. There's no need to have a pointer that's a pointer to an object (like a pointer), just to avoid pointers that are _not_ the reference.
 
 
 - A lot of comments are just about how this was written in Haskell.
