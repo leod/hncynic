@@ -41,8 +41,8 @@ Here's a few examples generated from the recent front-page titles:
      >
      > (Also, this article is from 2008. I was at a meeting where we went into the office with a bunch of engineers from a few companies in the open. They said "I'm the boss, you're the boss.")
 
-If you want to get a better understanding of how bad the generated comments are, please look at [examples/README.md](examples/README.md)
-for completely unfiltered samples.
+If you want to get a better understanding of how bad the generated comments are, please look at
+[examples/README.md](examples/README.md) for completely unfiltered samples.
 
 ## Instructions
 1. [data](data/): Prepare the data and extract title-comment pairs from the HN data dump.
@@ -62,7 +62,9 @@ may ramble about some general topic that is completely irrelevant to the title. 
 the first model I trained really likes to talk about ways of getting a job.
 
 To address these issues, it would be nice to see what would happen by including additional 
-training data from other domains, such as Reddit comments or Wikipedia articles. Another idea would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git) and continue training from there on the comment prediction task.
+training data from other domains, such as Reddit comments or Wikipedia articles. Another idea
+would be to start from a pre-trained model such as [BERT](https://github.com/google-research/bert.git)
+and continue training from there on the comment prediction task.
 
 Other than that, it could be interesting to include comments that are replies in the training
 data as well. This could for example be done by giving the parent comment to the encoder.
