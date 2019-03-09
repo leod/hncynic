@@ -90,6 +90,7 @@ def main():
   parser.add_argument('--preprocessor', required=True, help='tokenization script')
   parser.add_argument('--postprocessor', required=True, help='postprocessing script')
   parser.add_argument('--bpe_codes', required=True, help='BPE codes')
+  parser.add_argument('-n', type=int, default=5, help='Number of comments to sample per title')
 
   args = parser.parse_args()
  
@@ -104,7 +105,7 @@ def main():
     hyps = generator(title)
 
     for prediction, score in hyps:
-      sys.stdout.write('{}\t{}\n'.format(score, prediction))
+      sys.stdout.write('{}\t{}\n'.format(title, prediction))
   
 if __name__ == "__main__":
   main()

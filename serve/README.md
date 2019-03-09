@@ -1,6 +1,7 @@
 # Serving
 
 ## TensorFlow Serving
+We can use a TensorFlow docker image to serve the model, so that it replies to GRPC (adjust path and model name as needed).
 ```
 docker run \
   --rm \
@@ -16,7 +17,7 @@ docker run \
 Or on GPU:
 ```
 nvidia-docker run \
-	-d \
+  -d \
   --rm \
   -p 9000:9000 \
   -v $PWD:/models \
@@ -27,3 +28,14 @@ nvidia-docker run \
                                 --port=9000 --model_base_path=/models/export1/1550276061 \
                                 --model_name=1550276061
 ```
+
+## Querying
+Once the docker container is running, `client.py` can be used to query the model (adjust paths as needed):
+```
+echo Why I Hate Whiteboard Interviews \
+  | ./client.py --host=localhost --port=9000 --model_name=1550276061 \
+                --preprocessor=../data/preprocess.sh \
+                --bpe_codes=../exps/data/bpecodes \
+                --postprocessor=../data/mosesdecoder/scripts/tokenizer/detokenizer.perl
+```
+Output is printed in two columns (tab-separated), where the first column is the title and the second a sampled comment.
