@@ -9,7 +9,7 @@ at a [Transformer](http://jalammar.github.io/illustrated-transformer/) encoder-d
 Once the model is trained, we can then sample comments from the learned distribution.
 
 ## Examples
-Here's a few examples generated from the current front-page titles:
+Here's a few examples generated from the recent front-page titles:
 - **Ask HN: Is it practical to create a software-controlled model rocket?**
 
   1. > I think this is a great idea. However if your project is going to have a lot of bugs and issues (or a lot of other problems), your solution will probably be to use a custom version of your system (that would be a bit of a nightmare).
@@ -40,6 +40,9 @@ Here's a few examples generated from the current front-page titles:
      > It doesn't really matter, but I would be very happy to pay for my office space in my office for a couple of years. I'd be glad if I had a place where I could get in on that space. It'd be great to get in on that, though.
      >
      > (Also, this article is from 2008. I was at a meeting where we went into the office with a bunch of engineers from a few companies in the open. They said "I'm the boss, you're the boss.")
+
+If you want to get a better understanding of how bad the generated comments are, please look at [examples/README.md](examples/README.md)
+for completely unfiltered samples.
 
 ## Instructions
 1. [data](data/): Prepare the data and extract title-comment pairs from the HN data dump.
