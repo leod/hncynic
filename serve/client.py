@@ -105,7 +105,7 @@ def main():
     hyps = generator(title)
 
     for prediction, score in hyps:
-      sys.stdout.write('{}\t{}\n'.format(title, prediction))
+      sys.stdout.write('{}\t{}\n'.format(title.strip(), prediction))
   
 if __name__ == "__main__":
   main()
