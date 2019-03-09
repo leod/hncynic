@@ -10,7 +10,7 @@ Here, we extract only the top-level comments from the raw HN data dump and conve
 simple TSV for the processing steps that will follow.
 For now, we ignore comments that are replies, since they would require additional modelling.
 ```
-data/extract.py < 14m_hn_comments_sorted.json > top_level_hn_comments.tsv
+extract.py < 14m_hn_comments_sorted.json > top_level_hn_comments.tsv
 ```
 The script also converts from HTML to Markdown using [html2text](https://pypi.org/project/html2text/).
 Note that the entries in the JSON seem to come from different sources, with multiple formats.
@@ -48,9 +48,9 @@ The TSV format isn't very well suited for this, so I've written a stupid script 
 Sort by title, then sample into train/dev/test, allocating 0.1% for dev and test data each:
 ```
 sort -t$'\t' -k3,3 top_level_hn_comments.dedupe.tsv > top_level_hn_comments.dedupe.sorted-by-title.tsv 
-data/sample_train_dev_test.py --train data.train.tsv \
-                              --dev data.dev.tsv 0.1 \
-                              --test data.test.tsv 0.1 \
+sample_train_dev_test.py --train data.train.tsv \
+                         --dev data.dev.tsv 0.1 \
+                         --test data.test.tsv 0.1 \
     < top_level_hn_comments.dedupe.sorted-by-title.tsv
 ```
 Just to be sure, let's double check that we have no title overlap:
@@ -84,9 +84,9 @@ titles and comments and split from TSV into separate files for parallel line-ali
 We also lowercase titles here, since they are only seen as an input and we think there is not much to
 be gained from this signal for this task.
 ```
-data/preprocess_tsv.sh data.train
-data/preprocess_tsv.sh data.dev
-data/preprocess_tsv.sh data.test
+preprocess_tsv.sh data.train
+preprocess_tsv.sh data.dev
+preprocess_tsv.sh data.test
 ```
 Sanity check that everything is still aligned:
 ```
