@@ -102,7 +102,7 @@ def main():
                         bpe_codes=args.bpe_codes)
 
   for title in sys.stdin:
-    hyps = generator(title)
+    hyps = generator(title, args.n)
 
     for prediction, score in hyps:
       sys.stdout.write('{}\t{}\n'.format(title.strip(), prediction))

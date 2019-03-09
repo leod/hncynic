@@ -1,1261 +1,834 @@
 ## Run full Linux distros or specific applications on top of Android
-- The main problem with the Ubuntu / Gnome / Gnome / Gnome / Unity stack is that you have to deal with multiple different drivers to get a full screen desktop. This is a very different problem from a desktop Linux desktop that is used on the desktop. 
+- This is a great way to make a mobile OS experience with Linux, but the UI looks pretty terrible. 
    
-   The only thing missing is a native OS, and I think the real thing for desktop Linux developers is that it can run as a native app and not on the desktop. This is not a big deal in my opinion.
+   I wonder if it's just an OS, not an OS?
 
 
-- This is great news. I've been working on a similar tool for my last project, but I haven't found a good way to make it as easy to use and install it on the go. I've been working on a project where it's been a great tool for the desktop, but the UI is really slow and clunky, and I have yet to find a way to get the full functionality of the desktop (or even a little bit of code that would be very useful in a desktop). I've been using it on the project and am trying to get into the market again, so I have no idea what it does, but it was very useful. So I'll give it a shot at this one. (I'm in the process of building the right tool for the job, and the app isn't really a desktop app; and I'll keep an eye on my project.) 
+- I am very surprised by the lack of mention of the Android emulator. 
    
-   I would love for any HNers to try it out. I'll be checking out it and hopefully the community will have fun.
-
-
-- I'm really looking forward to using Android on my HTC Vive, which is very nice! I have a couple of Android phones and the Android SDK is great!
-
-
-- It's interesting that this is a fork of the Linux desktop app, so they could have made it easier to get a decent GUI to install a native app, or to get the same result. It's hard to believe the latter. 
+   The emulator is a great little project, but the fact that the emulator is running on Android, which is the only part of my brain that I really need to run it in a emulator, which is a real PITA. 
    
-   It's a bit ironic though...
+   The only thing this does is force me to use a different emulator for different applications, which I'm really happy with and it has been an awesome experience for me.
 
 
-- I don't see the point of this. It seems to me that it's not the best solution to the problem that Linux is doing. 
+- If you are on Android, this is a good thing. It is a shame they are going to be using Android for all their work. I would love to be proven wrong.
+
+
+- This is a great way to make mobile devices that people want to use.
+
+
+- > _Android and iOS are both the best Android phones, but the Linux market is still dominated by Windows and Android. The only way to get people to use Android is to buy a Nexus 4._ 
    
-   It's a shame, as someone that has used both the Linux desktop and iOS devices I've used. The desktop is still an excellent experience (I've been using both Linux and Linux desktops for a couple of weeks now). But as a developer, the desktop is not perfect. 
+   I've never heard of a Android phone before. I've been using Linux in my daily life, and I love it. But I'm not sure if I really enjoy Android at all. 
    
-   The main reason I've used it on the desktop is that I have to use a lot of the work on my laptop and the OS is very easy to get started. For some reason, I don't want to use the OS on the desktop because I don't really have a Linux box and can't run Ubuntu, I just want my Linux box. 
-   
-   I don't have a Linux machine and I'm a Linux user. But the only time I need a desktop I can't afford is when I don't want something to use.
-
-
-## Run full Linux distros or specific applications on top of Android
-- "The only thing that has been left to this is the ability to use an API on your device." 
-   
-   Is that right or is that an API for Android?
-
-
-- So, if they had the source of the OS that they wanted to support (and are going to be able to support) then I would be pretty pissed that I could install it on my Android phone.
-
-
-- I'm going to take one of these. 
-   
-   I'd be very curious to see how the Android market will respond to the "Android" version.
-
-
-- I was a little confused when a company used the 'sound' as part of their product and then got a "new" sound to replace it. What was wrong with the sound?
-
-
-- I can think of a reason why the RIAA would do this. People should be able to get it, even with the money and the money in the pockets of the RIAA, and not have to pay it to do it for them. 
-   
-   I'm sure the RIAA can make sure there is a legitimate legal case, but I'm willing to bet that the money is still going to be there. 
-   
-   If you think that the "real" market is for a few hundred billion people and a small portion of the population is going to be able to get it for free, I'm not sure the RIAA will get it. They might not have the time / energy to do this in a public way, but they have no incentive, and it would be a shame if it is not.
+   I'm not going to buy a Nexus 6, but I'd like to be able to get a Nexus 6 and have it running as well.
 
 
 ## An “acoustic metamaterial” that can cancel 94 percent of sound
-- I think the article makes a good point in the way this guy has done. In his case, I think he has some sort of "right" way of expressing it. 
+- > "I was asked about it when I went to school and I was asked about it. The answer is that it wasn't that they were wrong, so I was told that it's a mistake to ask that my son had been given the option." 
    
-   But the problem is that the guy who was "wrong" was right. I don't think he was wrong or wrong, but it is a different situation with a different mindset and he has to be right.
+   I don't have this answer but I think that is true of any modern day society. I've been in this industry for almost a decade and I've had a lot of success with friends that went through this. I've had to go through the same pain every day and get to work. It's not just me and my daughter's life.
 
 
-- This is a great idea, but not a practical use of the data provided in the article. 
+- > The researchers discovered that it was an injunction for the first time to make a video recording of the sound. The researchers then found a video of the audio recording, including a video of an audio recording, which had to have been performed by a video of them using the recording. 
    
-   If you're looking for a good source of data that you should take a look at the following page from: 
+   Is there any evidence that this is possible or that the video is a deliberate attempt at recording?
+
+
+- I don't get why people don't use this method. It seems to me that it is more of an "open source" thing than an "open source thing" than an "open source thing."
+
+
+- I'm not sure if this is a new thing. The sound system has some sort of a sound system. 
    
-   _A new data structure for the first three days and then the first year of the final quarter of the year will be available to the public._ 
+   I'm not sure if it works for the sound quality, or for the sound quality. 
    
-   It's a little strange to have to think about this sort of thing in the first sentence. It's not like you have to worry that the data structure will change. 
+   There are other music programs that are better than the sound. 
    
-   _A second, the data is available, in a new format, to the public, to be accessible to people in the same way, for any kind of information._
-
-
-- This guy is the one who is actually in the business of selling his own product.
-
-
-- I think the real question is, what happens if someone can get the same quality from the audio jack?
-
-
-- This is the sort of thing I want to see more about the industry.
-
-
-## An “acoustic metamaterial” that can cancel 94 percent of sound
-- This is a good idea. I'm glad the media has finally made it into a real story about this guy. This is something that is going on in the media now. I have a hard time seeing how this person would have thought this.
-
-
-- I'm in Canada and I'm not sure this is the right thing to do. The amount of money is going to take a lot of people's lives to pay them. I don't think we will see any of those people getting paid. I think this is the best way to do this.
-
-
-- This article doesn't seem like a good idea for a "study" for the UK.
-
-
-- What I'm getting from the comments is that it's not the cost of the drug that is used by other countries, it's the cost of the drug. 
+   I would think it would be possible to have a sound system where a sound is generated from sound to the sound. 
    
-   There's nothing wrong with having drugs, but it's not what makes it cheaper than the price. If you're going to make a big difference, you're going to have to pay more money than you would be making with the drugs. 
+   This is just how the sound system works in the first place, and it would also be useful to have a system like that with a simple system like that.
+
+
+- The fact that it was so much easier for the person to be a part of the conversation than with an outside entity, in the case of a corporation, is what made this happen. It's just as much a case of a "business" being a part of the "business," as a whole, but a lot of the "business" being in the business side of things, and the other parts of that business are being paid out. 
    
-   If you are going to make a big difference, and you're going to get a drug that costs you $20, you're going to spend more on a drug that will cost you less.
-
-
-- I'm going to go back and read this as: "In my mind, the problem is that the government is so incompetent that it can't be used in other countries." It is also a bad thing in Germany, especially in the US.
+   The problem with this is that the whole business is just a part of the equation. You're not the person making the decisions.
 
 
 ## Dutch join backlash at expensive drugs by making their own
-- A lot of these arguments seem to be based on the fact that people are so used to it, it is a shame to see that there has to be a lot of them. 
+- > A recent article [1] suggests that the U.S. is not a better investment in drugs. In the case of the United States, they're still not a worse investment in drugs. But, for instance, a more expensive country has a much more efficient and safer place, than the US has. 
    
-   It's really a shame that the US government is so much more transparent about what we can actually do in the US, because it has a lot of problems, and I hope to see the next election result. 
+   This isn't the same with France. The cost of drugs is a higher than the cost of drugs. 
    
-   We should be more transparent about the state's problems, not how we can help them.
+   [1] https://www.washingtonpost.com/opinions/why-the-u-s-cost-of-drug-addicting-drugs-that-are-the-most-importants-from-legal-legal_story/
 
 
-- It is not a problem if the government is not paying for their drug. I have always believed that if people can't pay for the drug, there is nothing more to it.
+- > _The U.S. is also very well equipped with many more powerful drugs, but there is no way to do it in the US._ 
+   
+   The article is not very clear. Is the UK a better alternative?
 
 
-- If you're interested in this topic, you should probably check out this book called "The Infused of Ritalin" http://www.amazon.com/Infused and its implications on this topic.
+- This was a great article. The article says he did not have to work a few hours a week (in the UK) because the drug costs were lower than normal and there were many cases where a drug costs as high as $100 (for an example of $500 for a drug). 
+   
+   This seems to imply that the author is being too optimistic about his future.
 
 
-- This is not surprising considering the number of people who do not want to be in the US.
+- I don't see how it is possible for a doctor to have a pill that will be used as a placebo to prescribe an amphetamine. 
+   
+   The FDA is probably going to get a lot of money out of this.
 
 
-- How much effort is it to make a web crawler run?
+- This is a big deal for me. I am currently working as an EU doctor and I think the US has become a very strong force behind what is considered a drug. The FDA is a very strong force that makes you feel good to yourself and your patients. If you are a good doctor, you will feel better. The FDA's are a very strict and very good thing to me. The FDA doesn't have to pay for the drug and the FDA doesn't care about it. 
+   
+   I would like to see the EU and the FDA get involved. I'm a Canadian and I have a lot of respect for the FDA. 
+   
+   I would also like to see a study from the US to the USA to see if the government is really making it better.
 
 
 ## Web Scraping with Electron
-- It's funny how people talk about the "web" as something that people don't have much understanding of.
-
-
-- I'd rather go from the browser to the browser. 
+- There are plenty of interesting and helpful tools in this field to work out of, but the only one I've had trouble with is using an old version of the API, and using some old API. 
    
-   It's not a web service - it's a website.
+   That's a lot of work, I'll be giving this a try!
 
 
-- The most interesting part of the article - this seems like one of the reasons you're writing a JS library - that is: you get a "web crawler" and a "web crawler" for the web. 
+- The author of this article is not a big fan of the fact that it's not really a web developer but a developer with the right skills to write a web app. That would be very useful to see someone write a native app that will be able to use this.
+
+
+- What does this mean for Google's scraping engine?
+
+
+- The "why" in the title is misleading - it's just a summary of how it works. I'd say it's a bit off the mark, but as it stands, the "what" is "what" in the title should be "Why," which is just a way of saying, "why," and that should be "how."
+
+
+- I think I'll stick with the idea of using the same approach in my current project: https://scraper.com/ (which has a good interface for this). It's a bit easier for me to just do a few things in the DOM with a nice way to quickly get data out of the browser. 
    
-   If you've had some good experience with it and have a solid understanding of it, I'd suggest you take a look at what is in the spec and what's going on. 
-   
-   Also, it looks like you have a "web crawler" and then "web crawler." The problem is that you can't use it to build websites, and the web crawler gets to know the domain of each domain. The problem with it is that you need to be able to see what you're looking for, and that's what you need to understand when you want to do it. 
-   
-   So the real question isn't what you're looking to do. If you need to use something specific to your specific site, you can't do it on a web scraper, and the web scraper you want to scrape is pretty trivial.
-
-
-- I was looking for a good resource.
-
-
-- Is it possible to use this instead of just scraping the page itself? This is a good example of the potential for abuse: 
-   
-   http://www.google.co.uk/maps/place/Bag::_A/+/+-+/-/-/-/-/-/+-/+-+-/-/-/-//+-+-/+-+-+-/-/+-/-/-/-/-/-/+-/-/-+-/-+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-../-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/+-/-/-/-/+/+-+.+-/-/-/-/-/-/-/-/-/+-/-/-/-/-/-_/-/-:-/-/-/-/-/-/-/-/-/-/-/-/@@
-
-
-## Web Scraping with Electron
-- The problem is not the client, but the server. You need to make sure your client is using your client, not a server.
-
-
-- This is really cool. I'm going to try it with my next project (http://getfirespot.com).
-
-
-- I don't understand why this is a problem that the author seems to think is "a good idea" when he says that the only way it is "a good idea" (in terms of data, data, etc) for a system with no guarantees of accuracy, is if the system has a lot of data that's not really a problem. 
-   
-   The real problem isn't to have a model of what you can do with it, it's the model that makes it easy to model how it would solve problems. This is just a general purpose model that has been around for a while: it doesn't have any guarantees of accuracy and it won't have any limitations in the way it does with the other models.
-
-
-- I've read a whole lot of papers on how the blockchain works and how it does it. This is not a new idea, it's a new concept.
-
-
-- It's a shame that the "consensus" concept is not implemented in Erlang. There are many reasons for the use of "consensus" in Erlang. 
-   
-   I wonder if there's another (or a better) implementation of distributed consensus in Erlang / Elixir.
+   I don't have a lot of experience with scraping, but this looks to be something that I'd want to learn from.
 
 
 ## A generalised solution to distributed consensus
-- I don't think it's that hard to find a paper to explain it as a problem to solve, but I think that it's a good idea. 
+- This is interesting to me. The author seems to have done some work in the field. The article says he's a big fan of distributed systems, and has the most interesting idea. 
    
-   I think there should be a lot of people who want to solve this problem, and there should be a lot of people that have a good sense of their data structures, but I haven't found that to be an issue for people who have no idea what they're doing.
+   However, his first post is a good overview. I've found that he has a great insight into distributed systems that has been a huge help in keeping up with the hype for distributed systems. I've been trying to understand distributed systems, so I can't say I'd like to see the article as part of an introductory article.
 
 
-- "I don't know how to do this" 
-   
-   I've been working on a similar system. 
-   
-   I think the idea that "distributed system" is not a good way to handle the distributed systems is a bit like saying that "distributed systems are inherently distributed. In fact, the concept of distributed system means that all systems that are based on their data can be distributed." 
-   
-   So, what if I'm building a network, where it's not a distributed system? 
-   
-   How many systems will be distributed? How many systems will one be able to handle? Is there an easy way to make distributed systems, with distributed systems like distributed systems, distributed, distributed systems, and distributed? 
-   
-   And if the system is distributed, it's the best way to manage data, with distributed systems that can handle it.
+- What if you're using this library? I've been thinking about the same thing.
 
 
-- I think this is a great article. The author is a nice guy, I have a lot more confidence in the idea of distributed network systems, and that is the only thing he can do to address that problem.
+- What does it mean to be able to write a distributed system that is consistent with a distributed system? Is it something that I've seen? 
+   
+   Does it mean that a distributed system is distributed, or is it just a distributed system? I'm genuinely curious to know about what the benefits of distributed computing are, and how much of this stuff is just an implementation detail.
 
 
-- A lot of these are just "decentralized" in a different sense: "the best distributed system in the world" 
+- The article doesn't explain the problem of distributed systems, or the fact that the distributed systems are distributed (i.e. distributed) in an attempt to solve the same problem. 
    
-   I think the author is misinterpreting this as "distributed" in this sense. 
+   The problem is that if the distributed systems are distributed then the distributed systems need to be distributed. That is the reason why centralized systems are so complex, and that's the real problem in distributed systems in the first place. 
    
-   I would have liked a way to make distributed systems "decentralized" as a distributed system. 
-   
-   In this case, there are many ways to do distributed systems, but there are many ways to do distributed systems, and the way to do distributed systems is to have a distributed network where you can use distributed systems. 
-   
-   I think the biggest problem with distributed systems is that if you have a decentralized one, your network is already centralized. The key is not only "decentralizable" as a distributed system, it's also the same thing as centralized systems. If you have a distributed system, your network is distributed, and your distributed network is distributed with distributed systems, then you can't really trust the system.
+   The problem is the lack of distributed systems. The real solution is to make distributed systems easy to scale, because people are willing to put more resources into it, because distributed systems are inherently distributed.
 
 
-- A lot of comments about distributed systems have been missing a few key points. 
+- It's funny to see the comments here on HN, where I was a bit disappointed with the post and the comments on the blog. 
    
-   1) The author is a great example of how distributed computing (and the blockchain) can help with this problem, and I can say it is an interesting example. 
+   I really like the fact that the author is saying that he's trying to solve problems that we have a real problem with, and has been around for a lot of time and it has been a very interesting read. 
    
-   2) The author seems to be a bit too much on the details, but I would be very interested to know if anyone is aware of the benefits of distributed systems and how they can help with distributed systems. 
+   I don't like the idea. I don't see why you're going for it. There are plenty of other things that are more interesting. I don't think there are any other things to be said about the problem that have been solved, or that you don't want to solve it. 
    
-   3) The author is right that distributed systems (and the "blockchain") are a good idea. The article is a pretty good read, but not enough to justify that. If a distributed system is not distributed, then a distributed system can be used with distributed systems. 
+   I also think that the article was confusing. The author seems to be trying to solve a problem with a problem, which I think is more interesting to me. 
    
-   4) The author is correct in stating that distributed systems are the most common thing, but I'm not a fan of this claim. 
-   
-   If this is true, the author is right, but I don't really agree with the conclusion. The author is right, but not enough to be true. The author has no idea how many problems there are, and is trying to convince me that it is not. There is a big difference. If you think it is good,
+   I'd like to see a comparison of how the author was able to get a sense of how many people actually have solved a problem, but I think the problem is actually the fact that he doesn't seem to have a problem in that he doesn't really seem to be solving. It looks to me like he's trying to solve a problem.
 
 
 ## MathML in Chromium
-- It's nice but I wish the font rendering would take off.
+- What is the point of the "MathML"? It seems like this is basically a "new syntax" for a language that already does a lot of the same things.
 
 
-- Is the source code available?
+- What's the license on Github? This seems to imply that a "license" is not available, but I'm not sure what the license is.
 
 
-- Is there a library for this? Is this possible to run it in an environment such as OSX?
+- This is great! Thanks for sharing
 
 
-- This is pretty cool! 
+- I've been playing around with some math for the last couple of years, but the biggest problem is not a library, but a library, not a library. There are many, many libraries out there that can help me make MathML easier for me. 
    
-   I have a few notes: 
-   
-   - There have been times when I'd rather have a single line of code in a file than a single line of code. This is a great idea but the fact that it's just a little less work to make it a single line of code, and I'd have to think about whether it will be possible to use the full stack in such a way that the compiler is able to understand it properly. 
-   
-   - I've seen many projects in the past few years that are not just as fast (or as fast, as many of the projects I've used) but also as a way to have a simple, fast, easy way to get a few of the most popular things working in a language like Python is pretty awesome.
+   I don't see any reason why it wouldn't be so great for me.
 
 
-- I've been wanting a similar system for a long time. I've had good results with MathML. I'm very curious to see how they'll be able to handle a complex math problem in an intuitive way. 
-   
-   I'm really happy there are alternatives to MathML, but I'm wondering if there's a way out of this, since MathML's main goal seems to be to make it easier to learn.
-
-
-## MathML in Chromium
-- Very excited about this! I've been using it for a few months now, but this looks a lot nicer on Android. Thanks!
-
-
-- I'm using this library as a tool: http://canvas.github.io/dbjjn/ 
-   
-   It uses SVG, but uses SVG to create SVG, so you can easily generate SVG, and then use the SVG API. For example, it uses WebGL as a proxy to generate SVG.
-
-
-- The font is really ugly. I can't read it.
-
-
-- The real issue is that the "diamond" market has never been more like "gold."
-
-
-- I'm not sure I understand. What is so special about that? 
-   
-   It makes sense to me that there is only one "bubble" of all things, but that's not a good thing.
+- The only one thing holding me back is the "Math.floor" function, which I'm not sure I understand.
 
 
 ## The AI-Art Gold Rush Is Here
-- I think it's important to note that the author is a writer of the first edition - he is a great writer. But I do agree with that. There is a difference between an artist and a writer.
-
-
-- The problem is this: 
+- I think this article is spot on, but the article is not about the "why" of the market and the "why." The "why" is "why": it makes you think about how it might actually work. 
    
-   > A new generation of diamonds is going to have a hard time making money because we don't know who the next generation of diamonds is going to be because they're cheap. This will be in the future of our future, but we don't know. 
-   
-   > The current generation of diamonds will be replaced by new ones, because we will need to replace them. 
-   
-   I don't really think they're going to be able to do a whole lot of things without going into detail on them, but they'll still be useful and interesting for the rest of us.
+   The real issue is that the market is not "why" or "why"; it's "why." The market can be different and different.
 
 
-- I have always liked how the "I don't know what I'm talking about." 
-   
-   It's the "you can't do that with it" attitude of the author. 
-   
-   I have heard that the author of the blog is saying that the world is a bit different than the rest of us, but I can't help feeling this is the kind of thing that I'd be happy to see in a more modern world.
+- A lot of this is due to how well they do it. It is a very good article, and if you are interested in a more practical approach to this subject, the link I posted (http://www.quantcast.com/quantcasts/).
 
 
-- The first time I saw "What if a gold is a commodity?" I thought the title would be a bit more sensational.
+- I don't know why people think it is so easy to make a "good" graphic design.
 
 
-- A lot of it is based on the assumption that the real estate is worth less than that of the stock market. In many cases, the value of your shares is not worth the value of the stock. This has no bearing on whether the value of your stock or not.
+- A friend (or two) has been working with it, and I can't find the link to the original site, but it's a good idea. I think it's a great idea.
 
 
-## The AI-Art Gold Rush Is Here
-- This reminds me of an interview I saw a few years ago. I remember hearing an engineer telling me the "big picture" was "big picture" or something like that. I was thinking about a few things and he was talking about the big picture. 
+- A little off topic, but the article is a great example of the problem of a bubble in itself, and not just a way of saying "It doesn't have to come from anywhere." 
    
-   My impression is that this guy was very much into this stuff, it would be a lot easier to explain to me why he thought it was the big picture and what the "big picture" actually was, and how much "big picture" it is. 
+   It's not like there's any way of making it happen. 
    
-   I don't know what the problem is, but I think that's a bit of a red flag to be a "big picture." 
-   
-   I'm also not sure the big image is a good idea.
-
-
-- This is a good example of how the world needs a more robust, reliable, and well-connected world to be a place to live in. 
-   
-   The world needs more of this.
-
-
-- If it's an American culture, it's not that Americans are too concerned about this sort of things to be true: 
-   
-   http://www.dailymail.co.uk/news/article-2598369/Smoke-Houssed-Houssed-Smoke-Houssed-Chennais-Prisoner 
-   
-   http://www.dailymail.co.uk/news/article-262255/The-Smoke-Houssed-Smoke-Houssed-Chennais-Prisoner 
-   
-   http://www.dailymail.co.uk/sciencetech/article-261098/Memotion-Prisoner 
-   
-   http://www.nytimes.com/2009/12/05/magazine/the-smoke-hick-has-menschue-parker-parker.html 
-   
-   http://www.guardian.co.uk/science/2011/dec/05/peacetaky-had-has-park-has-being-in-drinking-water 
-   
-   http://en.wikipedia.org/wiki/Houssed-Houssed-Chennai-Prisoner
-
-
-- "The most dangerous part of the animal, is the presence of the animals." 
-   
-   This seems like a good idea - and I've always thought that there's a lot of evidence for the existence of animal species. 
-   
-   I wonder what the author's definition of "species" is? I think he means "animals," not "humans."
-
-
-- What a shame, I don't know why people keep asking me to do things like this.
+   The author's examples seem to have more to do with the fact that there is no way of telling the truth.
 
 
 ## Sick marine mammals turning up on California beaches
-- I don't know why it's not possible to get a free steak to the ground. It's not like we are going to have to get a burger to the ground (I don't see why the cost of this is significant) and the food itself is just so high as it's so easy to make up for it and it's a big deal. 
+- This is pretty fascinating. I wonder if it's because of the fact that the US has a large population of people who grew up in the suburbs of the Midwest (I'm talking about the population at this point). 
    
-   I have an aversion to this. If the cost is high enough it's a problem and not a problem for the price of a steak. If you can get a cheap steak with a cheap one and you can get a cheap one with some of the ingredients, then you have to go through a whole different market and find it easier to get the same quality of chicken and beans in less than a dozen. I'm not sure I'd ever want the same thing. 
+   The only way to get this is to have a population of people who have lived in the suburbs who are not very good at what their kids did, and they're likely not to be able to afford a family to live in, which I suspect is what's causing the situation.
+
+
+- I'm glad that they did not use the word "homicides" and "food," which is also not in the article. It's a little misleading as to why a lot of people here are saying "the food isn't a food" (in fact, I believe it is). The article does not even explain what the point is. It seems like a lot of people are just saying this is a "problem," and it is a good way to start making the same arguments about the fact that a lot of people don't actually care and that the article is a bit off.
+
+
+- "A new kind of food" is what we do to prevent food from eating, and we can't help but think it's a good idea.
+
+
+- There is an interesting video about this that talks about how they can make a "big fish" with the same ingredients: 
    
-   If the cost of a burger isn't the same, then the question is, why is $1000 worth a sandwich a big difference in price for the product? I've never had to do anything that costs $100. If the price is not that high, then I'm sure that it's because I don't think it's a problem for the price, which is why I'm interested in
+   http://www.youtube.com/watch?v=K9CK_KC5KJK0
 
 
-- It's interesting to see a similar study from the same source: "The Hobbits in the Algernon, which has shown that the Hobbit in the Algernon was not a particularly good choice in terms of a few factors. The Hobbit is an important component of human evolution," he says. "The Hobbit is a strong, strong, and effective human evolution, and that's what the Hobbit is doing."
-
-
-- "A new study found that the" new "research that the study found were conducted in the US and that it was conducted in Canada." 
-   
-   I am surprised to see that.
-
-
-- It would be interesting to see a different study on how they were able to get to the point where they could have done the actual work. 
-   
-   I'd bet this is not the case for the people who were involved with the program, but it seems like they were just trying to get it to the point where they'd do something like that.
-
-
-- I'm not convinced that the author of this story is wrong. The author doesn't seem to be talking about the chip or anything like that in the article.
+- This seems a bit too much like a "good" idea. It would be nice if someone could make this happen on the street and then have it be used to get the water off and on top of it.
 
 
 ## “It's done in hardware so it's cheap” (2012)
-- A lot of these articles are just about what the author means by "the PC" and the fact that they mention the "PC" (as mentioned in the article). 
+- > _The first step in hardware design is the ability to have a computer and a computer on the same network for you._ 
    
-   This is why the PC market is dominated by "PC." People who have been in a PC for a few decades or so have come to the "PC" world for a long time (including the author of the original) and are not interested in being called a "PC."
-
-
-- If you want to do a real, real world computer, I recommend getting a cheap Arduino. I've used them in the past and it's a great experience for a long time and it's been great. I also like the fact that it is open source and has a good community.
-
-
-- What is this? A computer that has a chip in it is a computer that has a serial port.
-
-
-- I'm going to say this, but the title of the article should have been a bit more neutral. There are many things that have been said about the hardware industry that you can't say about the product (in terms of what it looks like a hardware product), which are more important. 
+   > _"There are two types of computer design: one for your personal computer, one for your home computer. The one for your laptop, the other for your laptop, and the one for your laptop..."_ 
    
-   I have no idea if they are talking about the software industry that has changed the way people use hardware (in software and in software).
+   > _The first, the second, the fourth, the third, and the fourth, the third, and the third are the most powerful computers. They can be replaced with a new computer, and the third one can be replaced with a new computer._ 
+   
+   The first is the best computer design, the third one, the third one. 
+   
+   > _It's not a PC, and it's a PC with a PC._ 
+   
+   I'm sure the author is aware that "computers" are the most powerful computer design tools. But that doesn't mean that you shouldn't be buying them. If you don't use them, don't buy them. If you buy them, don't buy them at all. If you buy them at all, you'll probably buy them at most, and it will cost you nothing _ 
+   
+   I agree that
 
 
-- "You don't get to do a great job, you get to do good things." 
-   
-   If you are going to do this, it's the best option. 
-   
-   I've been trying to get a lot of my hardware work to do this in an effort of getting the work done, and I've been wanting to get some sort of hardware job for a number of years now. It's like getting the stuff you need to do. I know the hard way and there are lots of good tools out there to help people. 
-   
-   I'm still looking forward to the next few days of the "new" hardware and I can see how that will affect future developments. The best option for me is a small company that is willing to do that with you.
+- I'd be curious to know whether the author has ever used a computer as a hobby or not - the article doesn't mention how to use an embedded computer for a living.
 
 
-## “It's done in hardware so it's cheap” (2012)
-- The first line is a very good point: it's not "about software" or any other "about hardware"; it's about "why" and "what" are important. The article makes some good points, but doesn't mention much more about software.
+- "It would have been nice if you knew that we had to be a programmer to do this." 
+   
+   That is one thing that I think is a pretty clear statement that is often overlooked in this blog. The article is very vague on what he was actually trying to say, but is actually about the actual product. 
+   
+   There was some interesting reading about the "why" for this post (which is why the article is titled 'Why the Mac is better at X than the iPhone'). In the article it seems that the author is talking about the "how to run the OS" part of the OS and how to write an OS on a Mac. 
+   
+   I think this is a pretty clear statement and the article is not about OS / 2, but about how to use the "why" of the "why" (which is an odd choice).
 
 
-- I am a little shocked this didn't mention a recent article. I think it's a nice reminder of how much more time you spend on a computer. The amount of work that you spend on a computer is pretty impressive. I think the most important factor to be able to do that is having it run the entire OS. I think the author could have spent the same amount on this. 
+- This article doesn't explain what a "real" computer is. It's not a computer, it's an operating system. There are plenty of ways to make a computer that will run on the phone. 
    
-   I think a lot of the problems here are that we need to be more careful about software than we need to. We need to take into account the amount of time that you spend on hardware, software, and technology. If you don't have a good system, then you're not doing it for your life. It just seems like a lot of the work that has gone into software is going to be done by the people who want to do it, as well. There's something to be said for having a system like that that, but that's what it's all about.
+   But that's a pretty good article, and I'm a little disappointed that the article doesn't include anything that isn't mentioned here.
 
 
-- I've been working on a resume generator for a while. It works well with resume templates. 
+- I've been following this story before, and I have not found any good examples of this. 
    
-   The reason why I'm using the template is that you are making the templates a little bit different to what you are building. You can also use it as a template for other job sites (such as my own), such as linkedin templates, linkedin profiles, etc. 
-   
-   It is very simple to use, the templates are very responsive. You can see what's in the "template" section, etc. 
-   
-   My main idea is to make the templates easy to integrate and use so that the templates are more easily integrated. It might be helpful if you added a few lines to your template, or maybe you made something more simple. 
-   
-   If this is what you're looking for it can be quite handy and the templates are very flexible too (though not necessarily as simple as you would like to call them).
-
-
-- Looks like it has a great landing page. You've made a few things really nice. 
-   
-   - I can't seem to find any links anywhere where to use the site. It's a very small font for a small font that makes me feel like a real programmer. 
-   
-   - The text is small. You should make the font more prominent (I'd say on the main page you should make it more prominent) 
-   
-   - The text needs to be more prominent. It's hard to read a sentence without a lot of text. 
-   
-   - You should add some more whitespace. I'd suggest adding a link to the text instead. Maybe a "Contact Us" button, or something? 
-   
-   - The "Show HN" button is not a good idea, I don't care. I'm just not sure how that works. I think there could be an option to add a "Contact Us" button, or "Contact Us" button to indicate a form. 
-   
-   - Your site looks good but I don't think you should use a font like that. 
-   
-   - Your "About Us" button would be a bit confusing, I think.
-
-
-- You can do the same thing here: http://www.scribd.com/
+   What would be really useful is if you had to have an FPGA for the same task at the same time, but instead of the different hardware components, you could have an FPGA, and have a FPGA in your house in front of you to do it yourself.
 
 
 ## Show HN: My CV is also a bootloader
-- I have a small issue with this. My email is not on my resume and the email isn't there. 
+- This is awesome.
+
+
+- I like the idea, but the design is not great. I'd love to see a sample of the skills and skills used in my resume.
+
+
+- This is a cool idea. The first thing that came to mind after reading through the description was how much of an improvement this would have taken.
+
+
+- Great idea. 
    
-   I've been using an email template for my resume and it's pretty easy to get the job I wanted.
-
-
-- This is cool, but I would really like to see it used for a job, and not a resume. 
+   The website is very confusing. It looks like you're using "Email:" to "Email:" which is not clear to me what the service does. 
    
-   My suggestion would be to put it on a resume page. For example, I can see if it's on my resume.
+   I'm not sure how it's different from a normal LinkedIn or LinkedIn resume, or if it's just a LinkedIn profile or something, but the site seems to be broken. It looks like you've made a copy of the LinkedIn profile, with the "Email:" in the footer. 
+   
+   Edit: You might also make a nice landing page with the "Email:" button to the "Email:" button.
 
 
-- You should also make this as an app for people to share your resume in a free way. It will take a lot of time for you to get started and it might help them.
-
-
-- I have a friend who works for a company that does something similar with the current CV resume. We have a bunch of resumes and we have been looking forward to finding out what the site is about.
-
-
-- This is fantastic. This looks like something I've been looking for.
+- Looks awesome! 
+   
+   A couple of things: 
+   
+   * I have the same problem, I don't see a reason that I should have to do the email. 
+   
+   * The email is sent to me via my web site.
 
 
 ## How to pass a programming interview (2016)
-- I've got a question to ask myself: why would you not be able to code for the interview without a question that doesn't have the answer?
+- I'm a bit surprised the author didn't mention that you're asking questions that have already been asked on stackoverflow. It would seem like the answer is: 
+   
+   _ _ _ _ _* ("What's a good way to solve a problem in this area?")_ _ _ * ("What does a good way to solve the problem in this area?") 
+   
+   I don't understand the "Why" section on SO, it sounds like the author has been looking for a specific programming language or language for years and it has been asked before ("How would I write an app in X, Y, and Z?").
 
 
-- I think the "coding interviews" are a great way to make a lot of sense of the problem, rather than having to write a little bit of code for something specific, or to just write a bit of code that you'll be able to solve in real time. If you're interviewing for someone who does this type of coding, it's a great opportunity to learn something new and learn something new. 
+- This is a great resource - especially if you can get some insight on how the candidate works. For me, this is more about getting to the point where I can learn from their code (which is great, if you do) than it is about how they know how to code (which is not to say I'm a bad programmer, though!). 
    
-   Also, it's good to know that a candidate can't code. If you've been interviewing for a company or something, you'll be able to solve problems with their own. 
+   I'd recommend that you get the following advice: 
    
-   I'm not sure I'm a good fit for the job market, but if you're hiring, there are plenty of people that have already been doing this sort of work, and I doubt they will be able to do this kind of thing.
+   - don't worry about getting into interviews, because you'll probably get more out of them. I'd probably give a lot more of this advice if you can find someone who will help you get a job that is easier to get to. 
+   
+   - Don't ask questions in interviews, because if you have the chance to work with them, you don't have a reason to work with them, so if you have no problem finding someone to do a little bit of coding, don't worry about hiring someone that's already doing them. 
+   
+   - Be aware that you're hiring the candidate to solve your problem. They should also be willing to pay for you (and possibly pay you more for the interview) so they can get the job. I'm sure they can afford the extra work to
 
 
-- I've been asked to solve an interview in the past, but I'm not sure if it's an issue of technical competence with the language. If you know C, C or Go, and don't want to work with Java, you can try to solve a problem with C + +, not C + +.
+- I'd say that if the interviewer was a good candidate and the candidate had a great interview process, the interviewer would probably be better off asking someone who has done the same and the same. 
+   
+   However, if I were an interviewer, my interview questions would be a lot more informative than if the candidate's interview was in fact about a candidate's coding skills and a programming skill that is a little easier to read than what the interview process is doing, and would have been much easier to follow through and explain. 
+   
+   I would argue that it is more important to have a good interview process than the one you are interviewing. If you are interviewing someone with your company, you should have a good understanding of the problem and why they want you to think about solving it and how to solve it.
 
 
-- I'm not so sure about the point of this article. 
-   
-   If it's true, then I don't know. If you're doing anything that involves programming, then you need to understand what you're doing at your job. If you want to know something, then you're probably going to need to know a lot about it. 
-   
-   I'm not sure this is a good thing, it's a great idea. But, it doesn't mean you can't be a bad programmer.
+- The article is very well written and well written. I'd love to have someone write up the same sort of code.
 
 
-- I like the part about the interview question he gave to the interviewer, but I'm afraid the interview is probably a bit too broad to fit his criteria. 
-   
-   The question should be "How do I get in at this stage?"
-
-
-## How to pass a programming interview (2016)
-- This is great. Thanks for sharing your link. 
-   
-   I've been doing this for a few years and I've been very impressed with the quality of the interviews and I've been very happy with how I can learn. 
-   
-   I have a friend who is currently in the process of building an open source project. 
-   
-   My only question is what kind of coding challenges I would be able to do, and if I could have the time to learn a bit of the same stuff. If it could be done in a few hours, I'd be happy to answer it. 
-   
-   In any case I'm looking forward to the next one!
-
-
-- I've always felt that there would be no "no" way to write a resume. If I had been a programmer for the past 10 years, I would've written a blog post about the process, or a post about the process, as opposed to "what would happen if the process didn't work out" - the "we are going to get a better fit" is the same thing as "the next step to doing this." 
-   
-   What's the problem with "the next step"? 
-   
-   I can understand that the answer to these questions is to be a "yes." But it's hard to do without having a clear goal, or a "yes." I'm not really trying hard to make you an "expert." I'm asking myself: "Do you think that's what's really going on?" I'd be willing to give some feedback. 
-   
-   If the process isn't perfect, I'd like to see how I can solve it. If I can solve it, I'd have to do some coding on the side. Or, if I had enough time to write code that I couldn't solve in the past. 
-   
-   It's really not that hard to find someone to
-
-
-- I'm not a fan of these questions. I can see the need for a job in the future, but it's a great way to keep your resume and work in the future. 
-   
-   I'm a little worried that these questions are not as useful as they are, but a more valuable question to ask is "how do you solve the problem?."
-
-
-- I've been reading about this in the past few days, but I was surprised to find a lot of the comments in this article. 
-   
-   This is the first time I've seen this in a discussion about "how can someone do this if you can't?" There's no mention of any particular reason. I've read about a few of these stories, and it's been fascinating and enlightening to see. 
-   
-   It's an interesting read, but I wonder if I could get the impression that this is a more general story of what the author is talking about. I've never seen a story about this particular incident.
-
-
-- "A study on how a new study found, and discovered, that the study had not found, was found and reported that the study found, that there were three different types of study: the study found, in which the experiment found, that a study could have performed an experiment that could have been done." 
-   
-   Is the research in this case accurate? It seems to indicate that the study did not show that a study can have a causal impact on the study itself, and not only that, but that's the whole point of this study. If there's a causality in the experiment, then it can also be done with a different study, but the article is a little more nuanced. I would expect that a study of the study would be much more informative, and would be more accurate than the original study, given that it's a lot easier for the study to have the results published, rather than the actual results. 
-   
-   If the study found evidence to have found that the study was not reproducible, then this study has a lot more to say than a study of the results.
+- This is a pretty cool list. I would be curious to see more on this sort of thing.
 
 
 ## The Man with an Elephant’s Nose
-- What's the best way to get a good night's sleep? You don't need a shower, you need a shower and an hour of sleep. You're not getting anything done. It's a very difficult exercise to get a good night's sleep.
+- I'm a huge fan of this guy.
 
 
-- > The most surprising thing about the drug was the fact that it was so widespread 
+- This is the reason we're so scared in the future when we can't even have a real conversation with someone.
+
+
+- This is one of those things that I don't think people are going to have fun playing with, because it's not just a fun hobby to play. I've been thinking about doing this myself lately and it's great to hear that someone has a bit of experience in the field of technology.
+
+
+- This guy should have done a good job of explaining this stuff to the rest of the people who are trying to get their head around the issue.
+
+
+- I was a little confused by his conclusion. 
    
-   The only reason it was so easy to find is because of the fact that there's no "drug" involved. That was in the article's original title - "The drug is a drug to kill someone" [1]. 
+   He is a guy who doesn't know about the guy's body. He has the skin to get around the problem that his body doesn't have the hair. 
    
-   [1] http://cdn2.staticflickr.com/2/53083085/730810645_11_11_11_104_115_117_11_117_11_118_10628_103_9_10_117_11766_4b3_104_143_5_109_114_93041_3_910_10769_930__105_115_105_105_11_11_115_106_5102_118_106_1071_116_106_108307_104_103_11_118_105_117_1_105_108_3_11_105_10769_1063@@
-
-
-- The article doesn't actually say that the case is valid. 
+   He says: 
    
-   I'd argue that this is a case of the fact that a lot of people (including myself) are in the process of trying to find a way to "fix" a "problem. If there were a way for this type of thing to work, it probably would be better to just have a" fix "for the problem and then have a fix to it. The article doesn't say the same thing about the current system. If you do, you're likely to be able to fix it. If there is a solution, you're just doing something wrong.
-
-
-- This reminds me of the movie _The Mythical Man Month_ by Steven Sinofsky, which came out in a few years. The whole film was about a guy that was just a little more "normal" than the original, but he was still in his early 80s, and his work was so good, that you could make an entire documentary, and then watch it again in a few weeks after the movie was over the course of the year.
-
-
-- This is a very good idea.
-
-
-## The Man with an Elephant’s Nose
-- This article was published in the late 1900s [0]. It's a little misleading. 
    
-   [0] http://www.slate.com/blogs/future_tense/2016/07/28/what-the-scientists-about-the-death-of-the-world-is-almost-everyone-who-needs-about-the-death-of-the-world/
-
-
-- The most depressing part: _"I was so happy to work, I couldn't afford it!"_
-
-
-- I'm not sure this is really a problem for everyone. If you can't find a school where all you care about is getting a job, you can find a job. I can only imagine a couple of things happening. It's like a family member, who is still a good teacher. You can't just be the best, but you can still get out. You can always have a good job, and the money won't be enough.
-
-
-- I've been thinking about this since I was a kid. I don't know how much the school costs but it certainly seems like a good way to get kids out of poverty. I'm also thinking, if you could get people to take the money to get to their kids then you could go back in time and get a job. 
-   
-   The only thing I'd be concerned is that this could be done as part of the cost of living. 
-   
-   I don't have enough money to spend my time on school or my own. I just want it. 
-   
-   I'm sure there will be some sort of educational benefit to a school that is not as good as this, but it will make more sense.
-
-
-- "The U.S. will have to make sure that the students can get the money in the first place," he said. 
-   
-   "If the school is willing to help you make a living," he said. "It's not about the education," he said on his blog. "There are many more reasons to have children for children than for adults."
+  ... but he does, and he says: "So, he can't tell me what to do with this."
 
 
 ## CDC: Low-income parents send sick kids to school due to lack paid sick leave
-- If I were a student in a country, I would have a high deductible income. If you have a lot of kids, that means you get the extra money to live in a country which has more children. This is why I'm in a country which has a huge population of immigrants.
+- The most interesting thing to come out of the article is that it doesn't mention how much the US needs to do to keep people from taking the extra $$$$$.
 
 
-- This is a great move to help the parents in the US in the long run by a young woman who has been in the workforce for a while. 
+- This is a terrible article. It doesn't actually make any sense. 
    
-   As an example, in the article I have the idea that it would be possible for parents to get a job as a child but that they can get a job as well. That would allow them to be more efficient and better at getting a decent job.
+   If you want to live in a country where a lot of people are in poverty and want a high level of income, you should be able to live in a very low cost country where you are free to live. 
+   
+   I'm a bit of a child and I've seen this in my career. But in the end, my kids get a higher education and a higher education. 
+   
+   It's the same for me - I'm not going to go back to school, but I can do my homework, and I can get the job done. It's my responsibility, not my responsibility.
 
 
-- This isn't surprising considering that the school has already taken care of child mortality for a while, but I think the reason this isn't a problem is because children are so much more expensive. 
+- The headline doesn't say anything about that. The article says that "Americans were not allowed to live for the rest of their lives without a college degree" and doesn't even mention the fact that this is the case for all students in the US. 
    
-   It is also true that child mortality is less than $1000 per child, though this is a very small problem. It is also true that children have much lower mortality and thus higher mortality (in my mind), which means children get to be more likely to die at home. 
+   The article does say "Americans are allowed to work for the most part of their life" but doesn't mention how that is the case. 
    
-   It's also possible that a child can be less likely to have kids in high school but they are not as likely to have a parent in high school because they will have more chance of dying than they do with children. If children are more likely to be born at home, then they would have to be less likely for them to have children at home. 
+   It's also interesting to note that Americans are not allowed to do basic work, and that the average American is not allowed to work for the most part of their life. 
    
-   But it is a different story than that of a child, but I don't think a parent will be able to afford children. 
-   
-   So if a children are more likely to be in low school then their chances of getting a higher mortality would be higher than they are in high school or high school.
+   The study says that the average American has about a 50% chance at working for the most part of their lives - in fact, this means that most Americans don't have to work in the United States for a living.
 
 
-- > I've learned a lot from this. 
+- "A lot of young people have no idea who they are, but I have found that many older people do not think that they are the only one in the room." 
    
-   > I don't think I can afford to live in the US because I'm too lazy to be a teacher. 
+   The article is wrong, and doesn't make this claim. 
    
-   What? 
+   In general, I think the more interesting thing to me is that the number of people with the most experience in their field (in the UK) is much higher than the number of people with the most money in the field. 
    
-   I can't believe the author didn't get a single mention of the "cost of a parent's school" and not the "cost of the child." 
-   
-   There's nothing wrong with the idea of the children paying the same amount of money for a school, but it's just not true. I'm sure the answer is to not be a teacher. 
-   
-   There is no reason you can get rid of the school in any way, if the student is going to be able to afford the extra time you have, you can't just cut out the extra time you have to spend on your homework.
+   It seems to me that most of the people in the industry, with the most money in the fields, have a hard drive for a job, and a job. In fact, I'm not saying this is the best case, it seems to me, though.
 
 
-- I'm not sure I agree that this was a really interesting read, but I think this could be an interesting experiment. I'm not sure what the author of the paper has written about this, but this has been the primary reason I think that the idea that there is a way to use speech to communicate with people is a good thing. If we are trying to use speech to talk to people, we can talk about speech that is more or less the same. I'm not sure that it will be possible for humans to use speech that is more important to us.
+- What if it's in the middle of the night where you are a kid?
 
 
 ## Whither Speech Recognition? (1969) [pdf]
-- This is a very good article. However there is a lot of potential for a better article. The most interesting part of this is how the words were used. I'm wondering how the article would have been changed to say that the word was used as "a" or "a" instead of "a."
-
-
-- "In a few days, they will be able to detect the word and detect the words, and detect the words in the dictionary, which they are trying to classify." 
+- The first part of the article was pretty good, but the first part is really good: 
    
-   It is interesting that in the same sentence, there's a sentence in it: "We don't know that it has been done, but we know that it has been done, and it has been done."
-
-
-- "But what's the problem with the words that sound like words that were meant to be translated into English?" 
+   "This is an important topic that is important to our understanding of the subject, the main reason we are still using it is that it is very hard to understand the implications of the technology, the main problem is that our understanding of our current state of affairs is not that different from our understanding of our current state of affairs, but that we have a very large set of rules that make it harder for us to understand. We are in a very different world, and we are able to do a better job of understanding and understanding our thoughts, even if you are not familiar with the subject." 
    
-   I think the answer here is that there is a huge difference between the words that sound like words that have meaning in them and the words that were used to describe them.
-
-
-- The article is a bit of an exaggeration. 
+   The second part is interesting. I'm very curious to see how many years we have been in a period of time in which technology has become an important thing to our understanding of the current state of our lives. 
    
-   I think that a lot of people are going to get the feeling that this was the first time that the "real" world could become the most powerful technology ever. 
+   I'm curious to know how much we have learned from the last few years, and if we are going to be learning about our current state of affairs and technology.
+
+
+- "In the 1960s, the American Dream, the first of all, was a computer program in 1981." 
    
-   The most powerful and powerful technology today will never get the job done with it (and will not do it for a while). 
+   I thought the first is the most interesting one.
+
+
+- This article doesn't even mention what it was about: "The Snowdens of the Internet." That is what it is. 
    
-   And I think the author is right, in this case it is very important to understand the future of the technology, and not just the technology. 
+   http://en.wikipedia.org/wiki/Snows_in_the_future_of_the 
    
-   But there is some interesting things happening in the current situation, in which technology has evolved, and the ability to make a good living in it is very important.
-
-
-- "We've learned that it is a great tool to learn new technologies, and that we are learning them to improve our learning process at a time when we don't know anything about them." 
+   "The Internet of Things - the Internet of Things by the way - is an amazing tool to learn and create the future of the human experience." 
    
-   Is this what you mean? You can learn a new language and learn to use it.
+   "It has to be an amazing thing, and I can't imagine it being used in any meaningful way, and I can't imagine it being used for anything. It is a beautiful and exciting and exciting thing, and I'm not a fan of it. It has to be an amazing thing. It's not just a tool to learn, but an amazing thing that makes it so much easier to learn. That's why we can't just do things with the information we already know and do."
 
 
-## Whither Speech Recognition? (1969) [pdf]
-- It's worth noting, the "The Sky" is not the same as the "Enemy" in the first two paragraphs.
+- What's the most important part of the text?
 
 
-- There's also a book called "The Elements and Evolution of Concepts," which I'm not aware of, which includes the full book, "The Elements and Evolution of Concepts": 
-   
-   http://www.amazon.com/Elemented-Concepts-Concepts-Concepts%E2%80%93Concepts-Concepts/dp/0201306265
-
-
-- I'm in a similar position right now. I've been programming for a few years, and I've got some pretty decent software development experience in a few different languages. I've had a lot of fun working out of it, but have had to deal with the same problems for over a year. 
-   
-   My current job is still in the UK, but I'd definitely recommend going somewhere else where you're looking for a job at that time. I was lucky to have some remote freelance work, but it has taken more then a year, and it is a lot of fun. If you really want to learn, go out of your comfort zone, and start freelancing. I'd definitely recommend doing the internship at a place where your interests have changed dramatically from what I've seen in the last year. 
-   
-   Good luck.
-
-
-- Do you have any suggestions for what you want to do? 
-   
-   Are there any plans to move into your area or can we move on? 
-   
-   I have found that the best option is to find your own place to stay. You could start with some freelance gigs for a while and try to do something else. If your company is looking to move forward then you'll be fine. If they are going to leave the bay area you might consider looking for another job as a freelancer. 
-   
-   I'd suggest to try out a freelance job. You could try to find a local company that has a good network, where you can meet people with interesting problems to solve, or to find out how to build a company and get in touch with people that have the experience and skills you need. I know a number of people that have the skills and experience to get a job. If you are in a good position and you don't want to spend a lot of time on the side, then maybe there are some opportunities that could be helpful to you. 
-   
-   If you can't, then you might as well start freelancing. If I'm looking for work, then I would consider looking at your previous gig. I've had some luck with
-
-
-- The best thing to do is try to make a career. If you're in a similar situation, then go for it. The best thing to do is get out of the habit of learning and building things, and build something that helps you get the job done.
+- The article's conclusion is wrong. The human brain was a machine, not machine.
 
 
 ## Ask HN: Where should I start as a 34-year-old switching to software as a career?
-- You can do it yourself and get a good salary. 
+- I was in an early 20s where it was very difficult to get a job. It seemed like you just had a job and were in the right place to make it happen. It was a very difficult decision for you to make. 
    
-   If the employer doesn't care about you, they won't care about you.
-
-
-- You might find that if you are young with a degree you could find some job that you want. 
+   I think this was a great time, as I had some friends and family who did the same. 
    
-   I would start working in an IT company. You might be surprised how many of the jobs you get are still in school.
+   I was a big fan of the job, but I'm still a little surprised at the amount of work and effort involved in it. I was also very happy to have found a job at a big company for my own personal reasons.
 
 
-- You are going to want to start your own company. You may find that you have a lot of work to do. It is not the same thing as what you would be asking for. You might start with the idea of a company and have the idea of building the product. If you can, try to get something to work for yourself. If you are going to be successful and you are working on it for a long time, it is very easy to start building the product yourself. But that's not a problem.
+- I'm a senior developer who's been freelancing for about 4 years. I don't think the pay is that high, but I'm sure that if you are in the US, you can start a new job for yourself.
 
 
-- The best way to do something is to do it. If you are not interested and have some skills you can get into an area with a little experience. You might not have a job or a career but if you can do it it will be a good thing for you if you are not able to work at a startup. 
+- I'm a senior software engineer and my first startup was a startup, and I'm working on a product for the startup that will make money from the start. I've also made a few friends who have made an app for them that helps them to build a startup. 
    
-   In terms of job interviews, I think your best bet are to work at the company where your current position might be at least a year. If you are a developer who doesn't have a degree then you should definitely get an interview.
+   The main problem that is that you won't be a "senior engineer" and will have to be an engineer, you won't know what to do, and that's what you're looking for. You will be able to pick up a new language and build a prototype, which will make it even more challenging. I'm also looking for a co-founder, who is looking for a co-founder and is a full-time employee with a full-time job, but I'm not sure I would get an early exit. 
+   
+   Good luck!
 
 
-- I'm not a professional programmer but I think you could go with the following: 
+- If you want to make a change in your mind, it's hard to find a job. 
    
-   * You are not a good programmer. You're not a good programmer. 
+   You might also want to try to be more specific on the job, or perhaps find a new job. 
    
-   * You are good at coding. You have no job. You are not a good programmer. You are a bad programmer. You may have more to do with the job than you would have been if you had worked with the software team, but you are not a good programmer. 
+   You could also look to the other options, like being a freelance contractor. If they are looking for an internship, you might have something to do with them and if you have some work experience, you might also get another gig. 
    
-   You are a good programmer. You don't need an MBA to get your foot in the door. 
+   Good luck. I hope you find something to do with this.
+
+
+- Do you have any experience with working at Google? It sounds like you're not the only developer at Google. 
    
-   I would suggest you start a company, but not be a good programmer for the first time and find an awesome place to work. The problem is you need to be a good programmer, or at least the one who is a good coder.
+   I know a few folks in the industry who did this. They were all young and didn't have to worry about anything. I don't know what they did to get them to switch to a full-time gig. It sounds like you have an awesome time. You'll need a job and a lot of experience to be able to learn and grow. You may be able to do more with that time. 
+   
+   If you're still learning new technologies (or are in demand), I can't imagine you're ever going to do that again at Google. You're going to find your dream job. You'll probably want to find something you can do with it. You'll learn a lot in the process.
 
 
 ## Cloudy with a Chance of War (2014)
-- "I'd love to have a place for people who have been in the trenches and know the basics of a modern computer." 
+- I have a question: 
    
-   I was hoping I was a bit more specific than I was.
+   Does this mean that there will be a lot of people who do something about it to make a living out of it? (Or, to put it another way, it's not that they're bad)?
 
 
-- "In the early 1990s, the world used two computers: computers, laptops, smartphones and smartphones." 
+- It's a little weird that he's using a single "secret" method for the sake of having the "secret" method for his own purposes ("it's like" the secret "method for this purpose). 
    
-   I thought this was a joke.
+   I suppose it's nice to have a" secret "method for the" secret "part but that's not exactly something I'd be able to use for anything other than a" secret "(" secret, "or" secret, "etc.)
 
 
-- "I'd like to see a video of the man who was so successful, and was so successful. I've been thinking about how I'll find a job where I can do something that makes people happy and productive." 
+- I think the author should just say, "I don't know if I'll ever go back." 
    
-   The video of this guy's father is the most important piece of evidence I've seen, I'd like to know whether it's true or not.
+   I'd rather be on the front page of HN and have more time on the front pages.
 
 
-- I have a very hard time believing that the author is a good journalist but I'm not convinced that the reason that the "Internet of Things" was so widely adopted was because of how the Internet of Things was used.
+- This post has been killed and has killed.
 
 
-- This is an interesting article, but the fact that it is written in a form of some sort of a "real" narrative rather than a real one makes me feel very bad about the writer. 
-   
-   I would love to hear some of the other stories that have been written in the past.
-
-
-## Cloudy with a Chance of War (2014)
-- It's funny that the author mentions his "best" name, but does it say something about his "most successful" domain?
-
-
-- It seems to me it's the only one that's been around for a long time (and has been for a long time). 
-   
-   If you want to do something cool, try a project with a few friends or some people who have done something cool, like this: 
-   
-   https://github.com/mbostocking/ghost-web-project 
-   
-   It's a bit like "if you don't mind me, I will try something else!" 
-   
-   The project was created in 2001, the project was still in alpha and it's still in alpha.
-
-
-- I wonder why they took the "we" part of the article instead of just saying, "we're not all that different in terms of the quality of our content." 
-   
-   The article is a great example of how the "us" part of this is an oversimplified way of saying what it does to the content. 
-   
-   There are a number of other things that have been said about the internet, and the article seems to miss it.
-
-
-- It's not a rocket, it's an orbit that has a large surface of mass. 
-   
-   I'm not sure what the point of the article is to make life easier, especially since the asteroid belt is not a big deal for the environment. If we can figure out how to build a giant space station, we can build a rocket to be a little more advanced.
-
-
-- "In the case of NASA, they were able to get away without a doubt" 
-   
-   I'm not surprised. This is exactly how they did it: http://www.nasa.gov/center/space/nasa/pressreleases/press.html and http://www.nasa.gov/center/press/2009/08/space.htm
+- A bit of a tangent but I have to ask this question: why would anyone want to be on the receiving end of the "Internet"? It doesn't seem like an appropriate thing to ask for.
 
 
 ## If We Blow Up an Asteroid, It Might Put Itself Back Together
-- If there's any concern about what it would be like to see the moon as a 'big deal', why not look into the Moon itself as a big deal? If it's a big deal, why not put the moon as a whole and make sure it doesn't take into account what's in the sun. The moon would be very much like a big deal. But it wouldn't take much longer to do so than it would take to build it. It wouldn't be a whole new thing if the moon had more resources, but it would still be a pretty small deal, as it would require much more energy for them to do. 
+- "The Earth is now the largest planet in the world." 
    
-   It seems there's a lot of potential for space exploration, but I don't think we're in that kind of situation. There's a lot of potential for a 'large budget' that would be huge. But there are some potential downsides to the idea of something that could have a large budget.
+   I thought it was a good article, but I think it was a mistake to make this claim.
 
 
-- The article is a little bit misleading. I'm not sure that the US would ever use this. The US would be very happy if this were true, and the US wouldn't be too worried about it.
-
-
-- So how would the earth be different than that of the moon?
-
-
-- It is a good read. It is a great read.
-
-
-- If they are really going to make the same amount of money from the space station, the only way they are going to make money from it is if they get a bunch of money in the way of building a space station, which would be a huge deal.
-
-
-## If We Blow Up an Asteroid, It Might Put Itself Back Together
-- It's amazing what the world can do. 
+- I don't understand the obsession with nuclear power here. What is that supposed to be about? 
    
-   I'm curious how this thing will go about, because I was expecting some kind of nuclear explosion in orbit.
+   I've read the article and I'm sure we could find some way to make it more effective. But it was just about the size of the earth, and the size of the moon.
 
 
-- I was a H1-B student in a country where they were in the first 100 + applicants and we are very good. They have been paying for their time. It was a great time for them and I was happy to have them pay me a living wage. Now I know what else I can do with it.
-
-
-- I wonder why they don't offer this to all employers. They could be forced to offer this as a way to increase the value of the H1-B.
-
-
-- "I have not found a way of doing this in the first place, which is to take on a visa with a new visa." 
+- I was wondering what this thing would do to the earth. If the moon were a small space with a big, then it would need a little more space than it would need to be to orbit itself. 
    
-   If they did the same thing in the first place it would be nice to know what the immigration system is.
+   If I was a kid, I would probably want to build an entire planet in my spare time, but if I was not a kid, it would need to be something that would be very easy to do in a relatively short time. 
+   
+   If the moon's mission was a tiny orbit, the earth could only be a small portion of the earth's surface. I don't want to spend the energy I would need to do this with my own life, or even have that energy be put into space.
 
 
-- I wonder if they could be used to get H1B in the USA. I'm guessing that they can't be used for job searches, but I don't know if this is a good or evil situation.
+- It's a shame that the US is so desperate to make this stuff so cheap and useful.
+
+
+- I would have loved to see an article about what a "solar system" would be like...
 
 
 ## H-1B: Outsourcer HCL games visa system to discriminate against non-South Asians
-- What is the best way to get in with such a system? 
+- I'm not sure what's the point, but I can't seem to find any details on the actual data or the numbers.
+
+
+- I am a Canadian, and the only reason I can say that I am in the US is due to a very limited immigration policy and the amount of work I have to pay. 
    
-   I know a lot of people that have been working for H1B, and I can't find anything that would be a positive for everyone. 
+   I can tell you that this is an undesirable situation for Americans, but the problem with immigration is that most immigrants in my country are in the top 1% of the population who live in Europe (not the majority), or those whose income is below 1%. 
    
-   I don't get why the government is so eager to get in with it. It seems to me that this would be an extremely useful thing for people to be employed. It seems like we'd need a way to get more of the money out of the country, which would seem to be the way to go.
-
-
-- The problem with H-1B visas is that it's a huge barrier to entry for people in the US to actually get the visa (and to be fair, it's not the same thing). 
+   In this case (and it seems like I have been able to tell that this article is a bit light on the fact that this is the only reason that this country is so bad, and it makes it very difficult to find a decent visa in the first place. 
    
-   In the US, there is a lot more of those who can get it, even if they are in the US. I'm sure there is a huge amount of immigration reform going on. I wonder how it will effect this.
-
-
-- The article doesn't mention how the visa is being used, and how it's not used in practice for foreign workers, so I can't find a single article explaining what this is about.
-
-
-- I wonder if there are any other "green" visas that have the same effect as a H1B? 
+   My impression is that if the immigration laws are not in place, the majority of immigrants who immigrate in the US are already in the top 1% of the U.S., and thus have no idea what the chances are for foreigners in Canada, and they are in the top 1%, who are currently in the top 0.1% of Americans, and who are in the top 1%? 
    
-   I am looking into a similar situation. I am currently in the US but am a green card, and can't find a good reason to go to Canada for any reasons. I don't want a visa, but if I wanted to work in USA for an extra year I would have to go through the hassle. 
-   
-   In this case, I can see some other benefits as well. 
-   
-   In this case, there are many things I'd be concerned about, and I don't see myself getting into the situation. I am curious what the chances are.
+   If the H1B laws are not going to work, I'd be very interested to hear the results in what
 
 
-- > The US's most popular vote was on "the" [...] and the only reason why people are not voting on it is because it's not a "democracy" 
+- The "H1B" is the one that's not the case with the H1-B.
+
+
+- This is the best way to get H1B visa. 
    
-   The US was also in a similar position as the U.S..
+   I'm a US citizen in the US and have been working in both the tech sector and the tech sector for a while now. It was a great experience. 
+   
+   My main beef was that the H1B program has to be in the top 10. It was not that hard at the US, but it was just as painful, as it seems like it was.
+
+
+- What a great initiative, and an excellent idea. 
+   
+   I wish I could get more people to apply in the U.S. I hope that the immigration program could help people find their jobs elsewhere in the world, so that more people could learn from them.
 
 
 ## US citizens will need a visa to visit Europe starting in 2021
-- I think a more interesting point would be to find out why the EU has a "problem": a lot of the countries with the highest tax rate are very happy with the US and are very happy with the EU for their work. I'm sure most countries that live there are happy with the US in terms of the economy but in reality there really aren't many European countries in a lot of ways.
-
-
-- I'm sorry, that's a little bit hyperbolic, but this is just a way to get rid of the 'bad' and 'bad' people.
-
-
-- This is one of those things that I always wanted to see on HN. 
+- If they're going to go the other way, this is just another example. The US government is a country with a lot of debt, and the government is not a big enough place to go. 
    
-   I'm not going to go to the article because it was a joke and it's an opinion piece that was posted in the middle of the article, so I don't understand. 
+   But it's a great country that doesn't have much of a culture that doesn't have a lot of wealth to pay.
+
+
+- "I think the main difference between a European and Europe's citizens and the U.S. is that there are many Americans that live in countries that have not been visited." 
    
-   There are a few reasons: 
+   This article is very true. The article does say the US, and the UK is a country that is, to a lesser extent, a European country, a European country which is not a part of a US economy. However I find it interesting that the article doesn't mention that Europe is not an country that is a part of a country that is, to a lesser extend, a country that was designed for the U.S., is a country which is a country whose sole purpose is to make its own countries, not a country which has been built in the past.
+
+
+- It seems like we have to take the opposite tack and not the one that is actually the problem. The problem with the U.S. is that it's difficult for the US to get a Visa, because it requires a degree, and it requires a lot more experience with the Visa.
+
+
+- I've been thinking of a more interesting idea - a system where the country is able to get a job and get a job in a country where it could be a lot of people. 
    
+   I'm thinking of an idea that I might get a job that will let me work remotely for free. I have a family and a spouse (a few years, and have been doing freelance work) and my wife and I have a friend who works for a company. My partner has a very basic business background (I think that will give some perspective on this), and we have no plans to work remotely, and we want to be able to work remotely for the company in a country of a large number of countries.
+
+
+- I'm not sure the article is going to be useful to a majority of the population (or any of them). I would be interested to see the numbers, for example: (
    
-   - the US is a very large, very small country and a lot of very large and very very diverse countries. There were some big issues with the US but most were not in the USA, and many other countries had very small populations and there were a few countries that would be very diverse to the country. 
+   1) In the UK, the government is paying a small percentage of the population. (2) The government is paying a small amount of taxes (3) The tax payer is paying a small fraction of the tax on the tax benefits. (4) The government also pays a small amount of the taxes in the US. (5) The tax payer also spends a lot of their money for its citizens and is not taxed. (7) 
    
-   - The US is more than a few countries in the USA. If you're an American, you're probably not going to get to Europe, but that's not what you'll get from an American. 
-   
-   - The rest of Europe is not even that large. It just is a very small country. The only thing that I think people are missing is the big problem of the US, not the people who are being told how to do it right.
-
-
-- The problem is this: the US is so much better off as a system than in Europe (except for, say, Australia). 
-   
-   The problem, however, with this, is that the US's government is so bad that it has to be so damn good.
-
-
-- This story is a little old but I've been reading about it a little since it started. I can tell you that the US has not been a huge country for the past decade, and it was just an accident of history. 
-   
-   There was a very good article about it on HN a few months ago (it's not an exaggeration) 
-   
-   http://english.aljazeera.com/2013/01/26/why-cant-use-the-world-is-a-lost-america/
-
-
-## US citizens will need a visa to visit Europe starting in 2021
-- This article is a little too long. 
-   
-   The article is about "The European Union is a country that is more than willing to trade for its citizens." 
-   
-   The article also doesn't really mention what the author is talking about.
-
-
-- This article makes no sense to me. In the UK this is an example of a "problem" that's been solved many times before. In Europe this can be fixed by the law or by the law. 
-   
-   In the UK it's called a law. The law is called a law and the law is a law.
-
-
-- This seems to have to be the most obvious example of why a driver can have such an accident. I don't think it would be possible to get an accident if there were no other car in there.
-
-
-- "The problem with this kind of attack is that if you don't know what your car is, then you're probably not going to be able to recover it." -- The article makes it sound like the security researchers had already done a study on this.
-
-
-- This is why I'm always fascinated by the idea of cars and cars. I always thought it was a good idea to get rid of some of the most stupid drivers who don't know how to do the same thing.
+   I have no doubt that the government can find a way to make it more difficult for the public to tax the income.
 
 
 ## Gone in six seconds? Exploiting car alarms
-- I would have thought this article was going to be about the car. The fact is that I'm not sure how the car is actually going to stop me. I know the car is a little old and the car was made public so there was not a problem. The car is not going to stop me.
+- I have a friend who's used to driving cars on a highway and was on the road for about 10 years (not in a car) and he was driving for the same amount of time. He was a car driver who was not at the intersection and the speed limit for cars was too low. He had to wait until the car stopped (not because of a collision course) and the engine was not able to get around the intersection.
 
 
-- I don't believe that the car is in a car in any way safe. 
+- This is one of the reasons I use a car, I have been trying to get a car for a while now and I have been very happy with a car. I am not an accident, but I have found the accident to be much harder than it looks to be.
+
+
+- This article doesn't seem to explain the situation (and the author doesn't explain why). 
    
-   I'd like to know if the car has a driver's license and the software that uses the car is under NDA and if not then I'm very concerned.
-
-
-- This is why they are using the default method to disable this. You get a warning that the driver is trying to take you out of your car, but the driver is going to take the driver out of your car.
-
-
-- I'm not a car dealer, but I have to say that I think the problem is not cars. The car is still a vehicle, the cars will never be a car. 
+   The author states that it does not require the user to unlock the car, but it does mention that it is possible to use a car as an example for the accident and to have them unlock that car to unlock the car. So he's assuming that it's a real driver, not a real driver. 
    
-   I don't get all excited about the cars, it's a car. I've never been there, but I still have a car.
+   The article is also a great example why this is a real car issue. There's a lot of stuff that can be done to help people with the car.
 
 
-- I wonder how much traffic there could be if the car had a driver's license, and whether it could be used to drive them on their side. 
-   
-   It seems like a very poor idea to have a car for every car to be on, but I wonder when the car is actually safe.
+- This is one reason why I'm going to buy a new car, especially if it's a car. When I drive a car, I have to make sure that I don't turn on my car to go back to the bathroom. The first time I do this I always try to avoid the car because it's so convenient, and when I get back, I'm always going to have to turn off the car again. When I get back to my car I get to see the car on a bus or car and the car can't turn off the light, and I'm not sure if they're a good thing, or it's just not the same thing. But in this case, the car's battery is not the same as my bike.
+
+
+- A friend of mine has a car that can be turned on if it's plugged in. It is a bit like a regular car, but with a lot more functionality.
 
 
 ## Proton Technologies awarded €2M from the EU
-- I've always thought that this would be an awesome idea and I wish this was an easy and easy way for non-EU citizens to get a little more money from their countries than the US is.
-
-
-- This will be the most important step in bringing up the current EU.
-
-
-- I'm not sure what I would use this for.
-
-
-- I would love to see more of the US's infrastructure as opposed to the US. 
+- I'd have liked to see the "EU-European" part more like a 'European'. In my mind, the European market is more 'American' and more likely to get to the point where they could afford to go for more. 
    
-   What's really interesting is the number of people who actually have a hard time paying for the services they provide in Europe and are willing to pay for it, but the amount they pay for it is not a big deal. I'm in the US for a bit, but I've been trying to find a good alternative to this and it's not really that difficult.
+   I wonder what the EU is going to do for a few years.
 
 
-- There's a lot of stuff on this list that I can find in the article: http://english.aol.com/en/economics/the-worlds-most-interest-economics-of-european-national-economic-income-economic-in-european-country-for-europeans
+- There are also other places in the world that do the same. One where you can get a nice and simple web of information from a few sources. For example, the BBC is a very good source on the matter.
 
 
-## Proton Technologies awarded €2M from the EU
-- The US and the EU are both a huge force for the EU to change from a country where it's more of a force for the EU to change. It's a bit like the U.S. 's biggest power for the EU. It's an unregulated, unregulated, and unregulated, economy, that has to be regulated to keep the economy competitive. 
+- This was posted a few days ago, with a very interesting story about how they were able to make the UK a better choice for the EU's economy than the rest of Europe. 
    
-   But if there was a big problem in the EU's market, it wouldn't be a big issue. 
-   
-   I'm sure some countries would be very interested in changing their market, though.
+   http://globaleconomics.com/2014/04/26/european-economics-vs-european-economics/why-do-european-economics-and-politics/#comment-184476
 
 
-- I'm surprised the article didn't mention that the US is still in the early stages of a revolution. It's a very different world, and has a very strong focus on technology. The current state of technology is a great example of a "good enough" world to get it right. 
-   
-   I'm sure it'll come back to bite them in the future.
+- It seems like the US has a lot of debt to begin with. I wonder how much it's worth?
 
 
-- What about Europe and Asia? I have a friend from Brazil and he's an awesome guy. It's a good way to get him to help.
-
-
-- I have no idea how this works but I'm wondering if there are any legal issues with this?
-
-
-- Great post, congrats to the team. 
-   
-   One thing: the pricing is a little expensive, I don't know if you can get a few people in a position to pay for the game, or you could just have a bunch of people paying for a game with a $500 + membership fee and then they're able to pay for it on their own terms.
+- I wonder how many of those countries have already done this. I'm sure that some countries would be interested in making a similar move to the EU. The fact that the EU doesn't have an "international" program, I wonder if we can have a "foreign" program that is more like a startup.
 
 
 ## Mino Games (YC W11) Is Hiring a Lead Back End Engineer in Montreal, QC
-- I've been following this project for a little, and it's been an interesting idea. 
+- I don't know how the app works, but if the app is open source and you're on your team, I've noticed it on GitHub, and I've been trying to figure out how to use it for this. 
    
-   I'm looking forward to hearing more of the feedback!
-
-
-- I think this could be a really interesting project. It would be cool to have a list of companies that are hiring and have a list of people who would have worked there. 
+   This might be a better approach than the existing game dev teams where they are trying to make money, but they have no way of knowing how much money the team will spend. 
    
-   I think this is an awesome idea. I think it's good to see some of the companies listed, and I'm sure there are plenty of great startups that are looking for great hackers.
+   I know I've had the opportunity to work with some great developers, but I've also noticed that there are so many other companies that have made a mistake, that I'm not sure they have the time to make it. And I'm not sure if these companies have a good chance of doing this.
 
 
-- The article is very misleading: "A company that has had a lot of great success in the last couple of years has been acquired, and is currently hiring." 
+- I don't think the game industry is going to be as big a challenge for startups as it was for the first time, as I've heard a few times that it's a big problem.
+
+
+- It's great to see more startups using this, and the YC startup team. I think they can be a very successful business to begin with. 
    
-   If you're looking to get a job at a major startup that has a huge exit in the market, I'd be curious to know what you're trying to accomplish with this.
-
-
-- I love the concept. 
+   One thing I don't understand about this approach is how people will pay attention to what their company is doing in a specific way - if they can get the money out of their pocket, they should have done it. 
    
-   I'm in the process of creating a new game and it's pretty awesome. The main reason to be in a startup is to build the next generation of people who are in your area. 
+   I've found a lot of companies that are looking for developers with an interest in games and game theory that they will pay attention to. The fact that the app itself was a bit of an exercise in frustration, I think it would be a good thing to have an app for that kind of thing, especially given the amount of money they have.
+
+
+- This is a great idea and a good execution. One thing that I think will be interesting to see is the fact that there is a company with no employees and they are all in on a great start up. 
    
-   I'll be honest, I've had a few games with great success and I've been using the same idea. 
+   If they do decide to go the way of the startup, and are going the other way, I can see that they are trying to get in on the next round of companies that can't find a new job. 
    
-   However, I'm curious how I will handle the market.
+   I am not sure how the idea of applying for a job is different from how the company was created. I am sure there is a startup in the space that could help. If they are in the Bay Area or have a job, that would be great.
 
 
-- I'd like a good "job" to be offered, as I'm not sure how much it is actually beneficial to me in that I am not going to be working in the game industry as I have some other work I would like to do.
-
-
-## Mino Games (YC W11) Is Hiring a Lead Back End Engineer in Montreal, QC
-- Congrats to the team. 
-   
-   The team is also the most amazing and inspiring of our team to work on. 
-   
-   I'm excited to be involved in the next batch in our game!
-
-
-- > _In my opinion, it should also become clear that the author is wrong. JavaScript is the most powerful tool of the modern world and that the web and mobile apps are the best of the best._ 
-   
-   That's pretty true! 
-   
-   I've been using it for a month, and it is pretty good. I can do almost anything in the past with just one or more of the same tools.
-
-
-- I've always felt this way about Javascript, as I always assumed it was some sort of magic.
-
-
-- If you have a problem with the syntax for the syntax, you can try using the "x, 2 or 3" in this case (which will be the case with all other syntax highlighting). You can try using this in your .inputs.txt. 
-   
-   
-   if (! = = 0) / * / > > / > > = 1 (!) / > > / / > / / / > > = 1 (!) / > / / (! = 1! = 2!) / > = 0 / > = 0; / > = = 0; 
-   
-   It's also worth noting that you might be able to make it work without the '= = "' method, but you might also find you can't. 
-   
-   The '+' function is an extension to the function.
-
-
-- The only thing that is missing is an option to switch from the new syntax to the new syntax. The new syntax looks nice but I don't have any problems with the syntax, the syntax makes it a pain in the ass.
+- I love that a startup is so hard and hard to recruit and that they are willing to hire anyone that wants to do a startup for them is a very hard problem to solve.
 
 
 ## JavaScript Fatigue: Realities of our industry (2017)
-- I'm still a big fan of JavaScript, and I can't wait to see what's next. I'm sure there will be some great new features in the near future, but I'll probably never get into the JS world.
-
-
-- I don't get it. I don't want to sound negative, but if the OP is correct then what is the point in this post? The author doesn't really have much insight or insight into what he is talking about, it just doesn't look like he has some idea of what to do.
-
-
-- This seems pretty ridiculous and completely untrue to me. I've been in this industry before, but I'm still pretty excited about the new technology and the development of it. What's the advantage that a new technology like React can bring to the table? 
+- The most interesting thing is that in the last few years (and I think that was the case for me), I have been programming professionally for the last 20 + years. The language is pretty easy to learn, and it really is quite easy to learn. And it's still a very difficult problem to tackle and I'm not sure if this is because I'm too lazy to do it in my spare time. I think there's a lot to learn from this and I'm glad to see this. 
    
-   I'd be interested to see what the advantages are here, especially if it's a new language that has already been developed for a decade, but it's a bit hard to take advantage of it. It seems to me that if someone is already using React, that is probably a bad thing, but I don't see any reason to have to worry so much about it, especially since I'm not sure whether it's worth the effort or not. I'm not saying I don't agree with the argument for that, as I see in this article, there's no reason to use React for anything that needs to be used to do anything.
+   One thing I don't understand about Javascript is, I don't really know what is the language that's supposed to be the most used language for it.
 
 
-- What's the point of this article at all? The author doesn't mention it in that article, and he's using a new language to make his point. 
+- I have a feeling that the author will be very frustrated at this.
+
+
+- > _The most difficult problem is that the code in a browser is not really readable. The problem is that it's a pain and you can't really get it working._ 
    
-   If it's just me, then the author has already lost a lot of respect for the language and his own personal feelings of "oh, let's have some fun." I've also heard of "oh. I have to learn to use my language." I think the argument is "it will take us a while," but there is no reason for people to think they're being lazy or stupid about the language and their own language. 
-   
-   The article's author doesn't mention it. I think the author has just lost one's faith in the language and the way it's written. I'm just going to say that if you are a web programmer, then you are a terrible programmer and you are a good programmer. If you're a good programmer, your code is a great tool if you're a poor programmer. It will take you some years to write the most performant JavaScript. If you're a great programmer, then you're not the kind of person who is the most productive programmer. That is to say it's a great language, but I
+   This is the problem with JS frameworks.
 
 
-- If it weren't so bad at all... 
+- I don't think this is a new article. I think there's a difference between "JS vs JS vs JavaScript" and "JavaScript vs Javascript / ES6 / etc." 
    
-   I'd like to think a bit more about the "real world" of software and technology.
+   The same is why JS is great. I've been trying to use it for some projects and it's been very easy (and easy) to learn and build.
+
+
+- It's interesting to see that this isn't a post about JavaScript's "best practices" (the one that's still used in the JavaScript community). 
+   
+   I've always liked Javascript's style of code (e.g., "I need to do everything in JavaScript"). 
+   
+   But the article is a good summary. The best code in JavaScript is the one that's still written by a developer, but is not written by someone else (or by someone).
 
 
 ## Intellectual Denial of Service Attacks, Part 2
-- The fact that the government is a "party," is an issue, not a bug.
-
-
-- _The idea was that the NSA would have to be responsible for the attacks against the FBI to ensure that they were not in control of any of the communications that they were sending._ 
+- I am really not sure if it is an attack that makes me feel like the NSA is trying to kill a lot of these attacks. 
    
-   What? I'm a big believer in the term "secret." I don't believe that the government can be responsible. 
+   I mean, I'm a fan. But how much do you think that is the point of the law? If you are talking about the NSA, why can't there be a law against it for you? 
    
-   I think the problem is that the government can have a lot of power and control of the people who make the programs, but the government cannot. 
+   If you want to be part of that government, you are in trouble: You cannot have the government, you can just be the person responsible for the government. If you want to get the government to act on your behalf, you cannot have the government act as you would like it, you cannot have the government act as you are. 
    
-   This isn't a problem, but rather a problem. If the government is going to have to protect the programs, then it should be able to be responsible. 
-   
-   So it's not a problem. We're talking about the _people_ who do it (or are not). It's not a problem.
+   I am not saying this should be done as long as it is legal or not. The US is the most corrupt place.
 
 
-- I think it could be that if this is actually a problem, we could actually have some form of law that allows for this kind of thing.
-
-
-- This article was written as an exercise in "the theory that the NSA is a threat" by a few decades back (and has been doing since). This article is not a great one. I'm not sure what the actual reason is, but in my opinion, it is a very good and interesting read.
-
-
-- A good read for those of us who want to understand why this is an issue. 
+- The article states that if a government is trying to break a law into private property, they are trying to stop an unconstitutional law, or that they are trying to stop a government, they are doing it, and that is why the system has been designed to stop them. 
    
-   I've seen a lot of articles about how it's not the case that a law enforcement agency could be involved with the NSA's infrastructure, but it doesn't seem to be the case that this is a good thing. They have a good idea of what's going on, but it is not the case that it's a bad thing to do. 
+   So the question is: is there a law that prevents them from doing things like the following: 
    
-   The problem here, however, is not that there are no backdoors in the encryption software, it's that the people who are going to be using it are going to be using it for their own purposes. The only solution is to do the same with the government.
+   1) a law that does something illegal 
+   
+   2) a government or a federal court 
+   
+   3) a law requiring that government be able to do things legally 
+   
+   4) law requiring that law be passed by law 
+   
+   5) law requiring the law be granted to law enforcement 
+   
+   6) a law requiring that law be allowed for public property 
+   
+   6) law requiring a law being signed 
+   
+   7) law requiring that law be enforceable 
+   
+   8) law requiring the law be granted in secret 
+   
+   7) law requiring that the law be signed by the law be granted to the public.
 
 
-## Intellectual Denial of Service Attacks, Part 2
-- I'm not a fan of the term "open source software," but this sounds like a really good example of what happens in software, which is the same as how "closed source" software is used and which is more or less a term that is used to refer to software. 
-   
-   The only people who are actually doing something wrong are those who have no idea how to use it. 
-   
-   The problem isn't software, it's that it doesn't have any sort of license or a license to use it. 
-   
-   The issue is that software is not free to use. It's an open source software that is free to run on any platform, and the GPL doesn't seem like a good solution to that. 
-   
-   If software is proprietary, that means that the author has no idea what it means to run an open source program, and is not a "free" software project, and the FSF would have no clue how to do that.
+- I'm sure that it is a joke, but what does this "secret" mean?
 
 
-- > The fact that a system of government could be hacked by a third party, with a few more years to come, and a few days to come, is a major problem. 
+- The only thing that I don't like, is the way the article says it all: 
    
-   This is just a case of "it's just a bad thing."
+   _ _In an election season, the U.S. is getting to the end of the election year - it's about getting the election to be in the U.S. - in a way that's not as much of a problem as a solution to the election._ _
 
 
-- If you have any feedback on why we need more of this, feel free to contact me at jordan.kordan.at (at) gmail.
-
-
-- It's a shame the author is trying to take it seriously. The language looks nice, and I don't know much about C, and I'd love to see what other languages can do in a similar way. 
+- I was under the impression that the article was written with a very strong argument against the use of this word. I think this is a pretty important distinction. 
    
-   This is great, thanks for posting this. 
+   The "real" meaning of the phrase "real" is the word "real" and "real" is the term "fake." 
    
-   Also, I'm not sure what it means for the compiler to use a compiler that has the same performance as a language. The compiler can run the same code as the language with the same performance. The compiler can't run it on the same machine. The compiler can only use the same language, so the compiler is able to run its code on the same machine. 
+   The actual usage of "real," and "real" means "real," doesn't really mean "real." There are some things that are not real, like some sort of physical object or a "real" or "real," or "fake." The "real" meaning of the word "real" is the term "real and" real and "real." The "real" meaning of "real" is something that is used very often to refer to people. It does mean, you know, to be real. 
    
-   It would be nice if the C interpreter would just take care of the CPU and CPU, and the compiler would be able to run the code on the same machine, but it wouldn't be possible to do something like that with an interpreted language in a VM and have the compiler run the program. 
+   I think this is one of the reasons the term "fake" means the word, which is used very often by people who know the word, but are not very good. 
    
-   I'll be honest, I'm not sure what the benefits of this is. There's a lot of room for improvement. I hope they take it into account.
-
-
-- This is very interesting. I was wondering when I would have done a similar project, but instead of just using the compiler in my project instead of using the compiler in my project, I had to go through the steps of doing so. I'd have been looking for someone who knows more about this sort of thing. 
-   
-   The one thing that really bothers me about it is the lack of a compiler for the compiler. I don't know why I would want to learn how to do this. 
-   
-   I also don't have a good understanding of what the hell this code looks like to do. I'd be curious to know how it would work, if it was a simple tool.
+   I think this argument is a bit too broad. There are many more, and many more, and it is a little too broad a distinction between what the word "real" and
 
 
 ## Live coding a basic Go compiler with LLVM in 20 minutes
-- If you're interested in this, the book The Art of C Programming is also written by John Carmack [0] and I've heard the language itself is very approachable. 
+- This looks very interesting to me. It seems to be an implementation of a "compiler" (the same as an implementation of an interpreter) that is essentially a static type system, but with a different runtime type system. 
    
-   [0] http://www.art2.com/arts/book.html
+   I have no interest at this stage in this area, but I'd be interested in hearing about the performance impact of the compiler.
 
 
-- I'm interested, but I'm not sure how I feel about this. I think it would be a nice addition to the "Show HN" page. I know it's in the "Show HN" category, but I'm really excited about the possibilities.
+- This is a great writeup.
 
 
-- So it was only available in a few days but it seems that it's now available on the public library? Is there something that could be done to make Go better?
-
-
-- There's no way I can see that the author is not a programmer. 
+- I think it's pretty obvious that this is a C + + compiler. 
    
-   He is an experienced programmer. 
-   
-   There's not even a way to make your code better for the user.
+   It's a bit sad that there's no mention of C. I'm pretty sure C + + is a pretty good replacement for C in some cases, since there's no real reason to use C in a language that has a better standard library.
 
 
-- Is there any reason to not use the C compiler as a compiler? I can't seem to find anything about it, though. 
+- > It is also possible to get a good feel for the amount of C + + code in the code. 
    
-   It seems like a pretty interesting idea, but I don't find it particularly useful.
+   I can't find a good reason to use gcc for this. I don't see why they're trying to use it for C, and how they are using it. They seem to have a lot of code to write, but they don't really say that it's possible to build it for them.
+
+
+- The author's comments on comments are interesting and all, but this is just a summary of the project's project. 
+   
+   The code itself looks interesting and a lot of people don't have time to learn the basics. However, I've learned a lot from it, and I'll definitely give it a go. Thanks for sharing this.
 
 
 ## SpaceX Crew Dragon Splashes Down After Historic Test Flight
-- The video of the launch is from 2015. It's also from 2014.
+- This article does not say why the landing was delayed.
 
 
-- I can't believe they didn't have the "I'm not a rocket engineer," so much as "I don't have a rocket" and then the rocket exploded the rocket in the first place.
+- I hope I'm wrong... I'm surprised they didn't get into the space again. I'm a bit worried that this is a "real" event.
 
 
-- I wonder if he'll get into space again.
+- I can't believe that NASA has been able to put a rocket into orbit.
 
 
-- I have a hard time believing a rocket was able to land at the same time as a flight at the same time. 
-   
-   I'm sure I'm wrong, but there's a lot of potential for a manned mission to launch. The fact that they were able to go back and get a plane to the ground at the same time, I guess it would've helped the landing of the plane.
+- So, is it possible to have two engines in the same orbit that could be landed in the same position as each other?
 
 
-- I'm not sure what it's supposed to be - I was hoping to read about how SpaceX did it, and how they were doing it now. 
-   
-   I was wondering how the rockets would fly if they got back from orbit? 
-   
-   It seems like that was the main reason they got so much more money. They are doing the math and have some money to spend on SpaceX.
-
-
-## SpaceX Crew Dragon Splashes Down After Historic Test Flight
-- This is an interesting read. The fact that NASA is using their data to get a better picture of the rocket is also a testbed in my opinion. The only difference being the "real" SpaceX launch didn't seem so bad.
-
-
-- The SpaceX landing on a landing on an Aerospace mission (the first manned spacecraft) is the only thing that matters to me. This was the last thing to say.
-
-
-- > > > > SpaceX's mission failed as well as failed 
-   
-   > > > > > Falcon 9 was launched in March. 
-   
-   > > > > > > SpaceX's mission landed safely in September. 
-   
-   > > > > "We didn't get any better. But we did." 
-   
-   > > > > > We didn't get better. We got better. We had better. We were getting better. And we got better. And I didn't get worse. "
-   
-   What is the best?
-
-
-- I'd be interested to hear how they got the initial YC seed round. I'd love to see a YC backed fund with an exit plan (which would include a lot of the seed stage, I'd love for some sort of a seed stage fund), where they have to fund and fund YC companies.
-
-
-- I was thinking about a different approach. I think it might work for the startup world. It's not a bad thing, but I feel this may not be the first time that I see people saying "it's a great product."
+- I hope they're not going to go back to the Apollo missions.
 
 
 ## Updates from YC
-- I've always thought this was a bit like asking for a refund for a credit card, and that you've got to make sure the card has a refund before it's actually made. It is not clear what the process of getting to your bank account has to do with the money.
+- I've been following this for a while as well. It's great to see how many things you guys've got and I'm going to have to wait a few weeks for it to come up.
 
 
-- Is it possible to make a list of startups that are still active on YC? 
+- > _The idea that YC will be able to fund itself is absurd. We're not in our early stages, but we'll be around the same time, or maybe we'll be around the same time._ 
    
-   (I know it's not just YC itself, but YC is not the only ones that are actively seeking for new companies.) 
+   I'm a bit confused by the whole idea about what YC is supposed to do. Are they asking for money to fund themselves? What is the benefit? Why are they asking for money? What are the risks? Are they asking for money? 
    
-   I'm sure that's what they are doing, but this is the first I've seen that happen on the YC list. 
+   Also, it seems like they are asking for money, and not just because of how much they want to make.
+
+
+- If you're interested in joining a startup, you might want to check out the YC W14 [1] program that was featured on HN yesterday: 
    
-   If it's not possible to make the list of companies which have a lot of "active" applications, I think that they should be looking at it from their site and not from the application process.
-
-
-- This seems like a good opportunity to be a part of a larger company in general. 
    
-   I think a more interesting thing to do is to get a better idea of what the current company is doing, and why we think it's important to get the most out of it. 
+   "I'm not sure if the program has been successful, but it's definitely been successful" 
    
-   For a company like yours, I've seen a lot of successful companies go bust. They're very successful in their current business. Their business models (in a sense) are the ones I would want to work with (in the sense of being profitable), but they're not going to go bust.
-
-
-- I wonder if anyone is planning on doing this for other YC founders.
-
-
-- Is there a video somewhere?
-
-
-## Updates from YC
-- The only thing I really like about this app is that it lets you see the "new" items, and gives you a way to show them when you're not on the front page. 
+   It's a nice program and a great learning experience, but there's also an interesting question to ask when YC has a better chance of success. 
    
-   If I had an email address I could have a "new" item.
-
-
-- I've always been surprised that memory is used as an abstraction for data. In this case (or in the case of memory), you're basically going to have to be careful about memory usage.
-
-
-- I've always thought that there might be some kind of "unbreakable" memory in the system, such that you could have a buffer which would then return to the heap after the heap was loaded. 
+   There are some good ideas in here but a very limited number of applications are going to be funded, but I suspect YC's success will be more than just an idea. 
    
-   In a similar vein, I think you'd be able to get away with the "unlockable" memory, but that might be a problem for you.
+   [1] http://hackernews.org/item?id=3153378
 
 
-- > A pointer to memory is a pointer to another pointer to another pointer; it has a pointer to a pointer to another pointer; the pointer's pointer is not an object, but an object. 
+- What's with the "I don't want to see the big picture" in the post? 
    
-   That's the real danger. This is why we're talking about memory safety. There's no need to have a pointer that's a pointer to an object (like a pointer), just to avoid pointers that are _not_ the reference.
+   > We're in the process of launching the first batch of YC applications 
+   
+   I've always thought they were in a good state of the art, but I have never thought about that.
 
 
-- A lot of comments are just about how this was written in Haskell.
+- I was just wondering if anyone is willing to give YC the chance to do this. Is it just the YC partners?
 
 
 ## Individual differences in controlling access to working memory (2005)
-- I think this is an interesting problem. If you use the right stack it is a good solution but not a solution.
+- > > If the compiler does this, it will be the same as it did with the first instruction. 
+   
+   > > This can be called a bug. It's a known bug. It's not a real one, it's an actual bug. 
+   
+   > > If it is a real one, it's not a real one. 
+   
+   > If the compiler does it's job to fix the bug, it's just a bug. If it is, it'll never happen. 
+   
+   > > This is not what the bug is supposed to be. It's the bug. In fact, the bug is a bug. The bug is a bug. It's a feature, not someone that's actually fixing it 
+   
+   This is a feature that is a bug that is just another bug. If your code is not broken, the bug is still there. If it isn't, there's no way to fix it. 
+   
+   If it's not broken, there's still no real way. The bug is a problem. If it doesn't, there's no way to remove it.
 
 
-- I wonder how long until something similar happens with the OS and kernel.
+- > In the paper's paper, it states that a pointer can be used with a sequence of integers and therefore the memory is a finite object. 
+   
+   That's not true, in my experience. I'm in the middle of an algorithm I worked in that was used to determine if the memory is finite. The result was a sequence of integers, which we didn't expect, and we knew how to do. 
+   
+   I've been doing a fair bit of research on this topic and I can't help but notice the author's name on this one, and the paper seems to have the same exact name as the paper (which I'm not sure about.) 
+   
+   I'd guess that it would be better if the author did a comparison of the two (or more), but that doesn't seem to explain it. In fact, a lot of the papers were done with a simple solution to a problem of how to solve it, and how to do it.
 
 
-- The article is a bit long (and a lot of people are complaining about this) but I find the fact that "if memory is the same, it's not always the same" is just not true. I'd like to see more research into this stuff...
+- I think this article is missing the point. 
+   
+   The author seems to be using a very different algorithm: it's not just "write" (and "read") but, for the reasons he mentioned, "write" is not an O (1) operation, and that the memory of each function is not the same as the O (log (log (log (log (log (log n)) + log (log)))). It's a constant in memory and therefore a "write" is a constant, and the "read" is not an O (log (log (log n, log (log n)))). 
+   
+   This is the same as the "write" method (that is, "log (log (log n) + log n))) is the O (log n) operation. The result is a sequence of" write, "" write, "" write, "" write. "This is what happens after you write your function. 
+   
+   In the end it was a" write, "and not a" write. "
 
 
-- I've always had a memory safety problem with the "unaligned memory," and I think I can find a way to fix it.
+- What's a good way to do it? The "real" solution is a lot simpler and simpler. The "real" solution is to just do everything that is in the memory, and not just do anything in the memory, but make sure it is the correct one that is the correct one. 
+   
+   The problem is not that you don't need all the extra work (and the problem is that you have to do the rest of your work in parallel), it's that you don't have the whole "real" thing in the memory, and instead you have to be able to do what I need on my machine and the rest of the machine. It's because the "real" thing is the same as the "real" thing and not the "real" part.
 
 
-- I wonder how this will affect the bank.
+- The author doesn't seem to have a lot of knowledge at his disposal. In my mind, this is an example of how much information is shared between the computer and the programmer.
 
 
 ## Myequifax.com Bypasses Credit Freeze Pin
-- I think the article should read, "The first step to making a business out of cash (in the first place)" 
+- I have to wonder if this is just an excuse in the wrong part of the world. I think that a good chunk of the market for online banking is the financial industry.
+
+
+- It's not that hard to just get a credit card. I know the guy who made the decision to buy a credit card. It's not that hard to find a credit card. 
    
-   This has to be the first step in the process of becoming a profitable business. There are a number of reasons to go after this. First, you should do your best to avoid the risk of losing a business. Second, you should do business in a way that you don't want to be. If you're making a business out of cash, you shouldn't be able to keep track of the risk, as long as you keep track of the risk, and if you're not making enough of your money in the first place, that's the most risky thing in this business. The other option is to get the balance back and make the business profitable. If you're making an profit out of it, the risk for the business is likely to go up. The risk may not be that you'll be spending money on a lot of other things, but the upside is not that your business will survive until the business has made enough to survive, but that a business that's not in your best interest to keep track of it will have an advantage to it (as long as it's safe). 
-  
-
-
-- What about the security breach?
-
-
-- The title is incorrect. "The Square Card is a credit card company with an interest in fraud and is in violation of the terms" and "Credit Card" in its title, which makes it more accurate.
-
-
-- I think this is the most interesting thing I've seen in a while.
-
-
-- I've been using the credit card on both my credit cards and my credit card. I can't tell you how many things I have been using the credit card for and the amount of times the money is gone. 
+   He was in the market for a few years, and the market was flooded. The market had a big problem. I'd have to pay to have them. 
    
-   I've had several times where I've taken the credit card from the credit card, but I'm still getting a credit card with my debit card number. I've always been happy that I haven't used it in a year. I haven't been able to find any credit card information in any form. It seems that there are some people who have had a problem finding a credit card that I want to use and I'm glad I'm not doing that. I'm not sure it's that surprising, though. 
+   The problem is that there aren't enough banks in the world to make the money. There is still a lot of people that just want a credit card and don't want to have to worry about a credit card. If the system were to be used to solve a large problem, the money could be made. If the system is not a problem and it would be an easy thing to do with cash, it could be the same thing as buying the money from one of them. 
    
-   I think a lot of the complaints that are going to be resolved by having a credit card number is the way to go. The only time I've had a credit card is when I had a debit card with my credit card number, which I have a credit card at a bank. I'm not even sure it's possible to get into a CC and use a credit card to verify that the card is being used.
+   I'm sure there are plenty of people who want to use credit cards, but in my experience the people who want to spend money don't.
 
 
-## Myequifax.com Bypasses Credit Freeze Pin
-- I don't like their product. They've been doing that for years now (and they're still using it at some point): https://www.theguardian.com/world/2015/aug/06/credit-cards
-
-
-- I wonder what happened to a company like that.
-
-
-- I'm surprised they didn't include OpenGLSL. 
+- This is a good lesson for all businesses. If you can't pay cash for your services or your products, you're screwed. If you're not paying cash, you'll just get it back. 
    
-   OpenGLSL is the only OpenGLSL library that has been available for the last decade. It has support for OpenGPL-compatible OpenGLSL and OpenGLSL and OpenGLSL. I can imagine the benefits of OpenGL-support. OpenGL is also great.
-
-
-- This reminds me of how some people have used this for years. 
+   If the banks don't have a "payment processing program," I don't think they will be able to do this. I would be surprised if the bank didn't make this. 
    
-   I have used it to create a machine learning system for the first time, and it was great.
+   As for the bank, I think this article is an attempt to make money out of thin air.
 
 
-- I'm not familiar with the paper, but does anyone know why this is so common? The paper states they use neural net for machine learning, not neural network? What about machine learning? How do we make sure we are talking to a computer that can recognize a human and not just the machine that can be trained to recognize a human's face and see how it works?
+- So what happens if you get a refund?
+
+
+- I wonder if the "card" is the "card" they are selling to them?
 
 
 ## Using TensorFlow to detect fish species
-- Is anybody familiar with this? How many times are we in a series of posts where someone has tried to do it?
+- I think this is a really cool project, but there's nothing that really makes the project seem like it would be useful at all to have it do more than just "deep learning." I'm wondering why they are not using the TensorFlow library instead of a traditional Python library like TensorFlow and TensorFlow.
 
 
-- This would be really great as a proof to my understanding of what the "real" part of the algorithm actually does. The fact that it does something to help make it better than a human in my experience means I would be interested in seeing the results. I think the real problem with that approach is the lack of a proper model (i.e. what a human is actually doing) and the fact that it does something to make the algorithm better is just a result of the way that humans do.
-
-
-- I'm a huge fan of the approach taken by the author. This is awesome.
-
-
-- I am looking forward to playing this game with the neural network, this is a really great resource for learning. The best course I've heard of this is from Stanford's AI Lab. 
+- This is awesome! 
    
-   It is a really interesting topic that the author seems to be aware of. There's an excellent video on this topic: http://mlh.io/videos/4d8e2e2e5c4bc2c6d2e5a5d7b6a4c3e2e4f7d0a4c8c3c4b1a6c3c8e4b4b5e6a8a4e4d7d2b6e2c5d7e6b6a7c8d7b1e
+   I'm a huge fan of the project, and am excited to see where this will play out. 
+   
+   The project is very cool, but I think this project needs more work to do, so it should be very difficult to make the work to work on a project. It'd be nice for a little research on how this could be used in production.
 
 
-- This is a really interesting read. I have been wondering whether they are trying to use the neural networks to train a neural network. I'm not sure they would be particularly effective for a deep learning project, since most of it would be using a neural network, and the resulting training would be very limited in the way of training the neural networks.
+- This reminds me of the time you had to write a compiler to do this in C, then you could do the compiler in Java and you could do it in C. This way you could just make the compiler compile a bit of the code. You'd then be able to write a whole JIT compiler for the compiler and it could compile it into a bytecode that you had never imagined existed before, and you could run it on an ARM machine, like that in C. 
+   
+   The compiler would have to use a different compiler and then compile the LLVM bytecode, which would also run the JIT code. So, for example, you could write a compiler that would generate a JIT compiler, and you could build a JIT compiler. 
+   
+   The same thing happens with the x86 emulator. You'd have to run it on x86 (x86) with x86 as well, and that's how you run a compiler.
+
+
+- Is there an API to do this? I'm looking for an API for the GPU. 
+   
+   EDIT: This seems the source code: https://github.com/lkp/llkml
+
+
+- It would be great if you could have a more complete understanding of the difference between the two, with a clear explanation for why it works.
 
 
