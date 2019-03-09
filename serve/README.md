@@ -12,7 +12,7 @@ docker run \
   tensorflow/serving:1.11.0 --enable_batching=true \
                             --batching_parameters_file=/models/batching_parameters.txt \
                             --port=9000 --model_base_path=/models/export1/1550276061 \
-                            --model_name=1550276061
+                            --model_name=hncynic
 ```
 Or on GPU:
 ```
@@ -26,14 +26,14 @@ nvidia-docker run \
   tensorflow/serving:1.11.0-gpu --enable_batching=true \
                                 --batching_parameters_file=/models/batching_parameters.txt \
                                 --port=9000 --model_base_path=/models/export1/1550276061 \
-                                --model_name=1550276061
+                                --model_name=hncynic
 ```
 
 ## Querying
 Once the docker container is running, `client.py` can be used to query the model (adjust paths as needed):
 ```
 echo Why I Hate Whiteboard Interviews \
-  | ./client.py --host=localhost --port=9000 --model_name=1550276061 \
+  | ./client.py --host=localhost --port=9000 --model_name=hncynic \
                 --preprocessor=../data/preprocess.sh \
                 --bpe_codes=../exps/data/bpecodes \
                 --postprocessor=../data/mosesdecoder/scripts/tokenizer/detokenizer.perl

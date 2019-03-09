@@ -6,7 +6,7 @@ app = Flask(__name__, static_url_path='/static')
 
 HOST='localhost'
 PORT=9000
-MODEL_NAME='1550417728'
+MODEL_NAME='hncynic'
 PREPROCESSOR='../data/preprocess.sh'
 POSTPROCESSOR='../data/mosesdecoder/scripts/tokenizer/detokenizer.perl'
 BPE_CODES='../exps/data/bpecodes'
