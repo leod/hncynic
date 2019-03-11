@@ -8,8 +8,14 @@ To do this, we throw title-comment pairs extracted from a Hacker News
 at a [Transformer](http://jalammar.github.io/illustrated-transformer/) encoder-decoder model.
 Once the model is trained, we can then sample comments from the learned distribution.
 
+The generated comments are fun, but... quite bad. While the comments often manage to be related
+to the title, the model tends to generate meaningless or contradictory sentences.
+HN comments are pretty long, so it is my understanding that the 3M training examples
+are not enough to train the model well.
+
+
 ## Examples
-Here's a few examples generated from the recent front-page titles:
+Here's a few examples generated from recent front-page titles:
 - **Ask HN: Is it practical to create a software-controlled model rocket?**
 
   1. > I think this is a great idea. However if your project is going to have a lot of bugs and issues (or a lot of other problems), your solution will probably be to use a custom version of your system (that would be a bit of a nightmare).
