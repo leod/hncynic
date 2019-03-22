@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from flask import Flask, jsonify, request, abort, send_from_directory
 
 from serve.client import Generator
@@ -6,17 +8,17 @@ app = Flask(__name__, static_url_path='/static')
 
 HOST='localhost'
 PORT=9000
-MODEL_NAME='hncynic'
+MODEL_NAME='aws-first-model'
 PREPROCESSOR='../data/preprocess.sh'
 POSTPROCESSOR='../data/mosesdecoder/scripts/tokenizer/detokenizer.perl'
-BPE_CODES='../exps/data/bpecodes'
+BPE_CODES='/home/serve/models/aws-first-model/bpecodes'
 
 generator = Generator(host=HOST,
                       port=PORT,
                       model_name=MODEL_NAME,
                       preprocessor=PREPROCESSOR,
                       postprocessor=POSTPROCESSOR,
-                      bpe_codes='../exps/data/bpecodes')
+                      bpe_codes=BPE_CODES)
 
 @app.route('/gen', methods=['GET'])
 def gen():
