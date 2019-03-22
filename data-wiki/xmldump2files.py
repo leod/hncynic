@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2.7
 # Split a Wikipedia XML dump into individual files. The files are stored in a
 # directory tree based on hashing the title of the article.
 #

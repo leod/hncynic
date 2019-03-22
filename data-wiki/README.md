@@ -7,7 +7,7 @@ Nothing too interesting, just a series of tedious steps because I don't know any
 Download a dump of the English Wikipedia in XML format.
 This can be done here for example:
 [https://dumps.wikimedia.org/backup-index.html](https://dumps.wikimedia.org/backup-index.html).
-What we are interested in is a file like `enwiki-lates-pages-articles.xml.bz2`.
+What we are interested in is a file like `enwiki-latest-pages-articles.xml.bz2`.
 
 The dump that we experiment with here is named `enwiki-20190201-pages-articles.xml` and has a
 compressed size of 15GB.
@@ -16,7 +16,7 @@ compressed size of 15GB.
 I use [xmldump2files.py](https://github.com/adamwulf/wikipedia2text/blob/master/xmldump2files.py) 
 to split the XML dump into individual files, one per document:
 ```
-bzcat enwiki-lates-pages-articles.xml.bz2 | ./xmldump2files.py /dev/stdin docs
+bzcat enwiki-latest-pages-articles.xml.bz2 | ./xmldump2files.py /dev/stdin docs
 ```
 Documents will be saved in some kind of hash tree in the `docs/` directory.
 For example, there will be the file `docs/2f/7c/Abraham_Lincoln.txt`.
