@@ -13,6 +13,7 @@ to the title, the model tends to generate meaningless or contradictory sentences
 HN comments are pretty long, so it is my understanding that the 3M training examples
 are not enough to train the model well.
 
+There is a demo of the first model trained on HN data live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
 
 ## Examples
 Here's a few examples generated from recent front-page titles:
