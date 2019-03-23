@@ -66,8 +66,42 @@ parallel --verbose -j 8 ./convert-doc.sh '<' {} '>' {.}.md \
   < wiki/docs.txt \
   2>&1 | tee convert.log
 ```
+This may take a few days.
 
 There are some downsides to using Pandoc here, since it does not handle Wikipedia template
 references, and instead seems to remove them in the output. This leads to a few sentences
 missing words in the middle. This is a relatively rare occasion, so it should not be much
 of a problem.
+
+Also, the conversion crashes sometimes:
+```
+/home/leod/src/hncynic/data-wiki/convert-doc.sh < docs/85/Munich%E2%80%93Augsburg_railway.txt > docs/85/Munich%E2%80%93Augsburg_railway.md
+Traceback (most recent call last):
+  File "/home/leod/src/hncynic/data-wiki/filter_markdown.py", line 114, in <module>
+    main()
+  File "/home/leod/src/hncynic/data-wiki/filter_markdown.py", line 98, in main
+    return run_filter(action, prepare=prepare, doc=doc)
+  File "/home/leod/.local/lib/python3.6/site-packages/panflute/io.py", line 260, in run_filter
+    return run_filters([action], *args, **kwargs)
+...
+  File "/home/leod/.local/lib/python3.6/site-packages/panflute/elements.py", line 1061, in __init__
+    self.header = header
+  File "/home/leod/.local/lib/python3.6/site-packages/panflute/elements.py", line 1097, in header
+    raise IndexError(msg)
+IndexError: table header has an incorrect number of cols: 6 rows but expected 8
+pandoc: Error running filter /home/leod/src/hncynic/data-wiki/filter_markdown.py
+Filter returned error status 1
+```
+## Convert to TSV
+We use each section of an article as an individual training example.
+
+```
+find docs -name '*.md' > docs.md.txt
+parallel --verbose -j 8 \
+  ~/src/hncynic/data-wiki/clean_text.sh \
+    '<' {} \
+    '|' ~/src/hncynic/data-wiki/md_to_tsv.py {} \
+    '>' {.}.tsv \
+  < docs.md.txt \
+  > convert.tsv.log 2>&1
+```

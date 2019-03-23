@@ -36,8 +36,15 @@ the power plug.
 ```
 onmt-main train --config opennmt_config.yml --model_type Transformer --num_gpus 1
 ```
+I trained the model for about 40K steps with `opennmt_config.yml`. I noticed that the loss wasn't
+improving much after that, so I got worried and increased the batch size (known to help with
+training Transformer models) by performing gradient accumulation as in `opennmt_config_larger_batch.yml`.
+As can be seen in the plot below, this seems to have helped.
 
 ![training loss](train.svg)
+
+Unfortunately, I don't have a plot for the dev loss, since I forgot to turn on dev evaluation.
+What a bummer.
 
 ### Evaluate
 

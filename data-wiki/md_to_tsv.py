@@ -41,7 +41,7 @@ class Node(object):
       out.write('\t')
       for i in range(len(self.text)-1):
         out.write(self.text[i].strip())
-        out.write(' <P> ')
+        out.write(' <NL> <NL> ')
       out.write(self.text[-1])
       out.write('\n')
 
@@ -98,7 +98,6 @@ if __name__ == '__main__':
 
   title = urllib.parse.unquote(basename.replace('_', ' '))
 
-  with open(filename) as f:
-    tree = parse_md_tree(f, title)
-    #tree.write(sys.stdout)
-    tree.write_tsv(sys.stdout)
+  tree = parse_md_tree(sys.stdin, title)
+  #tree.write(sys.stdout)
+  tree.write_tsv(sys.stdout)
