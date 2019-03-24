@@ -1,3 +1,6 @@
 [submodule "data/mosesdecoder"]
 	path = data/mosesdecoder
 	url = https://github.com/moses-smt/mosesdecoder.git
+[submodule "data-wiki/fastBPE"]
+	path = data-wiki/fastBPE
+	url = https://github.com/glample/fastBPE.git
