@@ -1,4 +1,4 @@
-mode_dir: FILL
+model_dir: FILL
 
 data:
   train_features_file: FILL
