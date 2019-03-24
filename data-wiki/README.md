@@ -178,7 +178,7 @@ Apply segmentation to data:
 ```
 for i in {test,dev,train}; do
   for j in {comments,titles}; do
-    fastBPE/fast applybpe train.pp.bpe.$j train.pp.$j bpecodes
+    fastBPE/fast applybpe $i.pp.bpe.$j $i.pp.$j bpecodes
   done
 done
 ```
