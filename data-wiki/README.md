@@ -154,4 +154,35 @@ due to all the special symbols such as Latex code and the triple backticks in Ma
 Wikipedia text itself already is pretty well normalized, so we probably can get away without
 tokenization.
 
+Okay, so for now the only normalization we do here is to lowercase the titles.
+```
+preprocess_tsv.sh train
+preprocess_tsv.sh dev
+preprocess_tsv.sh test
+```
+
 ## BPE
+Similar to the [Hacker News data](../data), we learn a BPE word segmentation on the training data.
+We have a lot more training data here than before, so we use [fastBPE](https://github.com/glample/fastBPE),
+which is a faster implementation.
+
+Still, learning BPE on the full data takes a long time, so let's just use a subsample:
+```
+paste train.pp.{titles,comments} | shuf > train.pp.shuf.titles-comments
+cut -f1 train.pp.shuf.titles-comments | head -n 2000000 > bpetrain.pp.titles
+cut -f2 train.pp.shuf.titles-comments | head -n 2000000 > bpetrain.pp.comments
+
+fastBPE/fast learnbpe 32000 bpetrain.pp.titles bpetrain.pp.comments > bpecodes
+```
+Apply segmentation to data:
+```
+for i in {test,dev,train}; do
+  for j in {comments,titles}; do
+    fastBPE/fast applybpe train.pp.bpe.$j train.pp.$j bpecodes
+  done
+done
+```
+
+### Training the model
+See [../train-wiki](../train-wiki).
+
