@@ -92,6 +92,14 @@ IndexError: table header has an incorrect number of cols: 6 rows but expected 8
 pandoc: Error running filter /home/leod/src/hncynic/data-wiki/filter_markdown.py
 Filter returned error status 1
 ```
+How often?
+```
+$ grep "pandoc: Error running filter" convert.log | wc -l
+208757
+```
+This means we'll loose about 3.6\% of the articles while converting to Markdown.
+Not cool, but I can live with it.
+
 ## Convert to TSV
 We use each section of an article as an individual training example.
 
