@@ -15,26 +15,9 @@ from opennmt.decoders.self_attention_decoder import SelfAttentionDecoder
 from opennmt.layers.position import SinusoidalPositionEncoder
 from opennmt.utils.misc import merge_dict
 
-class MyTransformerBase(onmt.models.Transformer):
-  """Defines a Transformer model as decribed in https://arxiv.org/abs/1706.03762."""
-  def __init__(self, dtype=tf.float32):
-    super(MyTransformer, self).__init__(
-        source_inputter=onmt.inputters.WordEmbedder(
-            vocabulary_file_key="source_words_vocabulary",
-            embedding_size=512,
-            dtype=dtype),
-        target_inputter=onmt.inputters.WordEmbedder(
-            vocabulary_file_key="target_words_vocabulary",
-            embedding_size=512,
-            dtype=dtype),
-        num_layers_encoder=3,
-        num_layers_decoder=9,
-        num_units=512,
-        num_heads=8,
-        ffn_inner_dim=2048,
-        dropout=0.1,
-        attention_dropout=0.1,
-        relu_dropout=0.1)
+# Called by opennmt-main
+def model():
+  return MyTransformerBase()
 
 class MyTransformer(SequenceToSequence):
   """Attention-based sequence-to-sequence model as described in
@@ -119,7 +102,7 @@ class MyTransformer(SequenceToSequence):
         self_attention_type=decoder_self_attention_type)
 
     self._num_units = num_units
-    super(Transformer, self).__init__(
+    super(MyTransformer, self).__init__(
         source_inputter,
         target_inputter,
         encoder,
@@ -130,7 +113,7 @@ class MyTransformer(SequenceToSequence):
         name=name)
 
   def auto_config(self, num_devices=1):
-    config = super(Transformer, self).auto_config(num_devices=num_devices)
+    config = super(MyTransformer, self).auto_config(num_devices=num_devices)
     return merge_dict(config, {
         "params": {
             "average_loss_in_time": True,
@@ -161,3 +144,25 @@ class MyTransformer(SequenceToSequence):
   def _initializer(self, params):
     return tf.variance_scaling_initializer(
         mode="fan_avg", distribution="uniform", dtype=self.dtype)
+
+class MyTransformerBase(MyTransformer):
+  """Defines a Transformer model as decribed in https://arxiv.org/abs/1706.03762."""
+  def __init__(self, dtype=tf.float32):
+    super(MyTransformerBase, self).__init__(
+        source_inputter=onmt.inputters.WordEmbedder(
+            vocabulary_file_key="source_words_vocabulary",
+            embedding_size=512,
+            dtype=dtype),
+        target_inputter=onmt.inputters.WordEmbedder(
+            vocabulary_file_key="target_words_vocabulary",
+            embedding_size=512,
+            dtype=dtype),
+        num_layers_encoder=3,
+        num_layers_decoder=9,
+        num_units=512,
+        num_heads=8,
+        ffn_inner_dim=2048,
+        dropout=0.1,
+        attention_dropout=0.1,
+        relu_dropout=0.1)
+
