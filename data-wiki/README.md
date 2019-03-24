@@ -156,9 +156,9 @@ tokenization.
 
 Okay, so for now the only normalization we do here is to lowercase the titles.
 ```
-preprocess_tsv.sh train
-preprocess_tsv.sh dev
-preprocess_tsv.sh test
+./preprocess_tsv.sh train
+./preprocess_tsv.sh dev
+./preprocess_tsv.sh test
 ```
 
 ## BPE
