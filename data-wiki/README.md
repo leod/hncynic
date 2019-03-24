@@ -98,9 +98,9 @@ We use each section of an article as an individual training example.
 ```
 find docs -name '*.md' > docs.md.txt
 parallel --verbose -j 8 \
-  ~/src/hncynic/data-wiki/clean_text.sh \
+  ./clean_text.sh \
     '<' {} \
-    '|' ~/src/hncynic/data-wiki/md_to_tsv.py {} \
+    '|' ./md_to_tsv.py {} \
     '>' {.}.tsv \
   < docs.md.txt \
   > convert.tsv.log 2>&1
@@ -128,7 +128,16 @@ Concatenate:
 ```
 cat $(cat docs.tsv.dev.txt) > dev.tsv
 cat $(cat docs.tsv.test.txt) > test.tsv
+
+# SLOW:
 while read file; do cat $file; done < docs.tsv.train.txt > train.tsv
+```
+I found the last command for concatenating the training data to be quite slow (I estimated
+that it would take more than 1 day to complete). Maybe this is because of the overhead of
+starting a new `cat` process for each of the almost 6M files. I've written a small Python
+utility that makes this step run significantly faster:
+```
+./cat_stdin.py < docs.tsv.train.txt > train.tsv
 ```
 
 ## Normalization?
