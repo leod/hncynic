@@ -105,3 +105,36 @@ parallel --verbose -j 8 \
   < docs.md.txt \
   > convert.tsv.log 2>&1
 ```
+
+The resulting data is far from perfect, as e.g. it still contains some leftover Wiki markup.
+
+## Concatenate
+Split into train/dev/test (this time it's easier because we have one file per title):
+```
+find docs -name '*.tsv' > docs.tsv.txt
+shuf docs.tsv.txt > docs.tsv.shuf.txt
+awk 'NR <= 2000' docs.tsv.shuf.txt > docs.tsv.dev.txt
+awk 'NR > 2000 && NR <= 4000' docs.tsv.shuf.txt > docs.tsv.test.txt
+awk 'NR > 4000' docs.tsv.shuf.txt > docs.tsv.train.txt
+```
+Sanity check:
+```
+$ sort -u docs.tsv.txt | wc -l
+5801101
+$ cat docs.tsv.{train,dev,test}.txt | sort -u | wc -l
+5801101
+```
+Concatenate:
+```
+cat $(cat docs.tsv.dev.txt) > dev.tsv
+cat $(cat docs.tsv.test.txt) > test.tsv
+while read file; do cat $file; done < docs.tsv.train.txt > train.tsv
+```
+
+## Normalization?
+Now, we could again apply Moses preprocessing etc. but I'm not sure if it is the right way to go,
+due to all the special symbols such as Latex code and the triple backticks in Markdown. Also,
+Wikipedia text itself already is pretty well normalized, so we probably can get away without
+tokenization.
+
+## BPE
