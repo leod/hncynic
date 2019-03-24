@@ -34,7 +34,7 @@ class MyTransformerBase(onmt.models.Transformer):
         ffn_inner_dim=2048,
         dropout=0.1,
         attention_dropout=0.1,
-				relu_dropout=0.1)
+        relu_dropout=0.1)
 
 class MyTransformer(SequenceToSequence):
   """Attention-based sequence-to-sequence model as described in
@@ -160,4 +160,4 @@ class MyTransformer(SequenceToSequence):
 
   def _initializer(self, params):
     return tf.variance_scaling_initializer(
-				mode="fan_avg", distribution="uniform", dtype=self.dtype)
+        mode="fan_avg", distribution="uniform", dtype=self.dtype)
