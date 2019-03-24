@@ -23,3 +23,7 @@ cut -f2 < train.pp.bpe.shuf.titles-comments > train.pp.bpe.shuf.comments
 onmt-build-vocab --save_vocab vocab.titles train.pp.bpe.shuf.titles
 onmt-build-vocab --save_vocab vocab.comments train.pp.bpe.shuf.comments
 ```
+
+## Train
+See [opennmt_config.yml](opennmt_config.yml) for the OpenNMT config -- paths need to be adjusted.
+I set the maximum sequence length to 512, which excludes 977865 (about 6%) of the 16593956 title-comment pairs (we could split these examples after 512 tokens instead, leave that for future work I guess).
