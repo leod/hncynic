@@ -11,17 +11,65 @@ The steps are very similar to [training on HN data](../train) (other than some i
 ### Data Preparation
 See [../data-wiki](../data-wiki).
 
-### Shuffle
-```
-paste ../data-wiki/train.pp.bpe.{titles,comments} | shuf > train.pp.bpe.shuf.titles-comments
-cut -f1 < train.pp.bpe.shuf.titles-comments > train.pp.bpe.shuf.titles
-cut -f2 < train.pp.bpe.shuf.titles-comments > train.pp.bpe.shuf.comments
-```
-
 ## Vocabularies
 ```
-onmt-build-vocab --save_vocab vocab.titles train.pp.bpe.shuf.titles
-onmt-build-vocab --save_vocab vocab.comments train.pp.bpe.shuf.comments
+onmt-build-vocab --save_vocab vocab.titles ../data-wiki/train.pp.bpe.titles
+onmt-build-vocab --save_vocab vocab.comments ../data-wiki/train.pp.bpe.comments
+```
+Let's check vocabulary sizes...
+```
+$ wc -l vocab.*
+ 61427 vocab.comments
+ 25582 vocab.titles
+```
+Whoops, 61427 seems pretty large given that BPE was trained with 32K merges.
+Looking at the comment vocabulary, we can see that of course there are plenty of additonal Chinese or Japanese characters that were not seen when learning BPE. 
+
+One workaround for now is to just ignore examples in the training data that were not seen when learning BPE for creating the vocabulary.
+```
+$ ../data-wiki/fastBPE/fast applybpe bpetrain.pp.bpe.comments ../data-wiki/bpetrain.pp.comments ../data-wiki/bpecodes
+$ onmt-build-vocab --save_vocab vocab.no-new.comments bpetrain.pp.bpe.comments
+$ wc -l vocab.no-new.comments
+47023 vocab.no-new.comments
+```
+Better, I guess, but let's still remove the Chinese characters (my GPU only has 8GB memory!).
+```
+$ ./filter_vocab.sh vocab.no-new.comments > vocab.no-new.filtered.comments
+$ wc -l vocab.no-new.filtered.comments
+38139 vocab.no-new.filtered.comments
+```
+Now, if we were to train with this vocabulary, any Chinese or otherwise unseen character in the data would be seen as `<unk>` (unknown word) by the model. If that happens frequently enough, the model
+will learn to occasionally produce `<unk>` tokens itself. I want to avoid that, so I'll filter the
+training data as to remove all comments containing at least one unknown word:
+```
+$ paste ../data-wiki/train.pp.bpe.{titles,comments} \
+    | ./filter_unk.py vocab.no-new.filtered.comments \
+    > train.pp.bpe.filtered.titles-comments
+[1.0M]
+[2.0M]
+[3.0M]
+[4.0M]
+[5.0M]
+[6.0M]
+[7.0M]
+[8.0M]
+[9.0M]
+[10.0M]
+[11.0M]
+[12.0M]
+[13.0M]
+[14.0M]
+[15.0M]
+[16.0M]
+Done. Filtered 155208 lines out of 16593956 (0.94%)
+Invalid lines: 293 (0.00%)
+```
+
+### Shuffle
+```
+shuf train.pp.bpe.filtered.titles-comments > train.pp.bpe.filtered.shuf.titles-comments
+cut -f1 < train.pp.bpe.filtered.shuf.titles-comments > train.pp.bpe.filtered.shuf.titles
+cut -f2 < train.pp.bpe.filtered.shuf.titles-comments > train.pp.bpe.filtered.shuf.comments
 ```
 
 ## Train
