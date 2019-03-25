@@ -21,7 +21,7 @@ bzcat enwiki-latest-pages-articles.xml.bz2 | ./xmldump2files.py /dev/stdin docs
 Documents will be saved in some kind of hash tree in the `docs/` directory.
 For example, there will be the file `docs/2f/7c/Abraham_Lincoln.txt`.
 
-## Filter Documents
+### Filter Documents
 I get about 10M extracted documents, as `xmldump2files.log` shows:
 ```
 Redirects 8465477  Deleted 0  Disambigs 271019  Lists 231905  Skipped 0  Wrote 10200000 50.01GiB  Total 10200000 50.01GiB  (185%)
@@ -100,7 +100,7 @@ $ grep "pandoc: Error running filter" convert.log | wc -l
 This means we'll loose about 3.6\% of the articles while converting to Markdown.
 Not cool, but I can live with it.
 
-## Convert to TSV
+### Convert to TSV
 We use each section of an article as an individual training example.
 
 ```
@@ -148,7 +148,7 @@ utility that makes this step run significantly faster:
 ./cat_stdin.py < docs.tsv.train.txt > train.tsv
 ```
 
-## Normalization?
+### Normalization?
 Now, we could again apply Moses preprocessing etc. but I'm not sure if it is the right way to go,
 due to all the special symbols such as Latex code and the triple backticks in Markdown. Also,
 Wikipedia text itself already is pretty well normalized, so we probably can get away without
@@ -161,7 +161,21 @@ Okay, so for now the only normalization we do here is to lowercase the titles.
 ./preprocess_tsv.sh test
 ```
 
-## BPE
+### Issues
+After all this, there still are a bunch of issues with the data. Here's what I know of:
+- [`md_to_tsv.py`](md_to_tsv.py) occasionally outputs a title like this:
+  ```
+  2015 africa cup of nations qualification group e: ------------------------------------------------------------------------
+  ```
+  This probably is because of a failed header detection. This happens in only 9908 of the 16593956
+  titles in the training data.
+- The articles sometimes still contain table markup.
+- Even though I filtered many redirects, the training data still contains some.
+  I count 15768 (0.1% of all examples) in the final training data.
+- As mentioned above, some Wikipedia template markup such as automatic unit conversion is not handled,
+  resulting in incomplete sentences.
+
+### BPE
 Similar to the [Hacker News data](../data), we learn a BPE word segmentation on the training data.
 We have a lot more training data here than before, so we use [fastBPE](https://github.com/glample/fastBPE),
 which is a faster implementation.
