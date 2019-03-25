@@ -2,7 +2,7 @@
 
 # IDK
 
-grep -vP '[\p{Han}]' vocab.no-new.comments \
+grep -vP '[\p{Han}]' \
   | grep -vP '[\p{Hiragana}]' \
   | grep -vP '[\p{Katakana}]' \
   | grep -vP '[\p{Hebrew}]' \

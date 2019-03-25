@@ -34,7 +34,7 @@ $ wc -l vocab.no-new.comments
 ```
 Better, I guess, but let's still remove the Chinese characters (my GPU only has 8GB memory!).
 ```
-$ ./filter_vocab.sh vocab.no-new.comments > vocab.no-new.filtered.comments
+$ ./filter_vocab.sh < vocab.no-new.comments > vocab.no-new.filtered.comments
 $ wc -l vocab.no-new.filtered.comments
 38139 vocab.no-new.filtered.comments
 ```
