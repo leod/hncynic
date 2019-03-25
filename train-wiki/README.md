@@ -11,7 +11,7 @@ The steps are very similar to [training on HN data](../train) (other than some i
 ### Data Preparation
 See [../data-wiki](../data-wiki).
 
-## Vocabularies
+### Vocabularies
 ```
 onmt-build-vocab --save_vocab vocab.titles ../data-wiki/train.pp.bpe.titles
 onmt-build-vocab --save_vocab vocab.comments ../data-wiki/train.pp.bpe.comments
@@ -72,6 +72,14 @@ cut -f1 < train.pp.bpe.filtered.shuf.titles-comments > train.pp.bpe.filtered.shu
 cut -f2 < train.pp.bpe.filtered.shuf.titles-comments > train.pp.bpe.filtered.shuf.comments
 ```
 
-## Train
+### Train
 See [opennmt_config.yml](opennmt_config.yml) for the OpenNMT config -- paths need to be adjusted.
 I set the maximum sequence length to 512, which excludes 977865 (about 6%) of the 16593956 title-comment pairs (we could split these examples after 512 tokens instead, leave that for future work I guess). The large sequences means that there will be less variation in a single batch compared to machine translation data. In an attempt to compensate for that, I increased the effective batch size to 65536 tokens.
+
+#### Watching it Train
+```
+./train_loss_from_log.sh < model/train.log > model.step-trainloss
+gnuplot ../train/train.plot -e "plot '-' t 'train loss' w lines ls 1" < model.step-trainloss > train.svg
+```
+
+![training loss](train.svg)
