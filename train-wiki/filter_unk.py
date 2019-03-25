@@ -5,7 +5,7 @@ import sys
 voc = set()
 with open(sys.argv[1]) as f_voc:
   for line in f_voc:
-    voc.add(line[:-1])
+    voc.add(line.strip())
 
 n_done = 0
 n_filtered = 0
