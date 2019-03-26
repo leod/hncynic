@@ -200,3 +200,14 @@ done
 ### Training the model
 See [../train-wiki](../train-wiki).
 
+## Appendix
+### Section Lengths
+How long are the texts from the training examples?
+```
+zcat train.pp.comments.gz | ~/src/hncynic/data/length-distr.awk > length-distr.train.pp.comments
+gnuplot ~/src/hncynic/data/length-distr.plot \
+	-e "set ylabel 'p(length)'; plot '-' t 'length distribution' w l ls 1" \
+	< length-distr.train.pp.comments \
+	> length-distr.train.pp.comments.svg
+```
+![section length distribution](length-distr.train.pp.comments.svg)

@@ -7,7 +7,7 @@ set tics nomirror
 set style line 12 lc rgb '#808080' lt 0 lw 1
 set grid back ls 12
 
-set terminal svg size 480,320 fname 'Verdana' fsize 10
+set terminal svg size 480,320 font 'Verdana,10'
 
 set xrange [1:500]
 set xlabel 'length'

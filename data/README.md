@@ -128,7 +128,8 @@ done
 ### Training the model
 See [../train](../train).
 
-### (Optional) Comment Lengths
+## Appendix
+### Comment Lengths
 Unfortunately, HN comments will often go on and on. Assumably, the model will not be able to generate
 coherent comments of such length, especially with the relatively small amount of training data we have.
 A question then becomes if we should filter long comments from the training data, or even split up
@@ -164,7 +165,7 @@ some kind of Jupyter notebook)
 
 How neat.
 
-## Format of the Raw HN Data Dump
+### Format of the Raw HN Data Dump
 A brief look into the format of the raw HN data dump.
 
 Each line is one JSON object. Each object has an ID, by which the lines are sorted.
