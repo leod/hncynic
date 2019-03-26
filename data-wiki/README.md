@@ -204,10 +204,10 @@ See [../train-wiki](../train-wiki).
 ### Section Lengths
 How long are the texts from the training examples?
 ```
-zcat train.pp.comments.gz | ~/src/hncynic/data/length-distr.awk > length-distr.train.pp.comments
+../data/length-distr.awk < train.pp.comments > length-distr.train.pp.comments
 gnuplot \
   ../data/length-distr.plot \
-  -e "set ylabel 'p(length)'; plot '~/src/hncynic/data/length-distr.data.train.pp.comments' t 'Hacker News comments' w l ls 1, '~/src/hncynic/data-wiki/length-distr.train.pp.comments' t 'Wikipedia sections' w l ls 2" \
+  -e "set ylabel 'p(length)'; plot '../data/length-distr.data.train.pp.comments' t 'Hacker News comments' w l ls 1, 'length-distr.train.pp.comments' t 'Wikipedia sections' w l ls 2" \
   > length-distr.train.pp.comments.svg
 ```
 ![length distribution](length-distr.train.pp.comments.svg)
