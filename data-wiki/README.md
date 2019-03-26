@@ -211,3 +211,6 @@ gnuplot \
   > length-distr.train.pp.comments.svg
 ```
 ![length distribution](length-distr.train.pp.comments.svg)
+
+Interestingly, the distribution of Wikipedia sections is a lot less smooth than the one of Hacker News comments.
+Is this an effect of our data processing, or something inherent in the data?
