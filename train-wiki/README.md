@@ -82,4 +82,4 @@ I set the maximum sequence length to 512, which excludes 977865 (about 6%) of th
 gnuplot ../train/train.plot -e "plot '-' t 'train loss' w lines ls 1" < model.step-trainloss > train.svg
 ```
 
-![training loss](train.svg)
+![training loss](train.png)
