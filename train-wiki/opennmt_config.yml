@@ -38,3 +38,6 @@ train:
 eval:
   eval_delay: 7200
   save_eval_predictions: false
+
+infer:
+  maximum_iterations: 512
