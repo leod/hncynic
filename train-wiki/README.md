@@ -83,3 +83,4 @@ gnuplot ../train/train.plot -e "plot '-' t 'train loss' w lines ls 1" < model.st
 ```
 
 ![training loss](train.png)
+![dev perplexity](dev-perplexity.png)
