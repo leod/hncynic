@@ -1,5 +1,5 @@
 load '../train/train.plot' 
 
-set yrange [:100]
+set yrange [:60]
 set ylabel 'perplexity'
-plot 'model.step-devperplexity' t 'dev perplexity' w lines ls 1
+plot 'model.step-devperplexity' t 'dev perplexity' w lines ls 2
