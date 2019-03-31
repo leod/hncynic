@@ -12,7 +12,7 @@ We take the model trained on wikipedia data and continue training on HN data.
       > $i.pp.titles
   done
   for i in {dev,test,train}; do
-    cut -f4 ../data/data.$i.tsv > $i.pp.comments
+    cut -f4 ../data/data.$i.tsv | ~/src/hncynic/data/normalize_links.sh > $i.pp.comments
   done
   for i in {dev,test,train}; do
     for j in {comments,titles}; do
