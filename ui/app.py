@@ -9,8 +9,8 @@ app = Flask(__name__, static_url_path='/static')
 HOST='localhost'
 PORT=9000
 MODEL_NAME='aws-first-model'
-PREPROCESSOR='../data/preprocess.sh'
-POSTPROCESSOR='../data/mosesdecoder/scripts/tokenizer/detokenizer.perl'
+PREPROCESSOR='/home/host/src/hncynic/data/preprocess.sh'
+POSTPROCESSOR='/home/host/src/hncynic/data/mosesdecoder/scripts/tokenizer/detokenizer.perl'
 BPE_CODES='/home/serve/models/aws-first-model/bpecodes'
 
 generator = Generator(host=HOST,
