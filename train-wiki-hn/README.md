@@ -1,6 +1,6 @@
 # Transfer Learning
 
-We take the model trained on wikipedia data and continue training on HN data.
+We take the model trained on Wikipedia data and continue training on HN data.
 
 ## Steps
 
