@@ -36,3 +36,4 @@ We take the model trained on Wikipedia data and continue training on HN data.
   ```
 
 ![training loss](train.png)
+![dev perplexity](dev-perplexity.png)
