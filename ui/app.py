@@ -26,7 +26,7 @@ def gen():
     abort(400)
 
   title = request.args.get('title')
-  hyps = generator(title, n=6)
+  hyps = generator(title, n=3)
 
   return jsonify(hyps)
 

@@ -49,6 +49,7 @@ class Generator:
       title_pp = title
 
     title_bpe = self.bpe.segment_tokens(title_pp.strip().lower().split(' '))
+    #print(title_bpe)
 
     request = predict_pb2.PredictRequest()
     request.model_spec.name = self.model_name
