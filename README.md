@@ -52,16 +52,19 @@ If you want to get a better understanding of how bad the generated comments are,
 [examples/README.md](examples/README.md) for completely unfiltered samples.
 
 ## Instructions
+### Hacker News
 Train a model on Hacker News data:
 1. [data](data/): Prepare the data and extract title-comment pairs from the HN data dump.
 2. [train](train/): Train a Transformer translation model on the title-comment pairs using
    [TensorFlow](https://www.tensorflow.org/) and [OpenNMT-tf](https://github.com/OpenNMT/OpenNMT-tf).
 
-Train a model on Wikipedia data:
-1. [data-wiki](data-wiki/)
-2. [train-wiki](train-wiki/)
+### Transfer Learning
+Train a model on Wikipedia data, then switch to Hacker News data:
+1. [data-wiki](data-wiki/): Prepare data from Wikipedia articles.
+2. [train-wiki](train-wiki/): Train a model to predict Wikipedia section texts from titles.
+3. [train-wiki-hn](train-wiki-hn/): Continue training the model on HN data.
 
-Host a model:
+### Hosting
 1. [serve](serve/): Serve the model with TensorFlow serving.
 2. [ui](ui/): Host a web interface for querying the model.
 
