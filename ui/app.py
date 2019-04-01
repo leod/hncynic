@@ -7,11 +7,11 @@ from serve.client import Generator
 app = Flask(__name__, static_url_path='/static')
 
 HOST='localhost'
-PORT=9000
-MODEL_NAME='aws-first-model'
-PREPROCESSOR='/home/host/src/hncynic/data/preprocess.sh'
-POSTPROCESSOR='/home/host/src/hncynic/data/mosesdecoder/scripts/tokenizer/detokenizer.perl'
-BPE_CODES='/home/serve/models/aws-first-model/bpecodes'
+PORT=9001
+MODEL_NAME='wiki-hn'
+PREPROCESSOR=None
+POSTPROCESSOR=None
+BPE_CODES='/home/serve/models/wiki-hn/bpecodes.subword-nmt'
 
 generator = Generator(host=HOST,
                       port=PORT,
