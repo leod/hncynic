@@ -6,11 +6,9 @@ Hacker News comments just from the submission title. More specifically, I traine
 [Hacker News data](https://archive.org/details/14566367HackerNewsCommentsAndStoriesArchivedByGreyPanthersHacker).
 In my second attempt, I also included data from Wikipedia.
 
-The generated comments are fun to read, but often meaningless and contradictory.
-There is a demo of the model live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
-
-## Examples
-See [examples/2019-03-09_wiki-hn.md](examples/2019-03-09_wiki-hn.md).
+The generated comments are fun to read, but often turn out meaningless or contradictory
+-- see [here](examples/2019-03-09_wiki-hn.md) for some examples generated from recent HN titles.
+There also is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
 
 ## Steps
 I tried two approaches:
@@ -38,5 +36,4 @@ Train a model on Wikipedia data, then switch to Hacker News data:
 - It's probably nonideal to use encoder-decoder models. In retrospect, I should have trained
   a language model instead, on data like `title <SEP> comment`.
 - I've completely excluded HN comments that are replies from the training data. It might be
-  interesting to include these as well.
-- 
+  interesting to train on these as well.
