@@ -8,33 +8,50 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <style>
+      body {
+        font-family: Verdana, Geneva, sans-serif;
+      }
+      .commentheader {
+        color: #828282;
+      }
+      p {
+        margin: 0pt;
+        padding: 0pt;
+        margin-top: 4pt;
+      }
+    </style>
+
     <title>hncynic - Generate Hacker News Comments from Titles</title>
   </head>
   <body>
     <div class="container">
       <h1>hncynic</h1>
 
-      <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model:</p> 
+      <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model (details on <a href="https://github.com/leod/hncynic">GitHub</a>):</p> 
 
       <form class="my-4" action="javascript:request()">
         <div class="form-group">
           <!--<label for="title">Title:</label>-->
           <input type="text" class="form-control" id="form-title" placeholder="Enter Title">
         </div>
-        <button type="submit" class="btn btn-primary">Generate</button>
+        <button type="submit" class="btn btn-secondary">Generate</button>
       </form> 
-      <div id="comments-container" class="my-4 p-3 border border-primary">
-        <h2 id="title"></h2>
-
-        <p id="prompt">Let's generate some Hacker News comments!</p>
-        <p id="loading" style="display:none">Generating Hacker News comments...</p>
-
-        <div id="comments">
+      <div class="my-4 border border-secondary" style="background-color: #f6f6ef">
+        <div style="background-color: #ff6600; padding: 2pt">
+          <b style="color: #222222; font-size: 13pt">Hacker News</b>
         </div>
 
+        <div class="p-2">
+          <h2 id="title" style="color: #000000; font-size: 16pt"></h2>
+
+          <p id="prompt">Let's generate some Hacker News comments!</p>
+          <p id="loading" style="display:none">Generating Hacker News comments...</p>
+
+          <div id="comments">
+          </div>
+        </div>
       </div>
-      <h2>Code</h2>
-      <p>Code and instructions for training can be found on <a href="https://github.com/leod/hncynic">GitHub</a>.</p>
     </div>
 
     <script>
@@ -83,8 +100,11 @@
           $("#loading").hide();
 
           for (i in comments) {
-            div = "<div class=\"my-2 p-2 bg-light border border-secondary\">";
-            $("#comments").append(div + commentToHtml(comments[i][0]) + "</div>");
+            x = "<div class=\"p-2\">";
+            x += "<p class=\"commentheader\">hncynic 1 minute ago</p>";
+            x += commentToHtml(comments[i][0]);
+            x += "</div>";
+            $("#comments").append(x);
           }
         })
         .fail(function(_xhr, _status, _errorThrown) {
@@ -132,10 +152,7 @@
       function formatItalics(comment) {
         // In the preprocessed training data, due to moses tokenization, underscores are
         // standalone tokens. This function converts matching underscores into HTML <i></i>.
-        comment = comment.replace(/ _ (.*[" ])_$/g, " <i>$1</i> ");
-        comment = comment.replace(/^_ (.*[" ])_$/g, " <i>$1</i> ");
-        comment = comment.replace(/ _ (.*[" ])_ /g, " <i>$1</i> ");
-        comment = comment.replace(/^_ (.*[" ])_ /g, " <i>$1</i> ");
+        comment = comment.replace(/_(.*)_/g, "<i>$1</i>");
         return comment;
       }
     </script>

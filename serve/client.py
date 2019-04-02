@@ -37,14 +37,19 @@ class Generator:
       self.bpe = apply_bpe.BPE(f)
 
   def __call__(self, title, n=8, timeout=50.0):
-    # FIXME: Tried to reuse the process, but something seems to be buffering
-    preprocessor = subprocess.Popen([self.preprocessor],
-                                    stdout=subprocess.PIPE,
-                                    stdin=subprocess.PIPE,
-                                    stderr=subprocess.DEVNULL)
+    if self.preprocessor:
+      # FIXME: Tried to reuse the process, but something seems to be buffering
+      preprocessor = subprocess.Popen([self.preprocessor],
+                                      stdout=subprocess.PIPE,
+                                      stdin=subprocess.PIPE,
+                                      stderr=subprocess.DEVNULL)
 
-    title_pp = preprocessor.communicate((title.strip() + '\n').encode())[0].decode('utf-8')
+      title_pp = preprocessor.communicate((title.strip() + '\n').encode())[0].decode('utf-8')
+    else:
+      title_pp = title
+
     title_bpe = self.bpe.segment_tokens(title_pp.strip().lower().split(' '))
+    #print(title_bpe)
 
     request = predict_pb2.PredictRequest()
     request.model_spec.name = self.model_name
@@ -70,11 +75,14 @@ class Generator:
       #comment = comment.replace('<NL>', '\n')
 
       # FIXME: Tried to reuse the process, but something seems to be buffering
-      postprocessor = subprocess.Popen([self.postprocessor],
-                                       stdout=subprocess.PIPE,
-                                       stdin=subprocess.PIPE,
-                                       stderr=subprocess.DEVNULL)
-      prediction_ready = postprocessor.communicate((comment + '\n').encode())[0].decode('utf-8')
+      if self.postprocessor:
+        postprocessor = subprocess.Popen([self.postprocessor],
+                                         stdout=subprocess.PIPE,
+                                         stdin=subprocess.PIPE,
+                                         stderr=subprocess.DEVNULL)
+        prediction_ready = postprocessor.communicate((comment + '\n').encode())[0].decode('utf-8')
+      else:
+        prediction_ready = comment
 
       hyps.append((prediction_ready.strip(), float(scores[0])))
 
@@ -87,8 +95,8 @@ def main():
   parser.add_argument('--host', default='localhost', help='model server host')
   parser.add_argument('--port', type=int, default=9000, help='model server port')
   parser.add_argument('--model_name', required=True, help='model name')
-  parser.add_argument('--preprocessor', required=True, help='tokenization script')
-  parser.add_argument('--postprocessor', required=True, help='postprocessing script')
+  parser.add_argument('--preprocessor', help='tokenization script')
+  parser.add_argument('--postprocessor', help='postprocessing script')
   parser.add_argument('--bpe_codes', required=True, help='BPE codes')
   parser.add_argument('-n', type=int, default=5, help='Number of comments to sample per title')
 
