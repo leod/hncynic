@@ -152,7 +152,10 @@
       function formatItalics(comment) {
         // In the preprocessed training data, due to moses tokenization, underscores are
         // standalone tokens. This function converts matching underscores into HTML <i></i>.
-        comment = comment.replace(/_(.*)_/g, "<i>$1</i>");
+        comment = comment.replace(/ _([^_]*)_$/g, " <i>$1</i> ");
+        comment = comment.replace(/^_([^_]*)_$/g, " <i>$1</i> ");
+        comment = comment.replace(/ _([^_]*)_ /g, " <i>$1</i> ");
+        comment = comment.replace(/^_([^_]*)_ /g, " <i>$1</i> ");
         return comment;
       }
     </script>
