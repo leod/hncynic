@@ -11,10 +11,6 @@ The generated comments are fun to read, but often turn out meaningless or contra
 There also is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
 
 ## Steps
-I tried two approaches:
-1. Train on HN data only.
-2. Train on Wikipedia data, then continue training on HN data.
-
 ### Hacker News
 Train a model on Hacker News data only:
 1. [data](data/): Prepare the data and extract title-comment pairs from the HN data dump.
