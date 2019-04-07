@@ -28,7 +28,7 @@
     <div class="container">
       <h1>hncynic</h1>
 
-      <p>Enter any Hacker News title, and watch garbage pour out of a Deep Learning&reg; model (details on <a href="https://github.com/leod/hncynic">GitHub</a>):</p> 
+      <p>Enter any <a href="https://news.ycombinator.com">Hacker News</a> title, and watch garbage pour out of a Deep Learning model (details on <a href="https://github.com/leod/hncynic">GitHub</a>):</p> 
 
       <form class="my-4" action="javascript:request()">
         <div class="form-group">
@@ -37,16 +37,15 @@
         </div>
         <button type="submit" class="btn btn-secondary">Generate</button>
       </form> 
-      <div class="my-4 border border-secondary" style="background-color: #f6f6ef">
-        <div style="background-color: #ff6600; padding: 2pt">
-          <b style="color: #222222; font-size: 13pt">Hacker News</b>
+      <div id="hn" class="my-4 border border-secondary" style="background-color: #f6f6ef; display: none">
+        <div style="background-color: #0099ff; padding: 2pt">
+          <b style="color: #222222; font-size: 13pt">Hacker News Cynic</b>
         </div>
 
         <div class="p-2">
           <h2 id="title" style="color: #000000; font-size: 16pt"></h2>
 
-          <p id="prompt">Let's generate some Hacker News comments!</p>
-          <p id="loading" style="display:none">Generating Hacker News comments...</p>
+          <p id="status"></p>
 
           <div id="comments">
           </div>
@@ -81,10 +80,10 @@
 
         document.title = "hncynic - Generate Hacker News Comments from Titles - " + title;
 
-        $("#prompt").hide();
         $("#comments").empty();
         $("#title").text(title);
-        $("#loading").show();
+        $("#status").text("Generating comments...").show();
+        $("#hn").show();
 
         $.ajax({
           url: "/gen",
@@ -97,7 +96,7 @@
         .done(function(comments) {
           $("#comments").empty();
           $("#title").text(title);
-          $("#loading").hide();
+          $("#status").hide();
 
           for (i in comments) {
             x = "<div class=\"p-2\">";
@@ -108,7 +107,7 @@
           }
         })
         .fail(function(_xhr, _status, _errorThrown) {
-
+          $("#status").text("Request failed.");
         });
       }      
 
