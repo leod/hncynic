@@ -8,7 +8,8 @@ In my second attempt, I also included data from Wikipedia.
 
 The generated comments are fun to read, but often turn out meaningless or contradictory
 -- see [here](examples/2019-03-09_wiki-hn.md) for some examples generated from recent HN titles.
-There also is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
+
+There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
 
 ## Steps
 ### Hacker News
