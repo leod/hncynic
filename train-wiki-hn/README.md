@@ -35,5 +35,4 @@ We take the model trained on Wikipedia data and continue training on HN data.
   cut -f2 < train.pp.bpe.shuf.titles-comments > train.pp.bpe.shuf.comments
   ```
 
-![training loss](train.png)
 ![dev perplexity](dev-perplexity.png)
