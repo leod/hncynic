@@ -6,6 +6,7 @@ import urllib
 import html
 import re
 import requests
+import traceback
 
 import tweepy
 from twitter import twitter_utils
@@ -30,6 +31,8 @@ def score_comment(comment):
   if comment.endswith('@@'):
     score = 0
 
+  score /= float(len(comment))
+
   return score
 
 def best_hncynic_comment(comments_and_scores):
@@ -53,6 +56,7 @@ def postprocess(comment):
 
 def split_tweet(tweet, start_sep=TWEET_TBC, end_sep=TWEET_TBC):
   toks = tweet.split(' ')
+  safety_len = len(end_sep) + 5
 
   cur_tweet = ''
   prev_tok = None
@@ -64,7 +68,7 @@ def split_tweet(tweet, start_sep=TWEET_TBC, end_sep=TWEET_TBC):
     extended_tweet += tok
     prev_tok = tok
 
-    if twitter_utils.calc_expected_status_length(extended_tweet) + len(end_sep) > MAX_TWEET_LEN:
+    if twitter_utils.calc_expected_status_length(extended_tweet) + safety_len > MAX_TWEET_LEN:
       tweets.append(cur_tweet + end_sep)
       cur_tweet = start_sep + tok
     else:
@@ -131,15 +135,16 @@ class FrontPageListener(tweepy.StreamListener):
     self.api = api
 
   def on_status(self, status):
-    print('STATUS: ' + status.text)
-
-    sys.stderr.write('========================================')
+    sys.stderr.write('========================================\n')
 
     try:
+      print('Status: ' + status.text)
+
       item_id = extract_item_id(status.text)
       generate_and_tweet(item_id, api)
     except Exception as e:
       sys.stderr.write('Error while running {}\n'.format(e))
+      sys.stderr.write(traceback.format_exc() + '\n')
 
 if __name__ == '__main__':
   with open('status.json') as f:
