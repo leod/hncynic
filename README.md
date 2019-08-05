@@ -9,7 +9,7 @@ In my second attempt, I also included data from Wikipedia.
 The generated comments are fun to read, but often turn out meaningless or contradictory
 -- see [here](examples/2019-03-09_wiki-hn.md) for some examples generated from recent HN titles.
 
-There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
+There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/) and a twitter bot [@hncynic](https://twitter.com/hncynic).
 
 ## Steps
 ### Hacker News
@@ -27,6 +27,7 @@ Train a model on Wikipedia data, then switch to Hacker News data:
 ### Hosting
 1. [serve](serve/): Serve the model with TensorFlow serving.
 2. [ui](ui/): Host a web interface for querying the model.
+3. [twitter-bot](twitter-bot/): Run a twitter bot.
 
 ## Future Work
 - Acquire GCP credits, train for more steps.
