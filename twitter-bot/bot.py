@@ -74,7 +74,7 @@ def split_tweet(tweet, start_sep=TWEET_TBC, end_sep=TWEET_TBC):
   return tweets
     
 def tweet_text_for_comment(item_id, title, comment):
-  return '"{}" @ https://news.ycombinator.com/item?id={}\n{}'.format(title, item_id, comment)
+  return 'HN front page: "{}"\n\n💬: {}'.format(title, comment)
 
 def send_tweet_thread(tweets, api):
   prev_id = None
@@ -97,8 +97,9 @@ def generate_and_tweet(item_id, api):
   best_comment_pp = postprocess(best_comment)
   sys.stderr.write('Postprocessed: {}\n'.format(best_comment_pp))
 
+  #initial_tweet_text = tweet_text_for_item(item_id, title)
+  #sys.stderr.write('Initial tweet text: {}\n'.format(initial_tweet_text))
   tweet_text = tweet_text_for_comment(item_id, title, best_comment_pp)
-  sys.stderr.write('Tweet text: {}\n'.format(tweet_text))
 
   split_tweets = split_tweet(tweet_text)
   sys.stderr.write('Tweet thread: {}\n'.format(split_tweets))
@@ -133,8 +134,12 @@ class FrontPageListener(tweepy.StreamListener):
     print('STATUS: ' + status.text)
 
     sys.stderr.write('========================================')
-    item_id = extract_item_id(status.text)
-    generated_and_tweet(item_id, api)
+
+    try:
+      item_id = extract_item_id(status.text)
+      generate_and_tweet(item_id, api)
+    except Exception as e:
+      sys.stderr.write('Error while running {}\n'.format(e))
 
 if __name__ == '__main__':
   with open('status.json') as f:
@@ -147,6 +152,8 @@ if __name__ == '__main__':
   api.verify_credentials()
 
   sys.stderr.write('Listening...\n')
+
+  #generate_and_tweet(20616055, api)
 
   listener = FrontPageListener(api)
   stream = tweepy.Stream(auth, listener)
