@@ -4,6 +4,8 @@ import sys
 import json
 import urllib
 import html
+import re
+import requests
 
 import tweepy
 from twitter import twitter_utils
@@ -72,7 +74,7 @@ def split_tweet(tweet, start_sep=TWEET_TBC, end_sep=TWEET_TBC):
   return tweets
     
 def tweet_text_for_comment(item_id, title, comment):
-  return '"{}" @ https://news.ycombinator.com/item?id={}\n\n{}'.format(title, item_id, comment)
+  return '"{}" @ https://news.ycombinator.com/item?id={}\n{}'.format(title, item_id, comment)
 
 def send_tweet_thread(tweets, api):
   prev_id = None
@@ -104,18 +106,48 @@ def generate_and_tweet(item_id, api):
   send_tweet_thread(split_tweets, api)
   sys.stderr.write('Done tweeting.\n')
 
+def resolve_url(base_url):
+  # https://alexwlchan.net/2016/07/chasing-redirects-and-url-shorteners/
+  return requests.get(base_url).url
+
+def extract_item_id(text):
+  print(text)
+
+  lines = text.split('\n')
+  for line in lines:
+    if line.startswith('C: https://t.co/'):
+      hn_url = resolve_url(line.split(' ')[1]) 
+
+      prefix = 'https://news.ycombinator.com/item?id='
+      assert hn_url.startswith(prefix)
+      
+      return int(hn_url[len(prefix):])
+
+  raise ValueError('Status did not contain a @hn_frontpage link')
+
+class FrontPageListener(tweepy.StreamListener):
+  def __init__(self, api):
+    self.api = api
+
+  def on_status(self, status):
+    print('STATUS: ' + status.text)
+
+    sys.stderr.write('========================================')
+    item_id = extract_item_id(status.text)
+    generated_and_tweet(item_id, api)
+
 if __name__ == '__main__':
   with open('status.json') as f:
     status = json.load(f)
 
-  # Authenticate to Twitter
   auth = tweepy.OAuthHandler(status['consumer_key'], status['consumer_secret'])
   auth.set_access_token(status['access_key'], status['access_secret'])
 
-  # Create API object
   api = tweepy.API(auth)
   api.verify_credentials()
 
-  # Create a tweet
-  generate_and_tweet(20617325, api)
+  sys.stderr.write('Listening...\n')
 
+  listener = FrontPageListener(api)
+  stream = tweepy.Stream(auth, listener)
+  stream.filter(follow=['4617024083'])
