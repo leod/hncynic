@@ -35,5 +35,9 @@ We take the model trained on Wikipedia data and continue training on HN data.
   cut -f2 < train.pp.bpe.shuf.titles-comments > train.pp.bpe.shuf.comments
   ```
 
-![training loss](train.png)
 ![dev perplexity](dev-perplexity.png)
+
+Legend:
+- `hn dev perplexity`: Continue from model pretrained on Wiki data for 68K steps
+- `hn dev perplexity 2`: Continue from model pretrained on Wiki data for 192K steps
+- `hn dev perplexity 3`: Continue from model pretrained on Wiki data for 192K steps, reset learning rate schedule
