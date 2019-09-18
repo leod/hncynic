@@ -11,6 +11,8 @@ The generated comments are fun to read, but often turn out meaningless or contra
 
 There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/) and a twitter bot [@hncynic](https://twitter.com/hncynic).
 
+A pretrained model together with some instructions may be found at [https://hncynic.leod.org/hncynic-trained-model-v1.tar.gz](https://hncynic.leod.org/hncynic-trained-model-v1.tar.gz).
+
 ## Steps
 ### Hacker News
 Train a model on Hacker News data only:
