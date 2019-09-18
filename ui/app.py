@@ -26,6 +26,10 @@ def gen():
     abort(400)
 
   title = request.args.get('title')
+
+  if title.count(' ') > 32 or len(title) > 256:
+    abort(414)
+
   hyps = generator(title, n=3)
 
   return jsonify(hyps)
