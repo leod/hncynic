@@ -18,11 +18,13 @@ TWEET_TBC = '…'
 
 def get_hn_item_title(item_id):
   url = HN_API_URL.format(item_id)
+  sys.stderr.write('GET {}\n'.format(url))
   reply = json.load(urllib.request.urlopen(url))
   return reply['title']
 
 def get_hncynic_comments_and_scores(title):
-  url = HNCYNIC_API_URL.format(html.escape(title))
+  url = HNCYNIC_API_URL.format(urllib.parse.quote(title))
+  sys.stderr.write('GET {}\n'.format(url))
   return json.load(urllib.request.urlopen(url))
 
 def score_comment(comment):
@@ -78,7 +80,7 @@ def split_tweet(tweet, start_sep=TWEET_TBC, end_sep=TWEET_TBC):
   return tweets
     
 def tweet_text_for_comment(item_id, title, comment):
-  return 'HN front page: "{}"\n\n💬: {}'.format(title, comment)
+  return 'Title: {}\n\n💬: {}'.format(title, comment)
 
 def send_tweet_thread(tweets, api):
   prev_id = None
@@ -116,8 +118,6 @@ def resolve_url(base_url):
   return requests.get(base_url).url
 
 def extract_item_id(text):
-  print(text)
-
   lines = text.split('\n')
   for line in lines:
     if line.startswith('C: https://t.co/'):
@@ -138,7 +138,13 @@ class FrontPageListener(tweepy.StreamListener):
     sys.stderr.write('========================================\n')
 
     try:
-      print('Status: ' + status.text)
+      self.api.retweet(status.id)
+    except Exception as e:
+      return
+      #sys.stderr.write('Error while retweeting: {}\n'.format(e))
+
+    try:
+      sys.stderr.write('Status: ' + status.text + '\n')
 
       item_id = extract_item_id(status.text)
       generate_and_tweet(item_id, api)
@@ -147,8 +153,12 @@ class FrontPageListener(tweepy.StreamListener):
       sys.stderr.write(traceback.format_exc() + '\n')
 
 if __name__ == '__main__':
+  sys.stderr.write('Loading status...\n')
+
   with open('status.json') as f:
     status = json.load(f)
+
+  sys.stderr.write('Authenticating...\n')
 
   auth = tweepy.OAuthHandler(status['consumer_key'], status['consumer_secret'])
   auth.set_access_token(status['access_key'], status['access_secret'])
@@ -157,8 +167,6 @@ if __name__ == '__main__':
   api.verify_credentials()
 
   sys.stderr.write('Listening...\n')
-
-  #generate_and_tweet(20616055, api)
 
   listener = FrontPageListener(api)
   stream = tweepy.Stream(auth, listener)
