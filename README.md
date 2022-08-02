@@ -9,7 +9,7 @@ In my second attempt, I also included data from Wikipedia.
 The generated comments are fun to read, but often turn out meaningless or contradictory
 -- see [here](examples/2019-03-09_wiki-hn.md) for some examples generated from recent HN titles.
 
-There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/) and a twitter bot [@hncynic](https://twitter.com/hncynic).
+There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
 
 A pretrained model together with some instructions may be found at [https://hncynic.leod.org/hncynic-trained-model-v1.tar.gz](https://hncynic.leod.org/hncynic-trained-model-v1.tar.gz).
 
