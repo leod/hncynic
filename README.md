@@ -1,4 +1,4 @@
-# hncynic
+# hncynic (2019)
 The best Hacker News comments are written with a complete disregard for the linked article.
 `hncynic` is an attempt at capturing this phenomenon by training a model to predict
 Hacker News comments just from the submission title. More specifically, I trained a
@@ -8,8 +8,6 @@ In my second attempt, I also included data from Wikipedia.
 
 The generated comments are fun to read, but often turn out meaningless or contradictory
 -- see [here](examples/2019-03-09_wiki-hn.md) for some examples generated from recent HN titles.
-
-There is a demo live at [https://hncynic.leod.org/](https://hncynic.leod.org/).
 
 A pretrained model together with some instructions may be found at [https://hncynic.leod.org/hncynic-trained-model-v1.tar.gz](https://hncynic.leod.org/hncynic-trained-model-v1.tar.gz).
 
